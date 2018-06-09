@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,12 +31,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:component_tester-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -46,15 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Conn_01x01 J1
-U 1 1 5AE372AA
-P 10100 5325
-F 0 "J1" H 10100 5425 50  0000 C CNN
-F 1 "Conn_01x01" H 10100 5225 50  0000 C CNN
-F 2 "drawings:middle" H 10100 5325 50  0001 C CNN
-F 3 "" H 10100 5325 50  0001 C CNN
-	1    10100 5325
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 1000 1000 500  150
+U 5B1C6B30
+F0 "component_tester_1" 50
+F1 "component_tester_1.sch" 50
+$EndSheet
+$Sheet
+S 3000 1000 500  150
+U 5B1C713A
+F0 "component_tester_2" 50
+F1 "component_tester_2.sch" 50
+$EndSheet
 $EndSCHEMATC

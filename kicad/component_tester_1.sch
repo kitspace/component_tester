@@ -1,0 +1,2033 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 26 0
+EELAYER END
+$Descr User 12218 8923
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10200 3700 5400 3700
+Wire Wire Line
+	5400 3800 10200 3800
+Wire Wire Line
+	5400 3900 10200 3900
+Wire Wire Line
+	5400 4000 10200 4000
+Wire Wire Line
+	5400 4200 9700 4200
+Wire Wire Line
+	9700 4200 9700 3200
+Wire Wire Line
+	9700 3200 10200 3200
+Wire Wire Line
+	10200 3600 9950 3600
+Wire Wire Line
+	9950 3600 9950 3500
+Wire Wire Line
+	9950 3500 9950 3400
+Wire Wire Line
+	9950 3400 9950 3300
+Wire Wire Line
+	9950 3300 9800 3300
+Wire Wire Line
+	9800 3300 9800 3400
+Wire Wire Line
+	10200 3300 9950 3300
+Wire Wire Line
+	10200 3400 9950 3400
+Wire Wire Line
+	10200 3500 9950 3500
+Connection ~ 9950 3300
+Connection ~ 9950 3400
+Connection ~ 9950 3500
+Text GLabel 10200 3600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1800 3200 1900 3200
+Text GLabel 1800 3200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1800 3800 1900 3800
+Text GLabel 1800 3800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1800 4700 2200 4700
+Wire Wire Line
+	2200 4700 2500 4700
+Wire Wire Line
+	2500 4700 2800 4700
+Wire Wire Line
+	2800 4700 2800 4600
+Wire Wire Line
+	3000 4800 2800 4800
+Wire Wire Line
+	3000 5100 2800 5100
+Wire Wire Line
+	2800 5100 2800 5000
+Wire Wire Line
+	2800 5000 2800 4800
+Wire Wire Line
+	3000 5000 2800 5000
+Wire Wire Line
+	2500 4500 2500 4700
+Wire Wire Line
+	2800 4800 2800 4700
+Wire Wire Line
+	2200 4500 2200 4700
+Connection ~ 2800 4800
+Connection ~ 2800 5000
+Connection ~ 2500 4700
+Connection ~ 2800 4700
+Connection ~ 2200 4700
+Text GLabel 1800 4700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5400 7800 5300 7800
+Wire Wire Line
+	5300 7800 5300 7400
+Wire Wire Line
+	5300 7800 5000 7800
+Wire Wire Line
+	5000 7800 5000 7700
+Connection ~ 5300 7800
+Text GLabel 5400 7800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10100 2700 10200 2700
+Text GLabel 10100 2700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10100 3100 10200 3100
+Text GLabel 10100 3100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7100 6800 7100 7200
+Text GLabel 7100 6800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5800 1900 5800 1300
+Text GLabel 5800 1900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5400 2300 5400 2400
+Text GLabel 5400 2300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9400 3200 9400 3100
+Text GLabel 9400 3200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1700 6100 1700 6900
+Wire Wire Line
+	1600 6100 1700 6100
+Text GLabel 1700 6100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 5200 8900 5200
+Wire Wire Line
+	8900 5200 8900 5500
+Text GLabel 8600 5200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6400 7400 6400 7300
+Text GLabel 6400 7400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7700 2200 7600 2200
+Text GLabel 7700 2200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7700 2400 7600 2400
+Text GLabel 7700 2400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7700 2600 7600 2600
+Text GLabel 7700 2600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8100 3400 8100 3500
+Text GLabel 8100 3400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8400 3400 8400 3500
+Text GLabel 8400 3400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8700 3400 8700 3500
+Text GLabel 8700 3400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6200 5600 6200 5800
+Text GLabel 6200 5600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2700 7600 2700 7700
+Wire Wire Line
+	2300 7700 2300 7800
+Wire Wire Line
+	2300 7700 2700 7700
+Wire Wire Line
+	1900 7400 1900 7700
+Wire Wire Line
+	1900 7700 2300 7700
+Connection ~ 2300 7700
+Text GLabel 2700 7600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2900 7200 2900 7800
+Text GLabel 2900 7200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4300 7500 4300 7700
+Text GLabel 4300 7500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5900 7400 5900 7300
+Text GLabel 5900 7400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2200 3200 2400 3200
+Wire Wire Line
+	2400 3200 2800 3200
+Wire Wire Line
+	2800 3200 2800 3400
+Wire Wire Line
+	2800 3400 3000 3400
+Connection ~ 2400 3200
+Wire Wire Line
+	2200 3800 2400 3800
+Wire Wire Line
+	3000 3600 2800 3600
+Wire Wire Line
+	2800 3600 2800 3800
+Wire Wire Line
+	2800 3800 2400 3800
+Connection ~ 2400 3800
+Wire Wire Line
+	7000 2800 8100 2800
+Wire Wire Line
+	7100 3100 7100 3200
+Wire Wire Line
+	6900 3200 6900 3100
+Wire Wire Line
+	6900 3100 7000 3100
+Wire Wire Line
+	7000 3100 7100 3100
+Wire Wire Line
+	7000 3100 7000 2800
+Wire Wire Line
+	5400 2800 7000 2800
+Wire Wire Line
+	8100 2800 8100 2200
+Wire Wire Line
+	8100 2200 8100 2000
+Wire Wire Line
+	8100 2800 9000 2800
+Wire Wire Line
+	8000 2200 8100 2200
+Wire Wire Line
+	8100 3100 8100 2800
+Connection ~ 7000 3100
+Connection ~ 7000 2800
+Connection ~ 8100 2800
+Connection ~ 8100 2200
+Wire Wire Line
+	7500 3100 7500 3200
+Wire Wire Line
+	7300 3200 7300 3100
+Wire Wire Line
+	7300 3100 7400 3100
+Wire Wire Line
+	7400 3100 7500 3100
+Wire Wire Line
+	7400 3100 7400 2900
+Wire Wire Line
+	7400 2900 5400 2900
+Wire Wire Line
+	8400 2900 7400 2900
+Wire Wire Line
+	8400 2900 8400 2400
+Wire Wire Line
+	8400 2400 8400 2000
+Wire Wire Line
+	8400 2900 9000 2900
+Wire Wire Line
+	8000 2400 8400 2400
+Wire Wire Line
+	8400 3100 8400 2900
+Connection ~ 7400 3100
+Connection ~ 7400 2900
+Connection ~ 8400 2900
+Connection ~ 8400 2400
+Wire Wire Line
+	5400 3000 7800 3000
+Wire Wire Line
+	7800 3000 8700 3000
+Wire Wire Line
+	7900 3100 7900 3200
+Wire Wire Line
+	7800 3100 7900 3100
+Wire Wire Line
+	7800 3100 7800 3000
+Wire Wire Line
+	7700 3100 7800 3100
+Wire Wire Line
+	7700 3200 7700 3100
+Wire Wire Line
+	8700 2000 8700 2600
+Wire Wire Line
+	8700 2600 8700 3000
+Wire Wire Line
+	8700 3000 9000 3000
+Wire Wire Line
+	8000 2600 8700 2600
+Wire Wire Line
+	8700 3100 8700 3000
+Connection ~ 7800 3000
+Connection ~ 7800 3100
+Connection ~ 8700 3000
+Connection ~ 8700 2600
+Wire Wire Line
+	5400 4600 6900 4600
+Wire Wire Line
+	6900 4600 6900 3600
+Wire Wire Line
+	5400 4700 7100 4700
+Wire Wire Line
+	7100 4700 7100 3600
+Wire Wire Line
+	5400 4800 7300 4800
+Wire Wire Line
+	7300 4800 7300 3600
+Wire Wire Line
+	5400 4900 7500 4900
+Wire Wire Line
+	7500 4900 7500 3600
+Wire Wire Line
+	7500 4900 9100 4900
+Wire Wire Line
+	9100 4900 9100 5100
+Wire Wire Line
+	9100 5100 8600 5100
+Connection ~ 7500 4900
+Wire Wire Line
+	5400 5000 7700 5000
+Wire Wire Line
+	7700 5000 7700 3600
+Wire Wire Line
+	7700 5000 8500 5000
+Connection ~ 7700 5000
+Wire Wire Line
+	5400 5100 7900 5100
+Wire Wire Line
+	7900 5100 7900 3600
+Wire Wire Line
+	7900 5100 8500 5100
+Connection ~ 7900 5100
+Wire Wire Line
+	3000 4000 2800 4000
+Wire Wire Line
+	2800 4000 2500 4000
+Wire Wire Line
+	2500 4000 2200 4000
+Wire Wire Line
+	2200 4000 1700 4000
+Wire Wire Line
+	3000 3900 2800 3900
+Wire Wire Line
+	2800 3900 2800 4000
+Wire Wire Line
+	3000 4200 2800 4200
+Wire Wire Line
+	2800 4200 2800 4000
+Wire Wire Line
+	2500 4200 2500 4000
+Wire Wire Line
+	2200 4200 2200 4000
+Connection ~ 2800 4000
+Connection ~ 2500 4000
+Connection ~ 2200 4000
+Text Label 3000 4000 0    10   ~ 0
++5V
+Wire Wire Line
+	1700 2800 2200 2800
+Text Label 1700 2800 0    10   ~ 0
++5V
+Wire Wire Line
+	9900 2800 10200 2800
+Text Label 9900 2800 0    10   ~ 0
++5V
+Wire Wire Line
+	5400 1200 5400 1300
+Text Label 5400 1200 0    10   ~ 0
++5V
+Wire Wire Line
+	6200 1200 6200 1900
+Text Label 6200 1200 0    10   ~ 0
++5V
+Wire Wire Line
+	5300 6500 5500 6500
+Wire Wire Line
+	5300 7100 5300 6500
+Wire Wire Line
+	4700 6900 4800 6900
+Wire Wire Line
+	4800 6900 4800 6500
+Wire Wire Line
+	4800 6500 5000 6500
+Wire Wire Line
+	5000 6500 5300 6500
+Wire Wire Line
+	5000 6700 5000 6500
+Connection ~ 5300 6500
+Connection ~ 5000 6500
+Text Label 5300 6500 0    10   ~ 0
++5V
+Wire Wire Line
+	8600 5000 8900 5000
+Wire Wire Line
+	8900 5000 8900 4700
+Text Label 8600 5000 0    10   ~ 0
++5V
+Wire Wire Line
+	9400 2700 9400 2600
+Text Label 9400 2700 0    10   ~ 0
++5V
+Wire Wire Line
+	2600 2800 2800 2800
+Wire Wire Line
+	2800 2800 3000 2800
+Wire Wire Line
+	2800 2800 2800 2500
+Wire Wire Line
+	2800 2500 2100 2500
+Connection ~ 2800 2800
+Text Label 2100 2500 2    70   ~ 0
+~RESET
+Wire Wire Line
+	8500 5200 8100 5200
+Text Label 8150 5200 3    70   ~ 0
+~RESET
+Wire Wire Line
+	3000 4300 2800 4300
+Wire Wire Line
+	4300 6600 4300 6500
+Wire Wire Line
+	4300 6500 4100 6500
+Wire Wire Line
+	5000 7300 5000 7200
+Wire Wire Line
+	5000 7200 5000 7100
+Wire Wire Line
+	5000 7200 4700 7200
+Connection ~ 5000 7200
+Wire Wire Line
+	10200 3000 9600 3000
+Wire Wire Line
+	9600 3000 9600 4100
+Wire Wire Line
+	9600 4100 5400 4100
+Wire Wire Line
+	5400 3300 5600 3300
+Wire Wire Line
+	5600 3300 5600 5600
+Wire Wire Line
+	5600 5600 4400 5600
+Wire Wire Line
+	5800 2300 5800 3300
+Wire Wire Line
+	5800 3300 5600 3300
+Connection ~ 5600 3300
+Wire Wire Line
+	5400 4400 6200 4400
+Wire Wire Line
+	6200 4400 6200 2300
+Wire Wire Line
+	6200 4400 6200 5200
+Connection ~ 6200 4400
+Wire Wire Line
+	7100 6400 7100 6200
+Wire Wire Line
+	4400 6200 5700 6200
+Wire Wire Line
+	3400 7400 3400 8000
+Wire Wire Line
+	5700 8000 3400 8000
+Wire Wire Line
+	5700 6200 7100 6200
+Wire Wire Line
+	5700 6200 5700 8000
+Connection ~ 5700 6200
+Wire Wire Line
+	5400 3200 5600 3200
+Wire Wire Line
+	5600 3200 5600 1800
+Wire Wire Line
+	5400 1700 5400 1800
+Wire Wire Line
+	5400 1800 5400 1900
+Wire Wire Line
+	5600 1800 5400 1800
+Connection ~ 5400 1800
+Wire Wire Line
+	10200 2900 9600 2900
+Wire Wire Line
+	8100 1400 8100 1700
+Text Label 8100 1400 0    10   ~ 0
+SEG1
+Wire Wire Line
+	10500 1400 10500 1700
+Text Label 10500 1400 0    10   ~ 0
+SEG1
+Wire Wire Line
+	8400 1400 8400 1700
+Text Label 8400 1400 0    10   ~ 0
+SEG2
+Wire Wire Line
+	10800 1400 10800 1700
+Text Label 10800 1400 0    10   ~ 0
+SEG2
+Wire Wire Line
+	8700 1400 8700 1700
+Text Label 8700 1400 0    10   ~ 0
+SEG3
+Wire Wire Line
+	11100 1400 11100 1700
+Text Label 11100 1400 0    10   ~ 0
+SEG3
+Wire Wire Line
+	3300 5600 4000 5600
+Wire Wire Line
+	3300 6200 4000 6200
+Wire Wire Line
+	3300 6200 3300 5900
+Wire Wire Line
+	3300 5900 3300 5600
+Wire Wire Line
+	3700 6500 3300 6500
+Wire Wire Line
+	3300 6500 3300 6200
+Wire Wire Line
+	2700 6600 2700 6500
+Wire Wire Line
+	2700 6500 2900 6500
+Wire Wire Line
+	2900 6500 3300 6500
+Wire Wire Line
+	4800 5900 4800 6000
+Wire Wire Line
+	4800 6000 4900 6000
+Wire Wire Line
+	4900 5900 4800 5900
+Wire Wire Line
+	4800 5900 3300 5900
+Wire Wire Line
+	3300 7200 3300 6900
+Wire Wire Line
+	3300 6900 3300 6500
+Wire Wire Line
+	2900 6900 2900 6500
+Wire Wire Line
+	3900 6900 3300 6900
+Wire Wire Line
+	2700 6500 2600 6500
+Connection ~ 3300 6200
+Connection ~ 3300 6500
+Connection ~ 4800 5900
+Connection ~ 3300 5900
+Connection ~ 2900 6500
+Connection ~ 3300 6900
+Connection ~ 2700 6500
+Wire Wire Line
+	1600 6500 1800 6500
+Wire Wire Line
+	1800 6500 1900 6500
+Wire Wire Line
+	1900 6700 2500 6700
+Wire Wire Line
+	1900 6700 1900 6500
+Wire Wire Line
+	1900 7000 1900 6700
+Wire Wire Line
+	1800 5400 1800 6500
+Wire Wire Line
+	2400 6500 1900 6500
+Connection ~ 1900 6700
+Connection ~ 1800 6500
+Connection ~ 1900 6500
+Text GLabel 1600 6500 0    10   BiDi ~ 0
+VCC
+Wire Wire Line
+	2700 7200 2700 7100
+Wire Wire Line
+	2700 7100 2700 7000
+Wire Wire Line
+	2300 7100 2700 7100
+Connection ~ 2700 7100
+Text GLabel 2700 7200 0    10   BiDi ~ 0
+BAT+
+Wire Wire Line
+	1600 6400 2000 6400
+Wire Wire Line
+	2000 6400 2000 6000
+Text GLabel 2000 6000 3    70   BiDi ~ 0
+USBDM
+Wire Wire Line
+	1600 6300 2200 6300
+Wire Wire Line
+	2200 6300 2200 6000
+Text GLabel 2200 6000 3    70   BiDi ~ 0
+USBDP
+Wire Wire Line
+	5400 3100 6600 3100
+Wire Wire Line
+	6600 3100 6600 2200
+Text GLabel 6600 2200 3    70   BiDi ~ 0
+SEROUT
+Wire Wire Line
+	5400 4300 6400 4300
+Wire Wire Line
+	6400 6600 6500 6600
+Wire Wire Line
+	6400 4300 6400 6600
+Wire Wire Line
+	6400 6900 6400 6600
+Wire Wire Line
+	6300 6600 6400 6600
+Connection ~ 6400 6600
+Wire Wire Line
+	3800 7200 3900 7200
+Wire Wire Line
+	3800 7300 3800 7200
+Wire Wire Line
+	3700 7200 3800 7200
+Connection ~ 3800 7200
+Wire Wire Line
+	2500 6100 2500 6000
+Text GLabel 2500 6000 3    70   BiDi ~ 0
+SUP_UART
+Wire Wire Line
+	5900 6900 5900 6600
+Wire Wire Line
+	5500 5900 5400 5900
+Wire Wire Line
+	5500 6000 5500 5900
+Wire Wire Line
+	5400 6000 5500 6000
+Wire Wire Line
+	5900 5900 5500 5900
+Wire Wire Line
+	6000 5500 5900 5500
+Wire Wire Line
+	5900 5500 5900 5900
+Wire Wire Line
+	5900 6600 5900 5900
+Connection ~ 5500 5900
+Connection ~ 5900 5900
+Connection ~ 5900 6600
+$Comp
+L component_tester-eagle-import:DINA4_L #FRAME1
+U 1 0 80664ACC4FD11FD2
+P 900 8100
+AR Path="/80664ACC4FD11FD2" Ref="#FRAME1"  Part="1"
+AR Path="/5B1C6B30/80664ACC4FD11FD2" Ref="#FRAME1"  Part="1"
+F 0 "#FRAME1" H 900 8100 50  0001 C CNN
+F 1 "FiFi" H 900 8100 50  0001 C CNN
+F 2 "" H 900 8100 50  0001 C CNN
+F 3 "" H 900 8100 50  0001 C CNN
+	1    900  8100
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:DINA4_L #FRAME1
+U 2 0 80664ACC4FD11FDE
+P 7300 8100
+AR Path="/80664ACC4FD11FDE" Ref="#FRAME1"  Part="2"
+AR Path="/5B1C6B30/80664ACC4FD11FDE" Ref="#FRAME1"  Part="2"
+F 0 "#FRAME1" H 7300 8100 50  0001 C CNN
+F 1 "FiFi" H 7300 8100 50  0001 C CNN
+F 2 "" H 7300 8100 50  0001 C CNN
+F 3 "" H 7300 8100 50  0001 C CNN
+	2    7300 8100
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:MEGA48_88_168-AU IC1
+U 1 0 7C8C299E06F92037
+P 4200 3900
+AR Path="/7C8C299E06F92037" Ref="IC1"  Part="1"
+AR Path="/5B1C6B30/7C8C299E06F92037" Ref="IC1"  Part="1"
+F 0 "IC1" H 3200 5200 59  0000 L TNN
+F 1 "MEGA48/88/168-AU" H 3200 2500 59  0000 L BNN
+F 2 "component_tester:TQFP32-08" H 4200 3900 50  0001 C CNN
+F 3 "" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-QUARZ Q1
+U 1 0 1C96B32E8B46FD95
+P 2300 3500
+AR Path="/1C96B32E8B46FD95" Ref="Q1"  Part="1"
+AR Path="/5B1C6B30/1C96B32E8B46FD95" Ref="Q1"  Part="1"
+F 0 "Q1" H 2450 3500 42  0000 L BNN
+F 1 "8 MHz" H 2450 3250 42  0000 L BNN
+F 2 "component_tester:HC49UP" H 2300 3500 50  0001 C CNN
+F 3 "" H 2300 3500 50  0001 C CNN
+	1    2300 3500
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:MINI-USB X1
+U 1 0 97C2823C753049C4
+P 1400 6300
+AR Path="/97C2823C753049C4" Ref="X1"  Part="1"
+AR Path="/5B1C6B30/97C2823C753049C4" Ref="X1"  Part="1"
+F 0 "X1" H 1300 6800 70  0000 L BNN
+F 1 "MINI-USB" H 1300 6700 70  0000 L BNN
+F 2 "component_tester:MINI-USB-B5" H 1400 6300 50  0001 C CNN
+F 3 "" H 1400 6300 50  0001 C CNN
+	1    1400 6300
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:CR2032 BAT1
+U 1 0 D31478EC87295480
+P 2700 7400
+AR Path="/D31478EC87295480" Ref="BAT1"  Part="1"
+AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1"
+F 0 "BAT1" H 2700 7400 50  0001 C CNN
+F 1 "CR2032" H 2700 7400 50  0001 C CNN
+F 2 "component_tester:CR2032" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:TASTER-RACON8SMD SW1
+U 1 0 9A392703E9E31E47
+P 5200 5900
+AR Path="/9A392703E9E31E47" Ref="SW1"  Part="1"
+AR Path="/5B1C6B30/9A392703E9E31E47" Ref="SW1"  Part="1"
+F 0 "SW1" H 4980 6090 59  0001 L BNN
+F 1 "TASTER-RACON8SMD" H 4950 5680 59  0001 L BNN
+F 2 "component_tester:TASTER-RACON8SMD" H 5200 5900 50  0001 C CNN
+F 3 "" H 5200 5900 50  0001 C CNN
+	1    5200 5900
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:LCD-FFC10-16X2TOP LCD1
+U 1 0 5F41E3BF808094CA
+P 10600 3400
+AR Path="/5F41E3BF808094CA" Ref="LCD1"  Part="1"
+AR Path="/5B1C6B30/5F41E3BF808094CA" Ref="LCD1"  Part="1"
+F 0 "LCD1" H 9800 3950 59  0000 L BNN
+F 1 "LCD-FFC10-16X2" H 10550 3950 59  0000 L BNN
+F 2 "component_tester:FFC_14P_1MM_TOP" H 10600 3400 50  0001 C CNN
+F 3 "" H 10600 3400 50  0001 C CNN
+	1    10600 3400
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:C0805 C1
+U 1 0 C56576DBF4F8EA96
+P 2000 3200
+AR Path="/C56576DBF4F8EA96" Ref="C1"  Part="1"
+AR Path="/5B1C6B30/C56576DBF4F8EA96" Ref="C1"  Part="1"
+F 0 "C1" H 1900 3300 59  0000 L BNN
+F 1 "22p" H 2100 3100 59  0000 L BNN
+F 2 "component_tester:C0805" H 2000 3200 50  0001 C CNN
+F 3 "" H 2000 3200 50  0001 C CNN
+	1    2000 3200
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:C0805 C2
+U 1 0 425295B9BC7DD4B5
+P 2000 3800
+AR Path="/425295B9BC7DD4B5" Ref="C2"  Part="1"
+AR Path="/5B1C6B30/425295B9BC7DD4B5" Ref="C2"  Part="1"
+F 0 "C2" H 1900 3900 59  0000 L BNN
+F 1 "22p" H 2100 3700 59  0000 L BNN
+F 2 "component_tester:C0805" H 2000 3800 50  0001 C CNN
+F 3 "" H 2000 3800 50  0001 C CNN
+	1    2000 3800
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND1
+U 1 0 6F68935FDB8695AC
+P 1700 3200
+AR Path="/6F68935FDB8695AC" Ref="#GND1"  Part="1"
+AR Path="/5B1C6B30/6F68935FDB8695AC" Ref="#GND01"  Part="1"
+F 0 "#GND01" H 1700 3200 50  0001 C CNN
+F 1 "GND" H 1600 3100 59  0000 L BNN
+F 2 "" H 1700 3200 50  0001 C CNN
+F 3 "" H 1700 3200 50  0001 C CNN
+	1    1700 3200
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND2
+U 1 0 350FEA2913A376EC
+P 1700 3800
+AR Path="/350FEA2913A376EC" Ref="#GND2"  Part="1"
+AR Path="/5B1C6B30/350FEA2913A376EC" Ref="#GND02"  Part="1"
+F 0 "#GND02" H 1700 3800 50  0001 C CNN
+F 1 "GND" H 1600 3700 59  0000 L BNN
+F 2 "" H 1700 3800 50  0001 C CNN
+F 3 "" H 1700 3800 50  0001 C CNN
+	1    1700 3800
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND3
+U 1 0 21A7002F7679BDCC
+P 9800 3500
+AR Path="/21A7002F7679BDCC" Ref="#GND3"  Part="1"
+AR Path="/5B1C6B30/21A7002F7679BDCC" Ref="#GND03"  Part="1"
+F 0 "#GND03" H 9800 3500 50  0001 C CNN
+F 1 "GND" H 9700 3400 59  0000 L BNN
+F 2 "" H 9800 3500 50  0001 C CNN
+F 3 "" H 9800 3500 50  0001 C CNN
+	1    9800 3500
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R1
+U 1 0 512AF7C563543E95
+P 6900 3400
+AR Path="/512AF7C563543E95" Ref="R1"  Part="1"
+AR Path="/5B1C6B30/512AF7C563543E95" Ref="R1"  Part="1"
+F 0 "R1" H 6750 3450 59  0001 L BNN
+F 1 "680" H 6750 3250 59  0001 L BNN
+F 2 "component_tester:R0805" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R2
+U 1 0 E2677E181D3EA782
+P 7100 3400
+AR Path="/E2677E181D3EA782" Ref="R2"  Part="1"
+AR Path="/5B1C6B30/E2677E181D3EA782" Ref="R2"  Part="1"
+F 0 "R2" H 6950 3450 59  0001 L BNN
+F 1 "470k" H 6950 3250 59  0001 L BNN
+F 2 "component_tester:R0805" H 7100 3400 50  0001 C CNN
+F 3 "" H 7100 3400 50  0001 C CNN
+	1    7100 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R3
+U 1 0 9B430939FCECCBCB
+P 7300 3400
+AR Path="/9B430939FCECCBCB" Ref="R3"  Part="1"
+AR Path="/5B1C6B30/9B430939FCECCBCB" Ref="R3"  Part="1"
+F 0 "R3" H 7150 3450 59  0001 L BNN
+F 1 "680" H 7150 3250 59  0001 L BNN
+F 2 "component_tester:R0805" H 7300 3400 50  0001 C CNN
+F 3 "" H 7300 3400 50  0001 C CNN
+	1    7300 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R4
+U 1 0 E5B4C50D045E6390
+P 7500 3400
+AR Path="/E5B4C50D045E6390" Ref="R4"  Part="1"
+AR Path="/5B1C6B30/E5B4C50D045E6390" Ref="R4"  Part="1"
+F 0 "R4" H 7350 3450 59  0001 L BNN
+F 1 "470k" H 7350 3250 59  0001 L BNN
+F 2 "component_tester:R0805" H 7500 3400 50  0001 C CNN
+F 3 "" H 7500 3400 50  0001 C CNN
+	1    7500 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R5
+U 1 0 DF602B93DD8A218A
+P 7700 3400
+AR Path="/DF602B93DD8A218A" Ref="R5"  Part="1"
+AR Path="/5B1C6B30/DF602B93DD8A218A" Ref="R5"  Part="1"
+F 0 "R5" H 7550 3450 59  0001 L BNN
+F 1 "680" H 7550 3250 59  0001 L BNN
+F 2 "component_tester:R0805" H 7700 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R6
+U 1 0 7E98CD9B0A658855
+P 7900 3400
+AR Path="/7E98CD9B0A658855" Ref="R6"  Part="1"
+AR Path="/5B1C6B30/7E98CD9B0A658855" Ref="R6"  Part="1"
+F 0 "R6" H 7750 3450 59  0001 L BNN
+F 1 "470k" H 7750 3250 59  0001 L BNN
+F 2 "component_tester:R0805" H 7900 3400 50  0001 C CNN
+F 3 "" H 7900 3400 50  0001 C CNN
+	1    7900 3400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND6
+U 1 0 714A278CA07C0193
+P 1700 4700
+AR Path="/714A278CA07C0193" Ref="#GND6"  Part="1"
+AR Path="/5B1C6B30/714A278CA07C0193" Ref="#GND06"  Part="1"
+F 0 "#GND06" H 1700 4700 50  0001 C CNN
+F 1 "GND" H 1600 4600 59  0000 L BNN
+F 2 "" H 1700 4700 50  0001 C CNN
+F 3 "" H 1700 4700 50  0001 C CNN
+	1    1700 4700
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R7
+U 1 0 BBCFCC776C012852
+P 2400 2800
+AR Path="/BBCFCC776C012852" Ref="R7"  Part="1"
+AR Path="/5B1C6B30/BBCFCC776C012852" Ref="R7"  Part="1"
+F 0 "R7" H 2250 2850 59  0000 L BNN
+F 1 "10k" H 2250 2650 59  0000 L BNN
+F 2 "component_tester:R0805" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V1
+U 1 0 AFC6B6985F6C2C2A
+P 1600 4000
+AR Path="/AFC6B6985F6C2C2A" Ref="#+5V1"  Part="1"
+AR Path="/5B1C6B30/AFC6B6985F6C2C2A" Ref="#+5V01"  Part="1"
+F 0 "#+5V01" H 1600 4000 50  0001 C CNN
+F 1 "+5V" V 1500 3800 59  0000 L BNN
+F 2 "" H 1600 4000 50  0001 C CNN
+F 3 "" H 1600 4000 50  0001 C CNN
+	1    1600 4000
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:C0805 C3
+U 1 0 A8CF5A1BE6016F5F
+P 2800 4500
+AR Path="/A8CF5A1BE6016F5F" Ref="C3"  Part="1"
+AR Path="/5B1C6B30/A8CF5A1BE6016F5F" Ref="C3"  Part="1"
+F 0 "C3" H 2700 4600 59  0000 L BNN
+F 1 "1n" H 2900 4400 59  0000 L BNN
+F 2 "component_tester:C0805" H 2800 4500 50  0001 C CNN
+F 3 "" H 2800 4500 50  0001 C CNN
+	1    2800 4500
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V2
+U 1 0 91E9C0F41F01AF8C
+P 1600 2800
+AR Path="/91E9C0F41F01AF8C" Ref="#+5V2"  Part="1"
+AR Path="/5B1C6B30/91E9C0F41F01AF8C" Ref="#+5V02"  Part="1"
+F 0 "#+5V02" H 1600 2800 50  0001 C CNN
+F 1 "+5V" V 1500 2600 59  0000 L BNN
+F 2 "" H 1600 2800 50  0001 C CNN
+F 3 "" H 1600 2800 50  0001 C CNN
+	1    1600 2800
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:MCP1640 IC2
+U 1 0 53D52AEB541775CA
+P 4300 7000
+AR Path="/53D52AEB541775CA" Ref="IC2"  Part="1"
+AR Path="/5B1C6B30/53D52AEB541775CA" Ref="IC2"  Part="1"
+F 0 "IC2" H 4400 7425 59  0000 L BNN
+F 1 "MCP1640" H 4400 7325 59  0000 L BNN
+F 2 "component_tester:SOT23-6" H 4300 7000 50  0001 C CNN
+F 3 "" H 4300 7000 50  0001 C CNN
+	1    4300 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:L1210 L1
+U 1 0 F60B72F86BE0507A
+P 3900 6500
+AR Path="/F60B72F86BE0507A" Ref="L1"  Part="1"
+AR Path="/5B1C6B30/F60B72F86BE0507A" Ref="L1"  Part="1"
+F 0 "L1" H 3800 6550 42  0001 L BNN
+F 1 "4,7 uH" H 3800 6400 42  0001 L BNN
+F 2 "component_tester:L1210" H 3900 6500 50  0001 C CNN
+F 3 "" H 3900 6500 50  0001 C CNN
+	1    3900 6500
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:C0805 C4
+U 1 0 7513E83E99E27C05
+P 2900 7000
+AR Path="/7513E83E99E27C05" Ref="C4"  Part="1"
+AR Path="/5B1C6B30/7513E83E99E27C05" Ref="C4"  Part="1"
+F 0 "C4" H 2800 7100 59  0001 L BNN
+F 1 "47u" H 3000 6900 59  0001 L BNN
+F 2 "component_tester:C0805" H 2900 7000 50  0001 C CNN
+F 3 "" H 2900 7000 50  0001 C CNN
+	1    2900 7000
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:C0805 C5
+U 1 0 B6F96C9048BC56A0
+P 5300 7200
+AR Path="/B6F96C9048BC56A0" Ref="C5"  Part="1"
+AR Path="/5B1C6B30/B6F96C9048BC56A0" Ref="C5"  Part="1"
+F 0 "C5" H 5200 7300 59  0000 L BNN
+F 1 "47u" H 5400 7100 59  0000 L BNN
+F 2 "component_tester:C0805" H 5300 7200 50  0001 C CNN
+F 3 "" H 5300 7200 50  0001 C CNN
+	1    5300 7200
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND9
+U 1 0 92D8EA4928DF91D
+P 5500 7800
+AR Path="/92D8EA4928DF91D" Ref="#GND9"  Part="1"
+AR Path="/5B1C6B30/92D8EA4928DF91D" Ref="#GND09"  Part="1"
+F 0 "#GND09" H 5500 7800 50  0001 C CNN
+F 1 "GND" H 5400 7700 59  0000 L BNN
+F 2 "" H 5500 7800 50  0001 C CNN
+F 3 "" H 5500 7800 50  0001 C CNN
+	1    5500 7800
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V3
+U 1 0 595B4731D7D5450F
+P 5600 6500
+AR Path="/595B4731D7D5450F" Ref="#+5V3"  Part="1"
+AR Path="/5B1C6B30/595B4731D7D5450F" Ref="#+5V03"  Part="1"
+F 0 "#+5V03" H 5600 6500 50  0001 C CNN
+F 1 "+5V" V 5500 6300 59  0001 L BNN
+F 2 "" H 5600 6500 50  0001 C CNN
+F 3 "" H 5600 6500 50  0001 C CNN
+	1    5600 6500
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R8
+U 1 0 974F66270C16D534
+P 5000 6900
+AR Path="/974F66270C16D534" Ref="R8"  Part="1"
+AR Path="/5B1C6B30/974F66270C16D534" Ref="R8"  Part="1"
+F 0 "R8" H 4850 6950 59  0000 L BNN
+F 1 "750k" H 4850 6750 59  0000 L BNN
+F 2 "component_tester:R0805" H 5000 6900 50  0001 C CNN
+F 3 "" H 5000 6900 50  0001 C CNN
+	1    5000 6900
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R9
+U 1 0 458E1AB7AF177D47
+P 5000 7500
+AR Path="/458E1AB7AF177D47" Ref="R9"  Part="1"
+AR Path="/5B1C6B30/458E1AB7AF177D47" Ref="R9"  Part="1"
+F 0 "R9" H 4850 7550 59  0000 L BNN
+F 1 "240k" H 4850 7350 59  0000 L BNN
+F 2 "component_tester:R0805" H 5000 7500 50  0001 C CNN
+F 3 "" H 5000 7500 50  0001 C CNN
+	1    5000 7500
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND10
+U 1 0 F47101845C69E3
+P 10000 2700
+AR Path="/F47101845C69E3" Ref="#GND10"  Part="1"
+AR Path="/5B1C6B30/F47101845C69E3" Ref="#GND010"  Part="1"
+F 0 "#GND010" H 10000 2700 50  0001 C CNN
+F 1 "GND" H 9900 2600 59  0000 L BNN
+F 2 "" H 10000 2700 50  0001 C CNN
+F 3 "" H 10000 2700 50  0001 C CNN
+	1    10000 2700
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V4
+U 1 0 F92D85D269AA9727
+P 9800 2800
+AR Path="/F92D85D269AA9727" Ref="#+5V4"  Part="1"
+AR Path="/5B1C6B30/F92D85D269AA9727" Ref="#+5V04"  Part="1"
+F 0 "#+5V04" H 9800 2800 50  0001 C CNN
+F 1 "+5V" V 9700 2600 59  0000 L BNN
+F 2 "" H 9800 2800 50  0001 C CNN
+F 3 "" H 9800 2800 50  0001 C CNN
+	1    9800 2800
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND11
+U 1 0 25F2C17319DA8D48
+P 10000 3100
+AR Path="/25F2C17319DA8D48" Ref="#GND11"  Part="1"
+AR Path="/5B1C6B30/25F2C17319DA8D48" Ref="#GND011"  Part="1"
+F 0 "#GND011" H 10000 3100 50  0001 C CNN
+F 1 "GND" H 9900 3000 59  0000 L BNN
+F 2 "" H 10000 3100 50  0001 C CNN
+F 3 "" H 10000 3100 50  0001 C CNN
+	1    10000 3100
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R10
+U 1 0 B36C6E30D74182C5
+P 4200 5600
+AR Path="/B36C6E30D74182C5" Ref="R10"  Part="1"
+AR Path="/5B1C6B30/B36C6E30D74182C5" Ref="R10"  Part="1"
+F 0 "R10" H 4050 5650 59  0000 L BNN
+F 1 "1M" H 4050 5450 59  0000 L BNN
+F 2 "component_tester:R0805" H 4200 5600 50  0001 C CNN
+F 3 "" H 4200 5600 50  0001 C CNN
+	1    4200 5600
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R11
+U 1 0 CB1356D799561180
+P 5800 2100
+AR Path="/CB1356D799561180" Ref="R11"  Part="1"
+AR Path="/5B1C6B30/CB1356D799561180" Ref="R11"  Part="1"
+F 0 "R11" H 5650 2150 59  0001 L BNN
+F 1 "330k" H 5650 1950 59  0001 L BNN
+F 2 "component_tester:R0805" H 5800 2100 50  0001 C CNN
+F 3 "" H 5800 2100 50  0001 C CNN
+	1    5800 2100
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND12
+U 1 0 E034864A5F18D96
+P 5800 1200
+AR Path="/E034864A5F18D96" Ref="#GND12"  Part="1"
+AR Path="/5B1C6B30/E034864A5F18D96" Ref="#GND012"  Part="1"
+F 0 "#GND012" H 5800 1200 50  0001 C CNN
+F 1 "GND" H 5700 1100 59  0000 L BNN
+F 2 "" H 5800 1200 50  0001 C CNN
+F 3 "" H 5800 1200 50  0001 C CNN
+	1    5800 1200
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:C0805 C6
+U 1 0 9F272910FE64C8E2
+P 2500 4400
+AR Path="/9F272910FE64C8E2" Ref="C6"  Part="1"
+AR Path="/5B1C6B30/9F272910FE64C8E2" Ref="C6"  Part="1"
+F 0 "C6" H 2400 4500 59  0000 L BNN
+F 1 "100n" H 2600 4300 59  0000 L BNN
+F 2 "component_tester:C0805" H 2500 4400 50  0001 C CNN
+F 3 "" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R12
+U 1 0 14C551D80E8D017C
+P 4200 6200
+AR Path="/14C551D80E8D017C" Ref="R12"  Part="1"
+AR Path="/5B1C6B30/14C551D80E8D017C" Ref="R12"  Part="1"
+F 0 "R12" H 4050 6250 59  0000 L BNN
+F 1 "10k" H 4050 6050 59  0000 L BNN
+F 2 "component_tester:R0805" H 4200 6200 50  0001 C CNN
+F 3 "" H 4200 6200 50  0001 C CNN
+	1    4200 6200
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:BC847 T1
+U 1 0 ABD6C2FC011D2A96
+P 7000 6600
+AR Path="/ABD6C2FC011D2A96" Ref="T1"  Part="1"
+AR Path="/5B1C6B30/ABD6C2FC011D2A96" Ref="T1"  Part="1"
+F 0 "T1" H 7100 6650 59  0000 L BNN
+F 1 "BC847" H 7100 6550 59  0000 L BNN
+F 2 "component_tester:SOT23" H 7000 6600 50  0001 C CNN
+F 3 "" H 7000 6600 50  0001 C CNN
+	1    7000 6600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND13
+U 1 0 1DDAFC179E3D6951
+P 7100 7300
+AR Path="/1DDAFC179E3D6951" Ref="#GND13"  Part="1"
+AR Path="/5B1C6B30/1DDAFC179E3D6951" Ref="#GND013"  Part="1"
+F 0 "#GND013" H 7100 7300 50  0001 C CNN
+F 1 "GND" H 7000 7200 59  0000 L BNN
+F 2 "" H 7100 7300 50  0001 C CNN
+F 3 "" H 7100 7300 50  0001 C CNN
+	1    7100 7300
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R13
+U 1 0 D52D387BDEE37B10
+P 6200 2100
+AR Path="/D52D387BDEE37B10" Ref="R13"  Part="1"
+AR Path="/5B1C6B30/D52D387BDEE37B10" Ref="R13"  Part="1"
+F 0 "R13" H 6050 2150 59  0000 L BNN
+F 1 "10k" H 6050 1950 59  0000 L BNN
+F 2 "component_tester:R0805" H 6200 2100 50  0001 C CNN
+F 3 "" H 6200 2100 50  0001 C CNN
+	1    6200 2100
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:LM4040 D1
+U 1 0 D58447641462D966
+P 5400 2100
+AR Path="/D58447641462D966" Ref="D1"  Part="1"
+AR Path="/5B1C6B30/D58447641462D966" Ref="D1"  Part="1"
+F 0 "D1" H 5500 2200 59  0001 L BNN
+F 1 "LM4040A-2V5" H 5500 2000 59  0001 L BNN
+F 2 "component_tester:SOT23" H 5400 2100 50  0001 C CNN
+F 3 "" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R14
+U 1 0 E4B58C2114CE6AAC
+P 5400 1500
+AR Path="/E4B58C2114CE6AAC" Ref="R14"  Part="1"
+AR Path="/5B1C6B30/E4B58C2114CE6AAC" Ref="R14"  Part="1"
+F 0 "R14" H 5250 1550 59  0000 L BNN
+F 1 "47k" H 5250 1350 59  0000 L BNN
+F 2 "component_tester:R0805" H 5400 1500 50  0001 C CNN
+F 3 "" H 5400 1500 50  0001 C CNN
+	1    5400 1500
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V5
+U 1 0 534DB015CAF7019A
+P 5400 1100
+AR Path="/534DB015CAF7019A" Ref="#+5V5"  Part="1"
+AR Path="/5B1C6B30/534DB015CAF7019A" Ref="#+5V05"  Part="1"
+F 0 "#+5V05" H 5400 1100 50  0001 C CNN
+F 1 "+5V" V 5300 900 59  0000 L BNN
+F 2 "" H 5400 1100 50  0001 C CNN
+F 3 "" H 5400 1100 50  0001 C CNN
+	1    5400 1100
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND14
+U 1 0 E847186D109F320A
+P 5400 2500
+AR Path="/E847186D109F320A" Ref="#GND14"  Part="1"
+AR Path="/5B1C6B30/E847186D109F320A" Ref="#GND014"  Part="1"
+F 0 "#GND014" H 5400 2500 50  0001 C CNN
+F 1 "GND" H 5300 2400 59  0000 L BNN
+F 2 "" H 5400 2500 50  0001 C CNN
+F 3 "" H 5400 2500 50  0001 C CNN
+	1    5400 2500
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:POTI_ACP6SMD R15
+U 1 0 FBFB61278104E241
+P 9400 2900
+AR Path="/FBFB61278104E241" Ref="R15"  Part="1"
+AR Path="/5B1C6B30/FBFB61278104E241" Ref="R15"  Part="1"
+F 0 "R15" H 9250 3135 59  0001 L BNN
+F 1 "10k" H 9250 3050 59  0001 L BNN
+F 2 "component_tester:POTI_ACP6-SMD" H 9400 2900 50  0001 C CNN
+F 3 "" H 9400 2900 50  0001 C CNN
+	1    9400 2900
+	0    -1   1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND15
+U 1 0 CBE454F257B06B4
+P 9400 3300
+AR Path="/CBE454F257B06B4" Ref="#GND15"  Part="1"
+AR Path="/5B1C6B30/CBE454F257B06B4" Ref="#GND015"  Part="1"
+F 0 "#GND015" H 9400 3300 50  0001 C CNN
+F 1 "GND" H 9300 3200 59  0000 L BNN
+F 2 "" H 9400 3300 50  0001 C CNN
+F 3 "" H 9400 3300 50  0001 C CNN
+	1    9400 3300
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V6
+U 1 0 393C5AB363AB7CC1
+P 9400 2500
+AR Path="/393C5AB363AB7CC1" Ref="#+5V6"  Part="1"
+AR Path="/5B1C6B30/393C5AB363AB7CC1" Ref="#+5V06"  Part="1"
+F 0 "#+5V06" H 9400 2500 50  0001 C CNN
+F 1 "+5V" V 9300 2300 59  0000 L BNN
+F 2 "" H 9400 2500 50  0001 C CNN
+F 3 "" H 9400 2500 50  0001 C CNN
+	1    9400 2500
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND16
+U 1 0 8316678299D4D269
+P 1700 7000
+AR Path="/8316678299D4D269" Ref="#GND16"  Part="1"
+AR Path="/5B1C6B30/8316678299D4D269" Ref="#GND016"  Part="1"
+F 0 "#GND016" H 1700 7000 50  0001 C CNN
+F 1 "GND" H 1600 6900 59  0000 L BNN
+F 2 "" H 1700 7000 50  0001 C CNN
+F 3 "" H 1700 7000 50  0001 C CNN
+	1    1700 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V8
+U 1 0 3767CDBC2852253F
+P 6200 1100
+AR Path="/3767CDBC2852253F" Ref="#+5V8"  Part="1"
+AR Path="/5B1C6B30/3767CDBC2852253F" Ref="#+5V08"  Part="1"
+F 0 "#+5V08" H 6200 1100 50  0001 C CNN
+F 1 "+5V" V 6100 900 59  0000 L BNN
+F 2 "" H 6200 1100 50  0001 C CNN
+F 3 "" H 6200 1100 50  0001 C CNN
+	1    6200 1100
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:WANNE6_SEITLICH X6
+U 1 0 1F637802F1146828
+P 8500 5100
+AR Path="/1F637802F1146828" Ref="X6"  Part="1"
+AR Path="/5B1C6B30/1F637802F1146828" Ref="X6"  Part="1"
+F 0 "X6" H 8450 5250 42  0001 L BNN
+F 1 "ISP" H 8450 4900 42  0001 L BNN
+F 2 "component_tester:WANNE6_PCBKANTE" H 8500 5100 50  0001 C CNN
+F 3 "" H 8500 5100 50  0001 C CNN
+	1    8500 5100
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V9
+U 1 0 61F94D08E52C7645
+P 8900 4600
+AR Path="/61F94D08E52C7645" Ref="#+5V9"  Part="1"
+AR Path="/5B1C6B30/61F94D08E52C7645" Ref="#+5V09"  Part="1"
+F 0 "#+5V09" H 8900 4600 50  0001 C CNN
+F 1 "+5V" V 8800 4400 59  0000 L BNN
+F 2 "" H 8900 4600 50  0001 C CNN
+F 3 "" H 8900 4600 50  0001 C CNN
+	1    8900 4600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND17
+U 1 0 A9D98BED0A5A0AC8
+P 8900 5600
+AR Path="/A9D98BED0A5A0AC8" Ref="#GND17"  Part="1"
+AR Path="/5B1C6B30/A9D98BED0A5A0AC8" Ref="#GND017"  Part="1"
+F 0 "#GND017" H 8900 5600 50  0001 C CNN
+F 1 "GND" H 8800 5500 59  0000 L BNN
+F 2 "" H 8900 5600 50  0001 C CNN
+F 3 "" H 8900 5600 50  0001 C CNN
+	1    8900 5600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:BSS123 T2
+U 1 0 778EB5B89E4548F9
+P 6200 5400
+AR Path="/778EB5B89E4548F9" Ref="T2"  Part="1"
+AR Path="/5B1C6B30/778EB5B89E4548F9" Ref="T2"  Part="1"
+F 0 "T2" H 6300 5400 59  0001 L BNN
+F 1 "BSS123" H 6300 5300 59  0001 L BNN
+F 2 "component_tester:SOT23" H 6200 5400 50  0001 C CNN
+F 3 "" H 6200 5400 50  0001 C CNN
+	1    6200 5400
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R16
+U 1 0 20BDF072D5A58622
+P 6400 7100
+AR Path="/20BDF072D5A58622" Ref="R16"  Part="1"
+AR Path="/5B1C6B30/20BDF072D5A58622" Ref="R16"  Part="1"
+F 0 "R16" H 6250 7150 59  0001 L BNN
+F 1 "10k" H 6250 6950 59  0001 L BNN
+F 2 "component_tester:R0805" H 6400 7100 50  0001 C CNN
+F 3 "" H 6400 7100 50  0001 C CNN
+	1    6400 7100
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND21
+U 1 0 C987055BCF593DC2
+P 6400 7500
+AR Path="/C987055BCF593DC2" Ref="#GND21"  Part="1"
+AR Path="/5B1C6B30/C987055BCF593DC2" Ref="#GND021"  Part="1"
+F 0 "#GND021" H 6400 7500 50  0001 C CNN
+F 1 "GND" H 6300 7400 59  0000 L BNN
+F 2 "" H 6400 7500 50  0001 C CNN
+F 3 "" H 6400 7500 50  0001 C CNN
+	1    6400 7500
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:BSS84 T3
+U 1 0 5B7E70F90DD88CB2
+P 2700 6800
+AR Path="/5B7E70F90DD88CB2" Ref="T3"  Part="1"
+AR Path="/5B1C6B30/5B7E70F90DD88CB2" Ref="T3"  Part="1"
+F 0 "T3" H 2800 6800 59  0001 L BNN
+F 1 "PMV65XP" H 2800 6700 59  0001 L BNN
+F 2 "component_tester:SOT23" H 2700 6800 50  0001 C CNN
+F 3 "" H 2700 6800 50  0001 C CNN
+	1    2700 6800
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R17
+U 1 0 FEC67141DB79B4F3
+P 1900 7200
+AR Path="/FEC67141DB79B4F3" Ref="R17"  Part="1"
+AR Path="/5B1C6B30/FEC67141DB79B4F3" Ref="R17"  Part="1"
+F 0 "R17" H 1750 7250 59  0000 L BNN
+F 1 "10k" H 1750 7050 59  0000 L BNN
+F 2 "component_tester:R0805" H 1900 7200 50  0001 C CNN
+F 3 "" H 1900 7200 50  0001 C CNN
+	1    1900 7200
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND22
+U 1 0 5219B01CFB1CD9CF
+P 2300 7900
+AR Path="/5219B01CFB1CD9CF" Ref="#GND22"  Part="1"
+AR Path="/5B1C6B30/5219B01CFB1CD9CF" Ref="#GND022"  Part="1"
+F 0 "#GND022" H 2300 7900 50  0001 C CNN
+F 1 "GND" H 2200 7800 59  0000 L BNN
+F 2 "" H 2300 7900 50  0001 C CNN
+F 3 "" H 2300 7900 50  0001 C CNN
+	1    2300 7900
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT_WINKL_SMD X3
+U 1 0 FAACAABDE320087E
+P 8700 1700
+AR Path="/FAACAABDE320087E" Ref="X3"  Part="1"
+AR Path="/5B1C6B30/FAACAABDE320087E" Ref="X3"  Part="1"
+F 0 "X3" H 8650 1750 42  0000 L BNN
+F 1 "P3" H 8650 1600 42  0000 L BNN
+F 2 "component_tester:STIFT_WINKL_SMD" H 8700 1700 50  0001 C CNN
+F 3 "" H 8700 1700 50  0001 C CNN
+	1    8700 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT_WINKL_SMD X4
+U 1 0 68838991BE011171
+P 8100 1700
+AR Path="/68838991BE011171" Ref="X4"  Part="1"
+AR Path="/5B1C6B30/68838991BE011171" Ref="X4"  Part="1"
+F 0 "X4" H 8050 1750 42  0000 L BNN
+F 1 "P1" H 8050 1600 42  0000 L BNN
+F 2 "component_tester:STIFT_WINKL_SMD" H 8100 1700 50  0001 C CNN
+F 3 "" H 8100 1700 50  0001 C CNN
+	1    8100 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT_WINKL_SMD X5
+U 1 0 E86443E4A255B1EE
+P 8400 1700
+AR Path="/E86443E4A255B1EE" Ref="X5"  Part="1"
+AR Path="/5B1C6B30/E86443E4A255B1EE" Ref="X5"  Part="1"
+F 0 "X5" H 8350 1750 42  0000 L BNN
+F 1 "P2" H 8350 1600 42  0000 L BNN
+F 2 "component_tester:STIFT_WINKL_SMD" H 8400 1700 50  0001 C CNN
+F 3 "" H 8400 1700 50  0001 C CNN
+	1    8400 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP1
+U 1 0 23AD0592E5F42BB8
+P 8100 1300
+AR Path="/23AD0592E5F42BB8" Ref="TP1"  Part="1"
+AR Path="/5B1C6B30/23AD0592E5F42BB8" Ref="TP1"  Part="1"
+F 0 "TP1" H 8100 1400 42  0000 L BNN
+F 1 "SMD-PAD_0.2X0.2" H 8100 1100 42  0000 L BNN
+F 2 "component_tester:PAD_0.2X0.2" H 8100 1300 50  0001 C CNN
+F 3 "" H 8100 1300 50  0001 C CNN
+	1    8100 1300
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP2
+U 1 0 E74EB8BB93FB0C53
+P 8400 1300
+AR Path="/E74EB8BB93FB0C53" Ref="TP2"  Part="1"
+AR Path="/5B1C6B30/E74EB8BB93FB0C53" Ref="TP2"  Part="1"
+F 0 "TP2" H 8400 1400 42  0000 L BNN
+F 1 "SMD-PAD_0.2X0.2" H 8400 1100 42  0000 L BNN
+F 2 "component_tester:PAD_0.2X0.2" H 8400 1300 50  0001 C CNN
+F 3 "" H 8400 1300 50  0001 C CNN
+	1    8400 1300
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP3
+U 1 0 584DF611AF7E6EF2
+P 8700 1300
+AR Path="/584DF611AF7E6EF2" Ref="TP3"  Part="1"
+AR Path="/5B1C6B30/584DF611AF7E6EF2" Ref="TP3"  Part="1"
+F 0 "TP3" H 8700 1400 42  0000 L BNN
+F 1 "SMD-PAD_0.2X0.2" H 8700 1100 42  0000 L BNN
+F 2 "component_tester:PAD_0.2X0.2" H 8700 1300 50  0001 C CNN
+F 3 "" H 8700 1300 50  0001 C CNN
+	1    8700 1300
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT X2
+U 1 0 41AC92D675B7B83E
+P 8100 2000
+AR Path="/41AC92D675B7B83E" Ref="X2"  Part="1"
+AR Path="/5B1C6B30/41AC92D675B7B83E" Ref="X2"  Part="1"
+F 0 "X2" H 8050 2050 42  0000 L BNN
+F 1 "P1" H 8050 1900 42  0000 L BNN
+F 2 "component_tester:STIFT" H 8100 2000 50  0001 C CNN
+F 3 "" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT X7
+U 1 0 3487398A4F7F6ECF
+P 8400 2000
+AR Path="/3487398A4F7F6ECF" Ref="X7"  Part="1"
+AR Path="/5B1C6B30/3487398A4F7F6ECF" Ref="X7"  Part="1"
+F 0 "X7" H 8350 2050 42  0000 L BNN
+F 1 "P2" H 8350 1900 42  0000 L BNN
+F 2 "component_tester:STIFT" H 8400 2000 50  0001 C CNN
+F 3 "" H 8400 2000 50  0001 C CNN
+	1    8400 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT X8
+U 1 0 C4BA724395DCEF3A
+P 8700 2000
+AR Path="/C4BA724395DCEF3A" Ref="X8"  Part="1"
+AR Path="/5B1C6B30/C4BA724395DCEF3A" Ref="X8"  Part="1"
+F 0 "X8" H 8650 2050 42  0000 L BNN
+F 1 "P3" H 8650 1900 42  0000 L BNN
+F 2 "component_tester:STIFT" H 8700 2000 50  0001 C CNN
+F 3 "" H 8700 2000 50  0001 C CNN
+	1    8700 2000
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:C0603 C7
+U 1 0 A5B53786DB4051D7
+P 7900 2200
+AR Path="/A5B53786DB4051D7" Ref="C7"  Part="1"
+AR Path="/5B1C6B30/A5B53786DB4051D7" Ref="C7"  Part="1"
+F 0 "C7" H 7800 2300 59  0000 L BNN
+F 1 "V 3p" H 8000 2100 59  0000 L BNN
+F 2 "component_tester:C0603" H 7900 2200 50  0001 C CNN
+F 3 "" H 7900 2200 50  0001 C CNN
+	1    7900 2200
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:C0603 C8
+U 1 0 11A2FC9100BCBFFC
+P 7900 2400
+AR Path="/11A2FC9100BCBFFC" Ref="C8"  Part="1"
+AR Path="/5B1C6B30/11A2FC9100BCBFFC" Ref="C8"  Part="1"
+F 0 "C8" H 7800 2500 59  0000 L BNN
+F 1 "V 3p" H 8000 2300 59  0000 L BNN
+F 2 "component_tester:C0603" H 7900 2400 50  0001 C CNN
+F 3 "" H 7900 2400 50  0001 C CNN
+	1    7900 2400
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:C0603 C9
+U 1 0 65C0CEB9454BEC28
+P 7900 2600
+AR Path="/65C0CEB9454BEC28" Ref="C9"  Part="1"
+AR Path="/5B1C6B30/65C0CEB9454BEC28" Ref="C9"  Part="1"
+F 0 "C9" H 7800 2700 59  0000 L BNN
+F 1 "V 3p" H 8000 2500 59  0000 L BNN
+F 2 "component_tester:C0603" H 7900 2600 50  0001 C CNN
+F 3 "" H 7900 2600 50  0001 C CNN
+	1    7900 2600
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND4
+U 1 0 4B4BE4C0D896219B
+P 7500 2600
+AR Path="/4B4BE4C0D896219B" Ref="#GND4"  Part="1"
+AR Path="/5B1C6B30/4B4BE4C0D896219B" Ref="#GND04"  Part="1"
+F 0 "#GND04" H 7500 2600 50  0001 C CNN
+F 1 "GND" H 7400 2500 59  0000 L BNN
+F 2 "" H 7500 2600 50  0001 C CNN
+F 3 "" H 7500 2600 50  0001 C CNN
+	1    7500 2600
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND5
+U 1 0 D2D9FA1DEF27308A
+P 7500 2400
+AR Path="/D2D9FA1DEF27308A" Ref="#GND5"  Part="1"
+AR Path="/5B1C6B30/D2D9FA1DEF27308A" Ref="#GND05"  Part="1"
+F 0 "#GND05" H 7500 2400 50  0001 C CNN
+F 1 "GND" H 7400 2300 59  0000 L BNN
+F 2 "" H 7500 2400 50  0001 C CNN
+F 3 "" H 7500 2400 50  0001 C CNN
+	1    7500 2400
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND7
+U 1 0 C51381239CDE76EF
+P 7500 2200
+AR Path="/C51381239CDE76EF" Ref="#GND7"  Part="1"
+AR Path="/5B1C6B30/C51381239CDE76EF" Ref="#GND07"  Part="1"
+F 0 "#GND07" H 7500 2200 50  0001 C CNN
+F 1 "GND" H 7400 2100 59  0000 L BNN
+F 2 "" H 7500 2200 50  0001 C CNN
+F 3 "" H 7500 2200 50  0001 C CNN
+	1    7500 2200
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFTLEISTE_2,54MM_1X3_WI-SMD X9
+U 1 0 E2DA910908FA697E
+P 9000 2900
+AR Path="/E2DA910908FA697E" Ref="X9"  Part="1"
+AR Path="/5B1C6B30/E2DA910908FA697E" Ref="X9"  Part="1"
+F 0 "X9" H 8950 3050 42  0001 L BNN
+F 1 "STIFTLEISTE_2,54MM_1X3_WI-SMD" H 8950 2700 42  0001 L BNN
+F 2 "component_tester:STIFTLEISTE_2,54MM_1X3_WI-SMD" H 9000 2900 50  0001 C CNN
+F 3 "" H 9000 2900 50  0001 C CNN
+	1    9000 2900
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT_WINKL_SMD X10
+U 1 0 AE0263B5337EA910
+P 11100 1700
+AR Path="/AE0263B5337EA910" Ref="X10"  Part="1"
+AR Path="/5B1C6B30/AE0263B5337EA910" Ref="X10"  Part="1"
+F 0 "X10" H 11050 1750 42  0000 L BNN
+F 1 "P3" H 11050 1600 42  0000 L BNN
+F 2 "component_tester:STIFT_WINKL_SMD" H 11100 1700 50  0001 C CNN
+F 3 "" H 11100 1700 50  0001 C CNN
+	1    11100 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT_WINKL_SMD X11
+U 1 0 6B8A5CC0C05B595F
+P 10500 1700
+AR Path="/6B8A5CC0C05B595F" Ref="X11"  Part="1"
+AR Path="/5B1C6B30/6B8A5CC0C05B595F" Ref="X11"  Part="1"
+F 0 "X11" H 10450 1750 42  0000 L BNN
+F 1 "P1" H 10450 1600 42  0000 L BNN
+F 2 "component_tester:STIFT_WINKL_SMD" H 10500 1700 50  0001 C CNN
+F 3 "" H 10500 1700 50  0001 C CNN
+	1    10500 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:STIFT_WINKL_SMD X12
+U 1 0 7136EED995599E8E
+P 10800 1700
+AR Path="/7136EED995599E8E" Ref="X12"  Part="1"
+AR Path="/5B1C6B30/7136EED995599E8E" Ref="X12"  Part="1"
+F 0 "X12" H 10750 1750 42  0000 L BNN
+F 1 "P2" H 10750 1600 42  0000 L BNN
+F 2 "component_tester:STIFT_WINKL_SMD" H 10800 1700 50  0001 C CNN
+F 3 "" H 10800 1700 50  0001 C CNN
+	1    10800 1700
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP4
+U 1 0 42A89C514B4E01D4
+P 10500 1300
+AR Path="/42A89C514B4E01D4" Ref="TP4"  Part="1"
+AR Path="/5B1C6B30/42A89C514B4E01D4" Ref="TP4"  Part="1"
+F 0 "TP4" H 10500 1400 42  0000 L BNN
+F 1 "SMD-PAD_0.2X0.2" H 10500 1100 42  0000 L BNN
+F 2 "component_tester:PAD_0.2X0.2" H 10500 1300 50  0001 C CNN
+F 3 "" H 10500 1300 50  0001 C CNN
+	1    10500 1300
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP5
+U 1 0 73A8DA4B995FED16
+P 10800 1300
+AR Path="/73A8DA4B995FED16" Ref="TP5"  Part="1"
+AR Path="/5B1C6B30/73A8DA4B995FED16" Ref="TP5"  Part="1"
+F 0 "TP5" H 10800 1400 42  0000 L BNN
+F 1 "SMD-PAD_0.2X0.2" H 10800 1100 42  0000 L BNN
+F 2 "component_tester:PAD_0.2X0.2" H 10800 1300 50  0001 C CNN
+F 3 "" H 10800 1300 50  0001 C CNN
+	1    10800 1300
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP6
+U 1 0 DD98622291487DA1
+P 11100 1300
+AR Path="/DD98622291487DA1" Ref="TP6"  Part="1"
+AR Path="/5B1C6B30/DD98622291487DA1" Ref="TP6"  Part="1"
+F 0 "TP6" H 11100 1400 42  0000 L BNN
+F 1 "SMD-PAD_0.2X0.2" H 11100 1100 42  0000 L BNN
+F 2 "component_tester:PAD_0.2X0.2" H 11100 1300 50  0001 C CNN
+F 3 "" H 11100 1300 50  0001 C CNN
+	1    11100 1300
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:C0603 C10
+U 1 0 2BC8C3E3DD386927
+P 8100 3200
+AR Path="/2BC8C3E3DD386927" Ref="C10"  Part="1"
+AR Path="/5B1C6B30/2BC8C3E3DD386927" Ref="C10"  Part="1"
+F 0 "C10" H 8000 3300 59  0000 L BNN
+F 1 "V 3p" H 8200 3100 59  0000 L BNN
+F 2 "component_tester:C0603" H 8100 3200 50  0001 C CNN
+F 3 "" H 8100 3200 50  0001 C CNN
+	1    8100 3200
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:C0603 C11
+U 1 0 32A747533BC6B6B4
+P 8400 3200
+AR Path="/32A747533BC6B6B4" Ref="C11"  Part="1"
+AR Path="/5B1C6B30/32A747533BC6B6B4" Ref="C11"  Part="1"
+F 0 "C11" H 8300 3300 59  0000 L BNN
+F 1 "V 3p" H 8500 3100 59  0000 L BNN
+F 2 "component_tester:C0603" H 8400 3200 50  0001 C CNN
+F 3 "" H 8400 3200 50  0001 C CNN
+	1    8400 3200
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:C0603 C12
+U 1 0 5519AC0030851FE9
+P 8700 3200
+AR Path="/5519AC0030851FE9" Ref="C12"  Part="1"
+AR Path="/5B1C6B30/5519AC0030851FE9" Ref="C12"  Part="1"
+F 0 "C12" H 8600 3300 59  0000 L BNN
+F 1 "V 3p" H 8800 3100 59  0000 L BNN
+F 2 "component_tester:C0603" H 8700 3200 50  0001 C CNN
+F 3 "" H 8700 3200 50  0001 C CNN
+	1    8700 3200
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND18
+U 1 0 15FCDF69E0081D19
+P 8100 3600
+AR Path="/15FCDF69E0081D19" Ref="#GND18"  Part="1"
+AR Path="/5B1C6B30/15FCDF69E0081D19" Ref="#GND018"  Part="1"
+F 0 "#GND018" H 8100 3600 50  0001 C CNN
+F 1 "GND" H 8000 3500 59  0000 L BNN
+F 2 "" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND19
+U 1 0 906FD9F448B3EBD8
+P 8400 3600
+AR Path="/906FD9F448B3EBD8" Ref="#GND19"  Part="1"
+AR Path="/5B1C6B30/906FD9F448B3EBD8" Ref="#GND019"  Part="1"
+F 0 "#GND019" H 8400 3600 50  0001 C CNN
+F 1 "GND" H 8300 3500 59  0000 L BNN
+F 2 "" H 8400 3600 50  0001 C CNN
+F 3 "" H 8400 3600 50  0001 C CNN
+	1    8400 3600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND20
+U 1 0 1D4613EF2DF12463
+P 8700 3600
+AR Path="/1D4613EF2DF12463" Ref="#GND20"  Part="1"
+AR Path="/5B1C6B30/1D4613EF2DF12463" Ref="#GND020"  Part="1"
+F 0 "#GND020" H 8700 3600 50  0001 C CNN
+F 1 "GND" H 8600 3500 59  0000 L BNN
+F 2 "" H 8700 3600 50  0001 C CNN
+F 3 "" H 8700 3600 50  0001 C CNN
+	1    8700 3600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R18
+U 1 0 5470D4766A070FAE
+P 3800 7500
+AR Path="/5470D4766A070FAE" Ref="R18"  Part="1"
+AR Path="/5B1C6B30/5470D4766A070FAE" Ref="R18"  Part="1"
+F 0 "R18" H 3650 7550 59  0001 L BNN
+F 1 "10k" H 3650 7350 59  0001 L BNN
+F 2 "component_tester:R0805" H 3800 7500 50  0001 C CNN
+F 3 "" H 3800 7500 50  0001 C CNN
+	1    3800 7500
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND23
+U 1 0 A861C119C7080FD3
+P 3800 7800
+AR Path="/A861C119C7080FD3" Ref="#GND23"  Part="1"
+AR Path="/5B1C6B30/A861C119C7080FD3" Ref="#GND023"  Part="1"
+F 0 "#GND023" H 3800 7800 50  0001 C CNN
+F 1 "GND" H 3700 7700 59  0000 L BNN
+F 2 "" H 3800 7800 50  0001 C CNN
+F 3 "" H 3800 7800 50  0001 C CNN
+	1    3800 7800
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:VCC #P+1
+U 1 0 93600057BCDF72C5
+P 1800 5300
+AR Path="/93600057BCDF72C5" Ref="#P+1"  Part="1"
+AR Path="/5B1C6B30/93600057BCDF72C5" Ref="#P+01"  Part="1"
+F 0 "#P+01" H 1800 5300 50  0001 C CNN
+F 1 "VCC" V 1700 5200 59  0000 L BNN
+F 2 "" H 1800 5300 50  0001 C CNN
+F 3 "" H 1800 5300 50  0001 C CNN
+	1    1800 5300
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND27
+U 1 0 2524E78419D9C11
+P 6200 5900
+AR Path="/2524E78419D9C11" Ref="#GND27"  Part="1"
+AR Path="/5B1C6B30/2524E78419D9C11" Ref="#GND027"  Part="1"
+F 0 "#GND027" H 6200 5900 50  0001 C CNN
+F 1 "GND" H 6100 5800 59  0000 L BNN
+F 2 "" H 6200 5900 50  0001 C CNN
+F 3 "" H 6200 5900 50  0001 C CNN
+	1    6200 5900
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R19
+U 1 0 41B133A76954CAE3
+P 6700 6600
+AR Path="/41B133A76954CAE3" Ref="R19"  Part="1"
+AR Path="/5B1C6B30/41B133A76954CAE3" Ref="R19"  Part="1"
+F 0 "R19" H 6550 6650 59  0001 L BNN
+F 1 "10k" H 6550 6450 59  0001 L BNN
+F 2 "component_tester:R0805" H 6700 6600 50  0001 C CNN
+F 3 "" H 6700 6600 50  0001 C CNN
+	1    6700 6600
+	-1   0    0    1
+$EndComp
+$Comp
+L component_tester-eagle-import:BSS84 T5
+U 1 0 405680EADAE672BE
+P 3500 7200
+AR Path="/405680EADAE672BE" Ref="T5"  Part="1"
+AR Path="/5B1C6B30/405680EADAE672BE" Ref="T5"  Part="1"
+F 0 "T5" H 3600 7200 59  0000 L BNN
+F 1 "BSS84" H 3600 7100 59  0000 L BNN
+F 2 "component_tester:SOT23" H 3500 7200 50  0001 C CNN
+F 3 "" H 3500 7200 50  0001 C CNN
+	1    3500 7200
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND28
+U 1 0 1446A4090345B4CC
+P 4300 7800
+AR Path="/1446A4090345B4CC" Ref="#GND28"  Part="1"
+AR Path="/5B1C6B30/1446A4090345B4CC" Ref="#GND028"  Part="1"
+F 0 "#GND028" H 4300 7800 50  0001 C CNN
+F 1 "GND" H 4200 7700 59  0000 L BNN
+F 2 "" H 4300 7800 50  0001 C CNN
+F 3 "" H 4300 7800 50  0001 C CNN
+	1    4300 7800
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND29
+U 1 0 450F114DBFC01DE5
+P 2900 7900
+AR Path="/450F114DBFC01DE5" Ref="#GND29"  Part="1"
+AR Path="/5B1C6B30/450F114DBFC01DE5" Ref="#GND029"  Part="1"
+F 0 "#GND029" H 2900 7900 50  0001 C CNN
+F 1 "GND" H 2800 7800 59  0000 L BNN
+F 2 "" H 2900 7900 50  0001 C CNN
+F 3 "" H 2900 7900 50  0001 C CNN
+	1    2900 7900
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:CPOL-EUD_7343-31W C15
+U 1 0 1DC177F378F9F006
+P 2200 4300
+AR Path="/1DC177F378F9F006" Ref="C15"  Part="1"
+AR Path="/5B1C6B30/1DC177F378F9F006" Ref="C15"  Part="1"
+F 0 "C15" H 2245 4319 59  0001 L BNN
+F 1 "100u" H 2245 4119 59  0001 L BNN
+F 2 "component_tester:D_7343-31W" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:+5V #+5V7
+U 1 0 BC662C5A60B97BFF
+P 2200 7100
+AR Path="/BC662C5A60B97BFF" Ref="#+5V7"  Part="1"
+AR Path="/5B1C6B30/BC662C5A60B97BFF" Ref="#+5V07"  Part="1"
+F 0 "#+5V07" H 2200 7100 50  0001 C CNN
+F 1 "BAT+" V 2100 6900 59  0000 L BNN
+F 2 "" H 2200 7100 50  0001 C CNN
+F 3 "" H 2200 7100 50  0001 C CNN
+	1    2200 7100
+	0    -1   -1   0
+$EndComp
+$Comp
+L component_tester-eagle-import:BAV99 D2
+U 1 0 4C475A1A20478EC3
+P 2500 6300
+AR Path="/4C475A1A20478EC3" Ref="D2"  Part="1"
+AR Path="/5B1C6B30/4C475A1A20478EC3" Ref="D2"  Part="1"
+F 0 "D2" H 2400 6500 59  0000 L BNN
+F 1 "BAV99" H 2450 6050 59  0000 L BNN
+F 2 "component_tester:SOT23" H 2500 6300 50  0001 C CNN
+F 3 "" H 2500 6300 50  0001 C CNN
+	1    2500 6300
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:R0805 R20
+U 1 0 1DF2EA82A5EEF4AE
+P 5900 7100
+AR Path="/1DF2EA82A5EEF4AE" Ref="R20"  Part="1"
+AR Path="/5B1C6B30/1DF2EA82A5EEF4AE" Ref="R20"  Part="1"
+F 0 "R20" H 5750 7150 59  0001 L BNN
+F 1 "10k" H 5750 6950 59  0001 L BNN
+F 2 "component_tester:R0805" H 5900 7100 50  0001 C CNN
+F 3 "" H 5900 7100 50  0001 C CNN
+	1    5900 7100
+	0    1    1    0
+$EndComp
+$Comp
+L component_tester-eagle-import:BAS40 D5
+U 1 0 E8A02D8F73B70CE6
+P 6100 6600
+AR Path="/E8A02D8F73B70CE6" Ref="D5"  Part="1"
+AR Path="/5B1C6B30/E8A02D8F73B70CE6" Ref="D5"  Part="1"
+F 0 "D5" H 6200 6700 59  0001 L BNN
+F 1 "BAS40" H 6200 6500 59  0001 L BNN
+F 2 "component_tester:SOT23" H 6100 6600 50  0001 C CNN
+F 3 "" H 6100 6600 50  0001 C CNN
+	1    6100 6600
+	1    0    0    -1
+$EndComp
+$Comp
+L component_tester-eagle-import:GND #GND38
+U 1 0 C6FB8FD59C9B1271
+P 5900 7500
+AR Path="/C6FB8FD59C9B1271" Ref="#GND38"  Part="1"
+AR Path="/5B1C6B30/C6FB8FD59C9B1271" Ref="#GND038"  Part="1"
+F 0 "#GND038" H 5900 7500 50  0001 C CNN
+F 1 "GND" H 5800 7400 59  0000 L BNN
+F 2 "" H 5900 7500 50  0001 C CNN
+F 3 "" H 5900 7500 50  0001 C CNN
+	1    5900 7500
+	1    0    0    -1
+$EndComp
+Text Notes 10900 7800 0    100  ~ 0
+>REV
+Text Notes 7500 7100 0    254  ~ 0
+Bauteiltester
+Text Notes 2500 7600 0    59   ~ 0
+Knopfzelle
+Text Notes 2600 7600 0    59   ~ 0
+CR2032
+Text Notes 7300 1200 0    85   ~ 0
+Bedienteil
+Text Notes 9200 5800 0    85   ~ 0
+Supply-Netze:
+Text Notes 9200 6600 0    85   ~ 0
++5V = Spannungsregler-Ausgang
+Text Notes 9200 6200 0    85   ~ 0
+VCC = 5V vom USB
+Text Notes 9200 6400 0    85   ~ 0
+VI = Spannungsregler-Eingang
+Text Notes 9200 6000 0    85   ~ 0
+BAT+ = 3V von Lithiumzelle
+Text Notes 9800 1200 0    85   ~ 0
+Reserve
+Text Notes 1100 4300 0    127  ~ 0
+K.-H. Kübbeler, DF3DCB, DH8GHH
+Text GLabel 2600 7200 0    10   BiDi ~ 0
++
+$EndSCHEMATC
