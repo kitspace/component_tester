@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:component_tester-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,15 +47,37 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1000 1000 500  150
+S 1000 1000 500  150 
 U 5B1C6B30
 F0 "component_tester_1" 50
 F1 "component_tester_1.sch" 50
 $EndSheet
 $Sheet
-S 3000 1000 500  150
+S 3000 1000 500  150 
 U 5B1C713A
 F0 "component_tester_2" 50
 F1 "component_tester_2.sch" 50
 $EndSheet
+$Comp
+L Connector_Generic:Conn_01x01 DRAWING1
+U 1 1 5B1C60C2
+P 1425 1775
+F 0 "DRAWING1" H 1504 1817 50  0000 L CNN
+F 1 "DRAWING" H 1504 1726 50  0000 L CNN
+F 2 "drawings:combined" H 1425 1775 50  0001 C CNN
+F 3 "~" H 1425 1775 50  0001 C CNN
+	1    1425 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 DRAWING2
+U 1 1 5B1C63ED
+P 1400 2125
+F 0 "DRAWING2" H 1480 2167 50  0000 L CNN
+F 1 "DRAWING" H 1480 2076 50  0000 L CNN
+F 2 "drawings:pads" H 1400 2125 50  0001 C CNN
+F 3 "~" H 1400 2125 50  0001 C CNN
+	1    1400 2125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
