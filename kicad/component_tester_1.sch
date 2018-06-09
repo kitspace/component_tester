@@ -680,19 +680,6 @@ F 3 "" H 900 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:DINA4_L #FRAME1
-U 2 0 80664ACC4FD11FDE
-P 7300 8100
-AR Path="/80664ACC4FD11FDE" Ref="#FRAME1"  Part="2" 
-AR Path="/5B1C6B30/80664ACC4FD11FDE" Ref="#FRAME1"  Part="2" 
-F 0 "#FRAME1" H 7300 8100 50  0001 C CNN
-F 1 "FiFi" H 7300 8100 50  0001 C CNN
-F 2 "" H 7300 8100 50  0001 C CNN
-F 3 "" H 7300 8100 50  0001 C CNN
-	2    7300 8100
-	1    0    0    -1  
-$EndComp
-$Comp
 L component_tester-eagle-import:MEGA48_88_168-AU IC1
 U 1 0 7C8C299E06F92037
 P 4200 3900
@@ -2005,10 +1992,6 @@ F 3 "" H 5900 7500 50  0001 C CNN
 	1    5900 7500
 	1    0    0    -1  
 $EndComp
-Text Notes 10900 7800 0    100  ~ 0
->REV
-Text Notes 7500 7100 0    254  ~ 0
-Bauteiltester
 Text Notes 2500 7600 0    59   ~ 0
 Knopfzelle
 Text Notes 2600 7600 0    59   ~ 0

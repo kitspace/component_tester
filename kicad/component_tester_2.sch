@@ -36,7 +36,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 12098 8268
 encoding utf-8
-Sheet 1 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -215,19 +215,6 @@ F 1 "DINA4_L" H 900 6700 50  0001 C CNN
 F 2 "" H 900 6700 50  0001 C CNN
 F 3 "" H 900 6700 50  0001 C CNN
 	1    900  6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:DINA4_L #FRAME2
-U 2 0 D06FCA34DFE0E5AC
-P 7300 6700
-AR Path="/D06FCA34DFE0E5AC" Ref="#FRAME2"  Part="2" 
-AR Path="/5B1C713A/D06FCA34DFE0E5AC" Ref="#FRAME2"  Part="2" 
-F 0 "#FRAME2" H 7300 6700 50  0001 C CNN
-F 1 "DINA4_L" H 7300 6700 50  0001 C CNN
-F 2 "" H 7300 6700 50  0001 C CNN
-F 3 "" H 7300 6700 50  0001 C CNN
-	2    7300 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -607,10 +594,6 @@ F 3 "" H 3300 4600 50  0001 C CNN
 	1    3300 4600
 	-1   0    0    1   
 $EndComp
-Text Notes 7500 5700 0    254  ~ 0
-Optionen
-Text Notes 10900 6400 0    100  ~ 0
->REV
 Text Notes 1600 1700 0    170  ~ 0
 Option USB-Ausgabe
 Text Notes 7100 1700 0    170  ~ 0
