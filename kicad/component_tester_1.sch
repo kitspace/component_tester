@@ -47,43 +47,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	10200 3700 5400 3700
-Wire Wire Line
-	5400 3800 10200 3800
-Wire Wire Line
-	5400 3900 10200 3900
-Wire Wire Line
-	5400 4000 10200 4000
-Wire Wire Line
-	5400 4200 9700 4200
-Wire Wire Line
-	9700 4200 9700 3200
-Wire Wire Line
-	9700 3200 10200 3200
-Wire Wire Line
-	10200 3600 9950 3600
-Wire Wire Line
-	9950 3600 9950 3500
-Wire Wire Line
-	9950 3500 9950 3400
-Wire Wire Line
-	9950 3400 9950 3300
-Wire Wire Line
-	9950 3300 9800 3300
-Wire Wire Line
-	9800 3300 9800 3400
-Wire Wire Line
-	10200 3300 9950 3300
-Wire Wire Line
-	10200 3400 9950 3400
-Wire Wire Line
-	10200 3500 9950 3500
-Connection ~ 9950 3300
-Connection ~ 9950 3400
-Connection ~ 9950 3500
-Text GLabel 10200 3600 0    10   BiDi ~ 0
-GND
-Wire Wire Line
 	1800 3200 1900 3200
 Text GLabel 1800 3200 0    10   BiDi ~ 0
 GND
@@ -134,14 +97,6 @@ Connection ~ 5300 7800
 Text GLabel 5400 7800 0    10   BiDi ~ 0
 GND
 Wire Wire Line
-	10100 2700 10200 2700
-Text GLabel 10100 2700 0    10   BiDi ~ 0
-GND
-Wire Wire Line
-	10100 3100 10200 3100
-Text GLabel 10100 3100 0    10   BiDi ~ 0
-GND
-Wire Wire Line
 	7100 6800 7100 7200
 Text GLabel 7100 6800 0    10   BiDi ~ 0
 GND
@@ -154,14 +109,10 @@ Wire Wire Line
 Text GLabel 5400 2300 0    10   BiDi ~ 0
 GND
 Wire Wire Line
-	9400 3200 9400 3100
-Text GLabel 9400 3200 0    10   BiDi ~ 0
-GND
-Wire Wire Line
 	1700 6100 1700 6900
 Wire Wire Line
 	1600 6100 1700 6100
-Text GLabel 1700 6100 0    10   BiDi ~ 0
+Text GLabel 1700 6100 1    10   BiDi ~ 0
 GND
 Wire Wire Line
 	8600 5200 8900 5200
@@ -395,10 +346,6 @@ Wire Wire Line
 Text Label 1700 2800 0    10   ~ 0
 +5V
 Wire Wire Line
-	9900 2800 10200 2800
-Text Label 9900 2800 0    10   ~ 0
-+5V
-Wire Wire Line
 	5400 1200 5400 1300
 Text Label 5400 1200 0    10   ~ 0
 +5V
@@ -431,10 +378,6 @@ Wire Wire Line
 Text Label 8600 5000 0    10   ~ 0
 +5V
 Wire Wire Line
-	9400 2700 9400 2600
-Text Label 9400 2700 0    10   ~ 0
-+5V
-Wire Wire Line
 	2600 2800 2800 2800
 Wire Wire Line
 	2800 2800 3000 2800
@@ -462,12 +405,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 7200 4700 7200
 Connection ~ 5000 7200
-Wire Wire Line
-	10200 3000 9600 3000
-Wire Wire Line
-	9600 3000 9600 4100
-Wire Wire Line
-	9600 4100 5400 4100
 Wire Wire Line
 	5400 3300 5600 3300
 Wire Wire Line
@@ -510,8 +447,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 1800 5400 1800
 Connection ~ 5400 1800
-Wire Wire Line
-	10200 2900 9600 2900
 Wire Wire Line
 	8100 1400 8100 1700
 Text Label 8100 1400 0    10   ~ 0
@@ -596,7 +531,7 @@ Wire Wire Line
 Connection ~ 1900 6700
 Connection ~ 1800 6500
 Connection ~ 1900 6500
-Text GLabel 1600 6500 0    10   BiDi ~ 0
+Text GLabel 1600 6500 1    10   BiDi ~ 0
 VCC
 Wire Wire Line
 	2700 7200 2700 7100
@@ -611,19 +546,19 @@ Wire Wire Line
 	1600 6400 2000 6400
 Wire Wire Line
 	2000 6400 2000 6000
-Text GLabel 2000 6000 3    70   BiDi ~ 0
+Text GLabel 2000 6000 1    70   BiDi ~ 0
 USBDM
 Wire Wire Line
 	1600 6300 2200 6300
 Wire Wire Line
 	2200 6300 2200 6000
-Text GLabel 2200 6000 3    70   BiDi ~ 0
+Text GLabel 2200 6000 1    70   BiDi ~ 0
 USBDP
 Wire Wire Line
 	5400 3100 6600 3100
 Wire Wire Line
 	6600 3100 6600 2200
-Text GLabel 6600 2200 3    70   BiDi ~ 0
+Text GLabel 6600 2200 1    70   BiDi ~ 0
 SEROUT
 Wire Wire Line
 	5400 4300 6400 4300
@@ -645,7 +580,7 @@ Wire Wire Line
 Connection ~ 3800 7200
 Wire Wire Line
 	2500 6100 2500 6000
-Text GLabel 2500 6000 3    70   BiDi ~ 0
+Text GLabel 2500 6000 1    70   BiDi ~ 0
 SUP_UART
 Wire Wire Line
 	5900 6900 5900 6600
@@ -712,7 +647,7 @@ P 1400 6300
 AR Path="/97C2823C753049C4" Ref="X1"  Part="1" 
 AR Path="/5B1C6B30/97C2823C753049C4" Ref="X1"  Part="1" 
 F 0 "X1" H 1300 6800 70  0000 L BNN
-F 1 "MINI-USB" H 1300 6700 70  0000 L BNN
+F 1 "MICRO-USB" H 1300 6700 70  0000 L BNN
 F 2 "component_tester:MINI-USB-B5" H 1400 6300 50  0001 C CNN
 F 3 "" H 1400 6300 50  0001 C CNN
 	1    1400 6300
@@ -743,19 +678,6 @@ F 2 "component_tester:TASTER-RACON8SMD" H 5200 5900 50  0001 C CNN
 F 3 "" H 5200 5900 50  0001 C CNN
 	1    5200 5900
 	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:LCD-FFC10-16X2TOP LCD1
-U 1 0 5F41E3BF808094CA
-P 10600 3400
-AR Path="/5F41E3BF808094CA" Ref="LCD1"  Part="1" 
-AR Path="/5B1C6B30/5F41E3BF808094CA" Ref="LCD1"  Part="1" 
-F 0 "LCD1" H 9800 3950 59  0000 L BNN
-F 1 "LCD-FFC10-16X2" H 10550 3950 59  0000 L BNN
-F 2 "component_tester:FFC_14P_1MM_TOP" H 10600 3400 50  0001 C CNN
-F 3 "" H 10600 3400 50  0001 C CNN
-	1    10600 3400
-	0    1    1    0   
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C1
@@ -808,19 +730,6 @@ F 2 "" H 1700 3800 50  0001 C CNN
 F 3 "" H 1700 3800 50  0001 C CNN
 	1    1700 3800
 	0    1    1    0   
-$EndComp
-$Comp
-L component_tester-eagle-import:GND #GND3
-U 1 0 21A7002F7679BDCC
-P 9800 3500
-AR Path="/21A7002F7679BDCC" Ref="#GND3"  Part="1" 
-AR Path="/5B1C6B30/21A7002F7679BDCC" Ref="#GND03"  Part="1" 
-F 0 "#GND03" H 9800 3500 50  0001 C CNN
-F 1 "GND" H 9700 3400 59  0000 L BNN
-F 2 "" H 9800 3500 50  0001 C CNN
-F 3 "" H 9800 3500 50  0001 C CNN
-	1    9800 3500
-	1    0    0    -1  
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R1
@@ -1070,45 +979,6 @@ F 3 "" H 5000 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND10
-U 1 0 F47101845C69E3
-P 10000 2700
-AR Path="/F47101845C69E3" Ref="#GND10"  Part="1" 
-AR Path="/5B1C6B30/F47101845C69E3" Ref="#GND010"  Part="1" 
-F 0 "#GND010" H 10000 2700 50  0001 C CNN
-F 1 "GND" H 9900 2600 59  0000 L BNN
-F 2 "" H 10000 2700 50  0001 C CNN
-F 3 "" H 10000 2700 50  0001 C CNN
-	1    10000 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L component_tester-eagle-import:+5V #+5V4
-U 1 0 F92D85D269AA9727
-P 9800 2800
-AR Path="/F92D85D269AA9727" Ref="#+5V4"  Part="1" 
-AR Path="/5B1C6B30/F92D85D269AA9727" Ref="#+5V04"  Part="1" 
-F 0 "#+5V04" H 9800 2800 50  0001 C CNN
-F 1 "+5V" V 9700 2600 59  0000 L BNN
-F 2 "" H 9800 2800 50  0001 C CNN
-F 3 "" H 9800 2800 50  0001 C CNN
-	1    9800 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:GND #GND11
-U 1 0 25F2C17319DA8D48
-P 10000 3100
-AR Path="/25F2C17319DA8D48" Ref="#GND11"  Part="1" 
-AR Path="/5B1C6B30/25F2C17319DA8D48" Ref="#GND011"  Part="1" 
-F 0 "#GND011" H 10000 3100 50  0001 C CNN
-F 1 "GND" H 9900 3000 59  0000 L BNN
-F 2 "" H 10000 3100 50  0001 C CNN
-F 3 "" H 10000 3100 50  0001 C CNN
-	1    10000 3100
-	0    1    1    0   
-$EndComp
-$Comp
 L component_tester-eagle-import:R0805 R10
 U 1 0 B36C6E30D74182C5
 P 4200 5600
@@ -1262,45 +1132,6 @@ F 1 "GND" H 5300 2400 59  0000 L BNN
 F 2 "" H 5400 2500 50  0001 C CNN
 F 3 "" H 5400 2500 50  0001 C CNN
 	1    5400 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:POTI_ACP6SMD R15
-U 1 0 FBFB61278104E241
-P 9400 2900
-AR Path="/FBFB61278104E241" Ref="R15"  Part="1" 
-AR Path="/5B1C6B30/FBFB61278104E241" Ref="R15"  Part="1" 
-F 0 "R15" H 9250 3135 59  0001 L BNN
-F 1 "10k" H 9250 3050 59  0001 L BNN
-F 2 "component_tester:POTI_ACP6-SMD" H 9400 2900 50  0001 C CNN
-F 3 "" H 9400 2900 50  0001 C CNN
-	1    9400 2900
-	0    -1   1    0   
-$EndComp
-$Comp
-L component_tester-eagle-import:GND #GND15
-U 1 0 CBE454F257B06B4
-P 9400 3300
-AR Path="/CBE454F257B06B4" Ref="#GND15"  Part="1" 
-AR Path="/5B1C6B30/CBE454F257B06B4" Ref="#GND015"  Part="1" 
-F 0 "#GND015" H 9400 3300 50  0001 C CNN
-F 1 "GND" H 9300 3200 59  0000 L BNN
-F 2 "" H 9400 3300 50  0001 C CNN
-F 3 "" H 9400 3300 50  0001 C CNN
-	1    9400 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:+5V #+5V6
-U 1 0 393C5AB363AB7CC1
-P 9400 2500
-AR Path="/393C5AB363AB7CC1" Ref="#+5V6"  Part="1" 
-AR Path="/5B1C6B30/393C5AB363AB7CC1" Ref="#+5V06"  Part="1" 
-F 0 "#+5V06" H 9400 2500 50  0001 C CNN
-F 1 "+5V" V 9300 2300 59  0000 L BNN
-F 2 "" H 9400 2500 50  0001 C CNN
-F 3 "" H 9400 2500 50  0001 C CNN
-	1    9400 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1992,9 +1823,9 @@ F 3 "" H 5900 7500 50  0001 C CNN
 	1    5900 7500
 	1    0    0    -1  
 $EndComp
-Text Notes 2500 7600 0    59   ~ 0
+Text Notes 2075 7475 0    59   ~ 0
 Knopfzelle
-Text Notes 2600 7600 0    59   ~ 0
+Text Notes 2100 7575 0    59   ~ 0
 CR2032
 Text Notes 7300 1200 0    85   ~ 0
 Bedienteil
@@ -2010,7 +1841,7 @@ Text Notes 9200 6000 0    85   ~ 0
 BAT+ = 3V von Lithiumzelle
 Text Notes 9800 1200 0    85   ~ 0
 Reserve
-Text Notes 1100 4300 0    127  ~ 0
+Text Notes 1100 2000 0    127  ~ 0
 K.-H. Kübbeler, DF3DCB, DH8GHH
 Text GLabel 2600 7200 0    10   BiDi ~ 0
 +
