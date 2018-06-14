@@ -18,6 +18,27 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic:Conn_01x03
+#
+DEF Connector_Generic:Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic:Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic:Conn_01x30
 #
 DEF Connector_Generic:Conn_01x30 J 0 40 Y N 1 F N
@@ -724,19 +745,6 @@ X P$2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# component_tester-eagle-import:SMD-PAD_0.2X0.2
-#
-DEF component_tester-eagle-import:SMD-PAD_0.2X0.2 GT 0 40 Y Y 1 F N
-F0 "GT" 0 100 42 H V L BNN
-F1 "component_tester-eagle-import:SMD-PAD_0.2X0.2" 0 -200 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 100 0 100 1 0 10 N
-X P$1 P$1 -100 0 200 R 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # component_tester-eagle-import:SMD-QUARZ
 #
 DEF component_tester-eagle-import:SMD-QUARZ Q 0 40 Y Y 1 F N
@@ -791,23 +799,6 @@ P 2 1 0 0 50 150 50 -150 N
 X 1 P$1 0 100 0 R 0 50 1 0 P
 X 2 P$2 0 0 0 R 0 50 1 0 P
 X 3 P$3 0 -100 0 R 0 50 1 0 P
-ENDDRAW
-ENDDEF
-#
-# component_tester-eagle-import:STIFT_WINKL_SMD
-#
-DEF component_tester-eagle-import:STIFT_WINKL_SMD X 0 40 Y Y 1 F N
-F0 "X" -50 50 42 H V L BNN
-F1 "component_tester-eagle-import:STIFT_WINKL_SMD" -50 -100 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 40 1 0 10 N
-P 2 1 0 0 -50 -50 -50 50 N
-P 2 1 0 0 -50 50 50 50 N
-P 2 1 0 0 50 -50 -50 -50 N
-P 2 1 0 0 50 50 50 -50 N
-X 1 P$1 0 0 0 R 0 50 1 0 P
 ENDDRAW
 ENDDEF
 #

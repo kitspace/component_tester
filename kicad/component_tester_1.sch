@@ -211,8 +211,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 2425 8400 1925
 Wire Wire Line
-	8400 1925 8400 1525
-Wire Wire Line
 	8400 2425 9000 2425
 Wire Wire Line
 	8000 1925 8400 1925
@@ -389,30 +387,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 1325 5400 1325
 Connection ~ 5400 1325
-Wire Wire Line
-	8100 925  8100 1225
-Text Label 8100 925  0    10   ~ 0
-SEG1
-Wire Wire Line
-	10500 1400 10500 1700
-Text Label 10500 1400 0    10   ~ 0
-SEG1
-Wire Wire Line
-	8400 925  8400 1225
-Text Label 8400 925  0    10   ~ 0
-SEG2
-Wire Wire Line
-	10800 1400 10800 1700
-Text Label 10800 1400 0    10   ~ 0
-SEG2
-Wire Wire Line
-	8700 925  8700 1225
-Text Label 8700 925  0    10   ~ 0
-SEG3
-Wire Wire Line
-	11100 1400 11100 1700
-Text Label 11100 1400 0    10   ~ 0
-SEG3
 Wire Wire Line
 	3300 5600 4000 5600
 Wire Wire Line
@@ -1198,123 +1172,6 @@ F 3 "" H 2300 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:STIFT_WINKL_SMD X3
-U 1 0 FAACAABDE320087E
-P 8700 1225
-AR Path="/FAACAABDE320087E" Ref="X3"  Part="1" 
-AR Path="/5B1C6B30/FAACAABDE320087E" Ref="X3"  Part="1" 
-F 0 "X3" H 8650 1275 42  0000 L BNN
-F 1 "P3" H 8650 1125 42  0000 L BNN
-F 2 "component_tester:STIFT_WINKL_SMD" H 8700 1225 50  0001 C CNN
-F 3 "" H 8700 1225 50  0001 C CNN
-	1    8700 1225
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT_WINKL_SMD X4
-U 1 0 68838991BE011171
-P 8100 1225
-AR Path="/68838991BE011171" Ref="X4"  Part="1" 
-AR Path="/5B1C6B30/68838991BE011171" Ref="X4"  Part="1" 
-F 0 "X4" H 8050 1275 42  0000 L BNN
-F 1 "P1" H 8050 1125 42  0000 L BNN
-F 2 "component_tester:STIFT_WINKL_SMD" H 8100 1225 50  0001 C CNN
-F 3 "" H 8100 1225 50  0001 C CNN
-	1    8100 1225
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT_WINKL_SMD X5
-U 1 0 E86443E4A255B1EE
-P 8400 1225
-AR Path="/E86443E4A255B1EE" Ref="X5"  Part="1" 
-AR Path="/5B1C6B30/E86443E4A255B1EE" Ref="X5"  Part="1" 
-F 0 "X5" H 8350 1275 42  0000 L BNN
-F 1 "P2" H 8350 1125 42  0000 L BNN
-F 2 "component_tester:STIFT_WINKL_SMD" H 8400 1225 50  0001 C CNN
-F 3 "" H 8400 1225 50  0001 C CNN
-	1    8400 1225
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP1
-U 1 0 23AD0592E5F42BB8
-P 8100 825
-AR Path="/23AD0592E5F42BB8" Ref="TP1"  Part="1" 
-AR Path="/5B1C6B30/23AD0592E5F42BB8" Ref="TP1"  Part="1" 
-F 0 "TP1" H 8100 925 42  0000 L BNN
-F 1 "SMD-PAD_0.2X0.2" H 8100 625 42  0000 L BNN
-F 2 "component_tester:PAD_0.2X0.2" H 8100 825 50  0001 C CNN
-F 3 "" H 8100 825 50  0001 C CNN
-	1    8100 825 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP2
-U 1 0 E74EB8BB93FB0C53
-P 8400 825
-AR Path="/E74EB8BB93FB0C53" Ref="TP2"  Part="1" 
-AR Path="/5B1C6B30/E74EB8BB93FB0C53" Ref="TP2"  Part="1" 
-F 0 "TP2" H 8400 925 42  0000 L BNN
-F 1 "SMD-PAD_0.2X0.2" H 8400 625 42  0000 L BNN
-F 2 "component_tester:PAD_0.2X0.2" H 8400 825 50  0001 C CNN
-F 3 "" H 8400 825 50  0001 C CNN
-	1    8400 825 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP3
-U 1 0 584DF611AF7E6EF2
-P 8700 825
-AR Path="/584DF611AF7E6EF2" Ref="TP3"  Part="1" 
-AR Path="/5B1C6B30/584DF611AF7E6EF2" Ref="TP3"  Part="1" 
-F 0 "TP3" H 8700 925 42  0000 L BNN
-F 1 "SMD-PAD_0.2X0.2" H 8700 625 42  0000 L BNN
-F 2 "component_tester:PAD_0.2X0.2" H 8700 825 50  0001 C CNN
-F 3 "" H 8700 825 50  0001 C CNN
-	1    8700 825 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT X2
-U 1 0 41AC92D675B7B83E
-P 8100 1525
-AR Path="/41AC92D675B7B83E" Ref="X2"  Part="1" 
-AR Path="/5B1C6B30/41AC92D675B7B83E" Ref="X2"  Part="1" 
-F 0 "X2" H 8050 1575 42  0000 L BNN
-F 1 "P1" H 8050 1425 42  0000 L BNN
-F 2 "component_tester:STIFT" H 8100 1525 50  0001 C CNN
-F 3 "" H 8100 1525 50  0001 C CNN
-	1    8100 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT X7
-U 1 0 3487398A4F7F6ECF
-P 8400 1525
-AR Path="/3487398A4F7F6ECF" Ref="X7"  Part="1" 
-AR Path="/5B1C6B30/3487398A4F7F6ECF" Ref="X7"  Part="1" 
-F 0 "X7" H 8350 1575 42  0000 L BNN
-F 1 "P2" H 8350 1425 42  0000 L BNN
-F 2 "component_tester:STIFT" H 8400 1525 50  0001 C CNN
-F 3 "" H 8400 1525 50  0001 C CNN
-	1    8400 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT X8
-U 1 0 C4BA724395DCEF3A
-P 8700 1525
-AR Path="/C4BA724395DCEF3A" Ref="X8"  Part="1" 
-AR Path="/5B1C6B30/C4BA724395DCEF3A" Ref="X8"  Part="1" 
-F 0 "X8" H 8650 1575 42  0000 L BNN
-F 1 "P3" H 8650 1425 42  0000 L BNN
-F 2 "component_tester:STIFT" H 8700 1525 50  0001 C CNN
-F 3 "" H 8700 1525 50  0001 C CNN
-	1    8700 1525
-	1    0    0    -1  
-$EndComp
-$Comp
 L component_tester-eagle-import:C0603 C7
 U 1 0 A5B53786DB4051D7
 P 7900 1725
@@ -1404,84 +1261,6 @@ F 2 "component_tester:STIFTLEISTE_2,54MM_1X3_WI-SMD" H 9000 2425 50  0001 C CNN
 F 3 "" H 9000 2425 50  0001 C CNN
 	1    9000 2425
 	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT_WINKL_SMD X10
-U 1 0 AE0263B5337EA910
-P 11100 1700
-AR Path="/AE0263B5337EA910" Ref="X10"  Part="1" 
-AR Path="/5B1C6B30/AE0263B5337EA910" Ref="X10"  Part="1" 
-F 0 "X10" H 11050 1750 42  0000 L BNN
-F 1 "P3" H 11050 1600 42  0000 L BNN
-F 2 "component_tester:STIFT_WINKL_SMD" H 11100 1700 50  0001 C CNN
-F 3 "" H 11100 1700 50  0001 C CNN
-	1    11100 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT_WINKL_SMD X11
-U 1 0 6B8A5CC0C05B595F
-P 10500 1700
-AR Path="/6B8A5CC0C05B595F" Ref="X11"  Part="1" 
-AR Path="/5B1C6B30/6B8A5CC0C05B595F" Ref="X11"  Part="1" 
-F 0 "X11" H 10450 1750 42  0000 L BNN
-F 1 "P1" H 10450 1600 42  0000 L BNN
-F 2 "component_tester:STIFT_WINKL_SMD" H 10500 1700 50  0001 C CNN
-F 3 "" H 10500 1700 50  0001 C CNN
-	1    10500 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT_WINKL_SMD X12
-U 1 0 7136EED995599E8E
-P 10800 1700
-AR Path="/7136EED995599E8E" Ref="X12"  Part="1" 
-AR Path="/5B1C6B30/7136EED995599E8E" Ref="X12"  Part="1" 
-F 0 "X12" H 10750 1750 42  0000 L BNN
-F 1 "P2" H 10750 1600 42  0000 L BNN
-F 2 "component_tester:STIFT_WINKL_SMD" H 10800 1700 50  0001 C CNN
-F 3 "" H 10800 1700 50  0001 C CNN
-	1    10800 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP4
-U 1 0 42A89C514B4E01D4
-P 10500 1300
-AR Path="/42A89C514B4E01D4" Ref="TP4"  Part="1" 
-AR Path="/5B1C6B30/42A89C514B4E01D4" Ref="TP4"  Part="1" 
-F 0 "TP4" H 10500 1400 42  0000 L BNN
-F 1 "SMD-PAD_0.2X0.2" H 10500 1100 42  0000 L BNN
-F 2 "component_tester:PAD_0.2X0.2" H 10500 1300 50  0001 C CNN
-F 3 "" H 10500 1300 50  0001 C CNN
-	1    10500 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP5
-U 1 0 73A8DA4B995FED16
-P 10800 1300
-AR Path="/73A8DA4B995FED16" Ref="TP5"  Part="1" 
-AR Path="/5B1C6B30/73A8DA4B995FED16" Ref="TP5"  Part="1" 
-F 0 "TP5" H 10800 1400 42  0000 L BNN
-F 1 "SMD-PAD_0.2X0.2" H 10800 1100 42  0000 L BNN
-F 2 "component_tester:PAD_0.2X0.2" H 10800 1300 50  0001 C CNN
-F 3 "" H 10800 1300 50  0001 C CNN
-	1    10800 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:SMD-PAD_0.2X0.2 TP6
-U 1 0 DD98622291487DA1
-P 11100 1300
-AR Path="/DD98622291487DA1" Ref="TP6"  Part="1" 
-AR Path="/5B1C6B30/DD98622291487DA1" Ref="TP6"  Part="1" 
-F 0 "TP6" H 11100 1400 42  0000 L BNN
-F 1 "SMD-PAD_0.2X0.2" H 11100 1100 42  0000 L BNN
-F 2 "component_tester:PAD_0.2X0.2" H 11100 1300 50  0001 C CNN
-F 3 "" H 11100 1300 50  0001 C CNN
-	1    11100 1300
-	0    -1   -1   0   
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C10
@@ -1747,8 +1526,6 @@ Text Notes 2075 7475 0    59   ~ 0
 Knopfzelle
 Text Notes 2100 7575 0    59   ~ 0
 CR2032
-Text Notes 7300 725  0    85   ~ 0
-Bedienteil
 Text Notes 9200 5800 0    85   ~ 0
 Supply-Netze:
 Text Notes 9200 6600 0    85   ~ 0
@@ -1759,8 +1536,6 @@ Text Notes 9200 6400 0    85   ~ 0
 VI = Spannungsregler-Eingang
 Text Notes 9200 6000 0    85   ~ 0
 BAT+ = 3V von Lithiumzelle
-Text Notes 9800 1200 0    85   ~ 0
-Reserve
 Text Notes 725  725  0    127  ~ 0
 K.-H. Kübbeler, DF3DCB, DH8GHH
 Text GLabel 2600 7200 0    10   BiDi ~ 0
@@ -1868,14 +1643,55 @@ Wire Wire Line
 Wire Wire Line
 	5900 5025 5900 5900
 $Comp
-L Connector_Generic:Conn_01x30 J?
+L Connector_Generic:Conn_01x30 OLED1
 U 1 1 5B4AE6A8
 P 11025 3675
-F 0 "J?" H 11105 3667 50  0000 L CNN
+F 0 "OLED1" H 11105 3667 50  0000 L CNN
 F 1 "Conn_01x30" H 11105 3576 50  0000 L CNN
-F 2 "" H 11025 3675 50  0001 C CNN
+F 2 "component_tester:SSD1306" H 11025 3675 50  0001 C CNN
 F 3 "~" H 11025 3675 50  0001 C CNN
 	1    11025 3675
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 DRAWING2
+U 1 1 5B4B01B0
+P 8400 750
+F 0 "DRAWING2" H 8480 792 50  0000 L CNN
+F 1 "DRAWING" H 8480 701 50  0000 L CNN
+F 2 "drawings:pads" H 8400 750 50  0001 C CNN
+F 3 "~" H 8400 750 50  0001 C CNN
+	1    8400 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 DRAWING3
+U 1 1 5B4B01B7
+P 8400 1175
+F 0 "DRAWING3" H 8480 1217 50  0000 L CNN
+F 1 "DRAWING" H 8480 1126 50  0000 L CNN
+F 2 "drawings:pads_bottom" H 8400 1175 50  0001 C CNN
+F 3 "~" H 8400 1175 50  0001 C CNN
+	1    8400 1175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 1525 8100 1525
+Wire Wire Line
+	8400 1375 8400 1925
+Wire Wire Line
+	8500 1525 8700 1525
+Wire Wire Line
+	8300 1375 8300 1525
+Wire Wire Line
+	8500 1375 8500 1525
+Connection ~ 8300 1375
+Connection ~ 8400 1375
+Connection ~ 8500 1375
+Wire Wire Line
+	8300 950  8300 1375
+Wire Wire Line
+	8400 950  8400 1375
+Wire Wire Line
+	8500 950  8500 1375
 $EndSCHEMATC
