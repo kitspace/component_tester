@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name component_tester-eagle-import)(type Legacy)(uri ${KIPRJMOD}/component_tester-eagle-import.lib)(options "")(descr ""))
+  (lib (name component_tester)(type Legacy)(uri /home/kaspar/projects/component_tester/kicad/component_tester.lib)(options "")(descr ""))
 )
