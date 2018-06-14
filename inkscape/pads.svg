@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="88.662382"
-     inkscape:cy="83.187172"
+     inkscape:zoom="16"
+     inkscape:cx="112.64172"
+     inkscape:cy="71.782713"
      inkscape:document-units="mm"
-     inkscape:current-layer="g7341"
+     inkscape:current-layer="g4262"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="754"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -81,14 +81,6 @@
      inkscape:groupmode="layer"
      inkscape:label="Edge.Cuts" />
   <g
-     id="g7333"
-     inkscape:groupmode="layer"
-     inkscape:label="B.Cu-disabled" />
-  <g
-     id="g7335"
-     inkscape:groupmode="layer"
-     inkscape:label="B.Mask-disabled" />
-  <g
      id="g7337"
      inkscape:groupmode="layer"
      inkscape:label="B.Silk-disabled"
@@ -97,7 +89,7 @@
      id="g7339"
      inkscape:groupmode="layer"
      inkscape:label="F.Cu"
-     style="display:none;opacity:1">
+     style="display:inline;opacity:1">
     <path
        style="opacity:1;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.13874826;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 26.654358,26.678472 23.602831,26.914943 23.946789,30.949287 C 24.642771,30.957155 25.313437,30.970363 26.009437,30.977399 26.275723,30.359403 26.891932,29.081769 26.891932,29.081769 Z"
@@ -299,6 +291,70 @@
      inkscape:groupmode="layer"
      inkscape:label="F.Silk-disabled"
      style="display:inline" />
+  <g
+     id="g7333"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Cu">
+    <circle
+       inkscape:transform-center-y="1.0377439"
+       inkscape:transform-center-x="-4.7984624"
+       r="0.6182701"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16607063;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path7692-0-2-3"
+       cx="-28.585289"
+       cy="35.840992"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       inkscape:transform-center-y="1.0377439"
+       inkscape:transform-center-x="-4.7984624"
+       r="0.6182701"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16607063;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path7692-0-2-3-6"
+       cx="-31.12418"
+       cy="35.840992"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       inkscape:transform-center-y="1.0377439"
+       inkscape:transform-center-x="-4.7984624"
+       r="0.6182701"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16607063;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path7692-0-2-3-7"
+       cx="-33.663071"
+       cy="35.840992"
+       transform="matrix(0,-1,1,0,0,0)" />
+  </g>
+  <g
+     inkscape:label="B.Mask"
+     inkscape:groupmode="layer"
+     id="g4262">
+    <circle
+       transform="matrix(0,-1,1,0,0,0)"
+       cy="35.840992"
+       cx="-28.585289"
+       id="circle4264"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16607063;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="0.6182701"
+       inkscape:transform-center-x="-4.7984624"
+       inkscape:transform-center-y="1.0377439" />
+    <circle
+       transform="matrix(0,-1,1,0,0,0)"
+       cy="35.840992"
+       cx="-31.12418"
+       id="circle4266"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16607063;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="0.6182701"
+       inkscape:transform-center-x="-4.7984624"
+       inkscape:transform-center-y="1.0377439" />
+    <circle
+       transform="matrix(0,-1,1,0,0,0)"
+       cy="35.840992"
+       cx="-33.663071"
+       id="circle4268"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16607063;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="0.6182701"
+       inkscape:transform-center-x="-4.7984624"
+       inkscape:transform-center-y="1.0377439" />
+  </g>
   <g
      id="g7345"
      inkscape:groupmode="layer"
