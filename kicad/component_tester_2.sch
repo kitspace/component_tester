@@ -84,12 +84,8 @@ Text GLabel 5400 4400 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	8600 3700 8600 3500
-Text GLabel 8600 3700 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8800 3700 8800 3500
-Text GLabel 8800 3700 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8300 3000 7900 3000
 Wire Wire Line
@@ -102,16 +98,10 @@ Text GLabel 7600 2900 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	10500 3700 10500 3300
-Text GLabel 10500 3700 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9600 3600 9600 3700
-Text GLabel 9600 3600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9900 3600 9900 3700
-Text GLabel 9900 3600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7900 2100 7900 2300
 Wire Wire Line
@@ -151,16 +141,12 @@ Wire Wire Line
 Text GLabel 3300 4500 0    10   BiDi ~ 0
 VCC
 Wire Wire Line
-	9600 3300 9600 3000
-Wire Wire Line
 	9600 3000 9100 3000
 Wire Wire Line
 	9600 3000 10500 3000
 Wire Wire Line
 	9600 3000 9600 2000
 Connection ~ 9600 3000
-Text GLabel 9600 3300 0    10   BiDi ~ 0
-BAT+
 Wire Wire Line
 	7700 2800 8300 2800
 Wire Wire Line
@@ -465,19 +451,6 @@ F 3 "" H 10200 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V10
-U 1 0 6DC7F6CC0F3D497E
-P 9600 1900
-AR Path="/6DC7F6CC0F3D497E" Ref="#+5V10"  Part="1" 
-AR Path="/5B1C713A/6DC7F6CC0F3D497E" Ref="#+5V010"  Part="1" 
-F 0 "#+5V010" H 9600 1900 50  0001 C CNN
-F 1 "BAT+" V 9500 1700 59  0000 L BNN
-F 2 "" H 9600 1900 50  0001 C CNN
-F 3 "" H 9600 1900 50  0001 C CNN
-	1    9600 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L component_tester-eagle-import:STIFT X14
 U 1 0 BD362AB30D38F6C5
 P 10500 3300
@@ -598,4 +571,29 @@ Text Notes 1600 1700 0    170  ~ 0
 Option USB-Ausgabe
 Text Notes 7100 1700 0    170  ~ 0
 Option Li+ Charger
+Text GLabel 8600 3700 0    10   BiDi ~ 0
+GND
+Text GLabel 8800 3700 0    10   BiDi ~ 0
+GND
+Text GLabel 10500 3700 0    10   BiDi ~ 0
+GND
+Text GLabel 9900 3600 0    10   BiDi ~ 0
+GND
+Text GLabel 9600 3600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9600 3300 9600 3000
+$Comp
+L component_tester-eagle-import:+5V #+5V10
+U 1 0 6DC7F6CC0F3D497E
+P 9600 1900
+AR Path="/6DC7F6CC0F3D497E" Ref="#+5V10"  Part="1" 
+AR Path="/5B1C713A/6DC7F6CC0F3D497E" Ref="#+5V010"  Part="1" 
+F 0 "#+5V010" H 9600 1900 50  0001 C CNN
+F 1 "BAT+" V 9500 1700 59  0000 L BNN
+F 2 "" H 9600 1900 50  0001 C CNN
+F 3 "" H 9600 1900 50  0001 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

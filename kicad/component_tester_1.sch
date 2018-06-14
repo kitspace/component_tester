@@ -147,12 +147,8 @@ Text GLabel 2700 7600 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	2900 7200 2900 7800
-Text GLabel 2900 7200 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	4300 7500 4300 7700
-Text GLabel 4300 7500 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5900 7400 5900 7300
 Text GLabel 5900 7400 0    10   BiDi ~ 0
@@ -456,8 +452,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 7100 2700 7100
 Connection ~ 2700 7100
-Text GLabel 2700 7200 0    10   BiDi ~ 0
-BAT+
 Wire Wire Line
 	1600 6400 2000 6400
 Wire Wire Line
@@ -546,19 +540,6 @@ F 2 "component_tester:MINI-USB-B5" H 1400 6300 50  0001 C CNN
 F 3 "" H 1400 6300 50  0001 C CNN
 	1    1400 6300
 	-1   0    0    1   
-$EndComp
-$Comp
-L component_tester-eagle-import:CR2032 BAT1
-U 1 0 D31478EC87295480
-P 2700 7400
-AR Path="/D31478EC87295480" Ref="BAT1"  Part="1" 
-AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1" 
-F 0 "BAT1" H 2700 7400 50  0001 C CNN
-F 1 "CR2032" H 2700 7400 50  0001 C CNN
-F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2700 7400 50  0001 C CNN
-F 3 "" H 2700 7400 50  0001 C CNN
-	1    2700 7400
-	0    -1   -1   0   
 $EndComp
 $Comp
 L component_tester-eagle-import:TASTER-RACON8SMD SW1
@@ -1538,8 +1519,6 @@ Text Notes 9200 6000 0    85   ~ 0
 BAT+ = 3V von Lithiumzelle
 Text Notes 725  725  0    127  ~ 0
 K.-H. Kübbeler, DF3DCB, DH8GHH
-Text GLabel 2600 7200 0    10   BiDi ~ 0
-+
 $Comp
 L atmega48a-mmh:ATmega328P-MMH IC1
 U 1 1 5B2341C0
@@ -1599,8 +1578,6 @@ F 3 "" H 4800 5350 50  0001 C CNN
 	1    4800 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 5075 4800 5250
 Wire Wire Line
 	3575 2625 3700 2625
 Wire Wire Line
@@ -1694,4 +1671,31 @@ Wire Wire Line
 	8400 950  8400 1375
 Wire Wire Line
 	8500 950  8500 1375
+$Comp
+L component_tester-eagle-import:CR2032 BAT1
+U 1 0 D31478EC87295480
+P 2700 7400
+AR Path="/D31478EC87295480" Ref="BAT1"  Part="1" 
+AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1" 
+F 0 "BAT1" H 2700 7400 50  0001 C CNN
+F 1 "CR2032" H 2700 7400 50  0001 C CNN
+F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 5150 4650 5150
+Wire Wire Line
+	4650 5150 4650 5075
+Connection ~ 4800 5150
+Wire Wire Line
+	4800 5150 4800 5075
+Wire Wire Line
+	4500 5075 4500 5150
+Wire Wire Line
+	4500 5150 4650 5150
+Connection ~ 4650 5150
+Wire Wire Line
+	4800 5150 4800 5250
 $EndSCHEMATC
