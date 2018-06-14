@@ -248,20 +248,12 @@ Wire Wire Line
 Wire Wire Line
 	1275 1225 1275 1025
 Connection ~ 1275 1025
-Text Label 3000 3525 0    10   ~ 0
-+5V
 Wire Wire Line
 	2250 2375 2750 2375
-Text Label 2250 2375 0    10   ~ 0
-+5V
 Wire Wire Line
 	5400 725  5400 825 
-Text Label 5400 725  0    10   ~ 0
-+5V
 Wire Wire Line
 	6200 725  6200 1425
-Text Label 6200 725  0    10   ~ 0
-+5V
 Wire Wire Line
 	5300 6500 5500 6500
 Wire Wire Line
@@ -278,14 +270,10 @@ Wire Wire Line
 	5000 6700 5000 6500
 Connection ~ 5300 6500
 Connection ~ 5000 6500
-Text Label 5300 6500 0    10   ~ 0
-+5V
 Wire Wire Line
 	8600 4525 8900 4525
 Wire Wire Line
 	8900 4525 8900 4225
-Text Label 8600 4525 0    10   ~ 0
-+5V
 Wire Wire Line
 	3150 2375 3350 2375
 Wire Wire Line
@@ -1386,19 +1374,6 @@ F 3 "" H 1275 1325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V7
-U 1 0 BC662C5A60B97BFF
-P 2200 7100
-AR Path="/BC662C5A60B97BFF" Ref="#+5V7"  Part="1" 
-AR Path="/5B1C6B30/BC662C5A60B97BFF" Ref="#+5V07"  Part="1" 
-F 0 "#+5V07" H 2200 7100 50  0001 C CNN
-F 1 "BAT+" V 2100 6900 59  0000 L BNN
-F 2 "" H 2200 7100 50  0001 C CNN
-F 3 "" H 2200 7100 50  0001 C CNN
-	1    2200 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L component_tester-eagle-import:BAV99 D2
 U 1 0 4C475A1A20478EC3
 P 2500 6300
@@ -1635,14 +1610,14 @@ Wire Wire Line
 $Comp
 L component_tester-eagle-import:CR2032 BAT1
 U 1 0 D31478EC87295480
-P 2650 8075
+P 2700 7400
 AR Path="/D31478EC87295480" Ref="BAT1"  Part="1" 
 AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1" 
-F 0 "BAT1" H 2650 8075 50  0001 C CNN
-F 1 "CR2032" H 2650 8075 50  0001 C CNN
-F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2650 8075 50  0001 C CNN
-F 3 "" H 2650 8075 50  0001 C CNN
-	1    2650 8075
+F 0 "BAT1" H 2700 7400 50  0001 C CNN
+F 1 "CR2032" H 2700 7400 50  0001 C CNN
+F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1658,4 +1633,17 @@ F 3 "" H 1700 7000 50  0001 C CNN
 	1    1700 7000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+BATT #PWR0101
+U 1 1 5B66E8BE
+P 2300 7000
+F 0 "#PWR0101" H 2300 6850 50  0001 C CNN
+F 1 "+BATT" H 2315 7173 50  0000 C CNN
+F 2 "" H 2300 7000 50  0001 C CNN
+F 3 "" H 2300 7000 50  0001 C CNN
+	1    2300 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 7100 2300 7000
 $EndSCHEMATC

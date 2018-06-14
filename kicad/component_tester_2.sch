@@ -72,16 +72,10 @@ Wire Wire Line
 	3700 2500 3700 2300
 Connection ~ 3700 2200
 Connection ~ 3700 2300
-Text GLabel 3900 2200 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5000 2400 5400 2400
-Text GLabel 5000 2400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5400 4400 5400 4600
-Text GLabel 5400 4400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8600 3700 8600 3500
 Wire Wire Line
@@ -90,14 +84,8 @@ Wire Wire Line
 	8300 3000 7900 3000
 Wire Wire Line
 	7900 3000 7900 3700
-Text GLabel 8300 3000 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7600 2900 7600 3700
-Text GLabel 7600 2900 0    10   BiDi ~ 0
-GND
-Wire Wire Line
-	10500 3700 10500 3300
 Wire Wire Line
 	9600 3600 9600 3700
 Wire Wire Line
@@ -106,16 +94,12 @@ Wire Wire Line
 	7900 2100 7900 2300
 Wire Wire Line
 	7900 2300 8100 2300
-Text GLabel 7900 2100 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	3000 3900 2400 3900
 Text GLabel 2400 3900 0    70   BiDi ~ 0
 SEROUT
 Wire Wire Line
 	7600 2700 7600 2100
-Text GLabel 7600 2700 0    10   BiDi ~ 0
-VCC
 Wire Wire Line
 	9900 2800 9900 3300
 Wire Wire Line
@@ -130,23 +114,12 @@ Wire Wire Line
 	8300 2300 9300 2300
 Connection ~ 9900 2800
 Connection ~ 9300 2800
-Text GLabel 9900 2800 0    10   BiDi ~ 0
-VCC
 Wire Wire Line
 	10200 2000 10200 2100
-Text GLabel 10200 2000 0    10   BiDi ~ 0
-VCC
 Wire Wire Line
 	3300 4500 3300 4100
-Text GLabel 3300 4500 0    10   BiDi ~ 0
-VCC
 Wire Wire Line
 	9600 3000 9100 3000
-Wire Wire Line
-	9600 3000 10500 3000
-Wire Wire Line
-	9600 3000 9600 2000
-Connection ~ 9600 3000
 Wire Wire Line
 	7700 2800 8300 2800
 Wire Wire Line
@@ -412,19 +385,6 @@ F 3 "" H 10200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:STIFT X13
-U 1 0 9F58853A4C8084F3
-P 10500 3000
-AR Path="/9F58853A4C8084F3" Ref="X13"  Part="1" 
-AR Path="/5B1C713A/9F58853A4C8084F3" Ref="X13"  Part="1" 
-F 0 "X13" H 10450 3050 42  0000 L BNN
-F 1 "STIFT" H 10450 2900 42  0000 L BNN
-F 2 "component_tester:STIFT" H 10500 3000 50  0001 C CNN
-F 3 "" H 10500 3000 50  0001 C CNN
-	1    10500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L component_tester-eagle-import:R0805 R22
 U 1 0 8CA68C2673741284
 P 10200 2300
@@ -448,32 +408,6 @@ F 1 "VCC" V 10100 1800 59  0000 L BNN
 F 2 "" H 10200 1900 50  0001 C CNN
 F 3 "" H 10200 1900 50  0001 C CNN
 	1    10200 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:STIFT X14
-U 1 0 BD362AB30D38F6C5
-P 10500 3300
-AR Path="/BD362AB30D38F6C5" Ref="X14"  Part="1" 
-AR Path="/5B1C713A/BD362AB30D38F6C5" Ref="X14"  Part="1" 
-F 0 "X14" H 10450 3350 42  0000 L BNN
-F 1 "STIFT" H 10450 3200 42  0000 L BNN
-F 2 "component_tester:STIFT" H 10500 3300 50  0001 C CNN
-F 3 "" H 10500 3300 50  0001 C CNN
-	1    10500 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:GND #GND36
-U 1 0 61F5680C397F6EFB
-P 10500 3800
-AR Path="/61F5680C397F6EFB" Ref="#GND36"  Part="1" 
-AR Path="/5B1C713A/61F5680C397F6EFB" Ref="#GND036"  Part="1" 
-F 0 "#GND036" H 10500 3800 50  0001 C CNN
-F 1 "GND" H 10400 3700 59  0000 L BNN
-F 2 "" H 10500 3800 50  0001 C CNN
-F 3 "" H 10500 3800 50  0001 C CNN
-	1    10500 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -571,29 +505,20 @@ Text Notes 1600 1700 0    170  ~ 0
 Option USB-Ausgabe
 Text Notes 7100 1700 0    170  ~ 0
 Option Li+ Charger
-Text GLabel 8600 3700 0    10   BiDi ~ 0
-GND
-Text GLabel 8800 3700 0    10   BiDi ~ 0
-GND
-Text GLabel 10500 3700 0    10   BiDi ~ 0
-GND
-Text GLabel 9900 3600 0    10   BiDi ~ 0
-GND
-Text GLabel 9600 3600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	9600 3300 9600 3000
+Wire Wire Line
+	9600 3000 9600 2000
+Connection ~ 9600 3000
 $Comp
-L component_tester-eagle-import:+5V #+5V10
-U 1 0 6DC7F6CC0F3D497E
-P 9600 1900
-AR Path="/6DC7F6CC0F3D497E" Ref="#+5V10"  Part="1" 
-AR Path="/5B1C713A/6DC7F6CC0F3D497E" Ref="#+5V010"  Part="1" 
-F 0 "#+5V010" H 9600 1900 50  0001 C CNN
-F 1 "BAT+" V 9500 1700 59  0000 L BNN
-F 2 "" H 9600 1900 50  0001 C CNN
-F 3 "" H 9600 1900 50  0001 C CNN
-	1    9600 1900
+L power:+BATT #PWR?
+U 1 1 5B67D634
+P 9600 2000
+F 0 "#PWR?" H 9600 1850 50  0001 C CNN
+F 1 "+BATT" H 9615 2173 50  0000 C CNN
+F 2 "" H 9600 2000 50  0001 C CNN
+F 3 "" H 9600 2000 50  0001 C CNN
+	1    9600 2000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
