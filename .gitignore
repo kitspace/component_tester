@@ -3,3 +3,4 @@ _autosave-*.kicad_pcb
 *.o
 *.bak
 *.bck
+_saved_*.sch
