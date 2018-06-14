@@ -69,6 +69,4 @@ F 3 "~" H 1425 1775 50  0001 C CNN
 	1    1425 1775
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	1350 1075 1450 1175
 $EndSCHEMATC

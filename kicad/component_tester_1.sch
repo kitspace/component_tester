@@ -48,12 +48,8 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	2975 2925 3075 2925
-Text GLabel 2975 2925 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	2975 3525 3075 3525
-Text GLabel 2975 3525 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	875  1725 1275 1725
 Wire Wire Line
@@ -63,8 +59,6 @@ Wire Wire Line
 Wire Wire Line
 	1275 1525 1275 1725
 Connection ~ 1275 1725
-Text GLabel 875  1725 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5400 7800 5300 7800
 Wire Wire Line
@@ -74,64 +68,36 @@ Wire Wire Line
 Wire Wire Line
 	5000 7800 5000 7700
 Connection ~ 5300 7800
-Text GLabel 5400 7800 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7100 6800 7100 7200
-Text GLabel 7100 6800 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5800 1425 5800 825 
-Text GLabel 5800 1425 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	5400 1825 5400 1925
-Text GLabel 5400 1825 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	1700 6100 1700 6900
 Wire Wire Line
 	1600 6100 1700 6100
-Text GLabel 1700 6100 1    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8600 4725 8900 4725
 Wire Wire Line
 	8900 4725 8900 5500
-Text GLabel 8600 4725 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	6400 7400 6400 7300
-Text GLabel 6400 7400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7700 1725 7600 1725
-Text GLabel 7700 1725 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7700 1925 7600 1925
-Text GLabel 7700 1925 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	7700 2125 7600 2125
-Text GLabel 7700 2125 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8100 2925 8100 3025
-Text GLabel 8100 2925 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8400 2925 8400 3025
-Text GLabel 8400 2925 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	8700 2925 8700 3025
-Text GLabel 8700 2925 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	6200 5125 6200 5800
-Text GLabel 6200 5600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	2700 7600 2700 7700
 Wire Wire Line
@@ -143,16 +109,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 7700 2300 7700
 Connection ~ 2300 7700
-Text GLabel 2700 7600 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	2900 7200 2900 7800
 Wire Wire Line
 	4300 7500 4300 7700
 Wire Wire Line
 	5900 7400 5900 7300
-Text GLabel 5900 7400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	3375 2925 3575 2925
 Wire Wire Line
@@ -443,8 +405,6 @@ Wire Wire Line
 Connection ~ 1900 6700
 Connection ~ 1800 6500
 Connection ~ 1900 6500
-Text GLabel 1600 6500 1    10   BiDi ~ 0
-VCC
 Wire Wire Line
 	2700 7200 2700 7100
 Wire Wire Line
@@ -1671,19 +1631,6 @@ Wire Wire Line
 	8400 950  8400 1375
 Wire Wire Line
 	8500 950  8500 1375
-$Comp
-L component_tester-eagle-import:CR2032 BAT1
-U 1 0 D31478EC87295480
-P 2700 7400
-AR Path="/D31478EC87295480" Ref="BAT1"  Part="1" 
-AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1" 
-F 0 "BAT1" H 2700 7400 50  0001 C CNN
-F 1 "CR2032" H 2700 7400 50  0001 C CNN
-F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2700 7400 50  0001 C CNN
-F 3 "" H 2700 7400 50  0001 C CNN
-	1    2700 7400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4800 5150 4650 5150
 Wire Wire Line
@@ -1698,4 +1645,17 @@ Wire Wire Line
 Connection ~ 4650 5150
 Wire Wire Line
 	4800 5150 4800 5250
+$Comp
+L component_tester-eagle-import:CR2032 BAT1
+U 1 0 D31478EC87295480
+P 2650 8075
+AR Path="/D31478EC87295480" Ref="BAT1"  Part="1" 
+AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1" 
+F 0 "BAT1" H 2650 8075 50  0001 C CNN
+F 1 "CR2032" H 2650 8075 50  0001 C CNN
+F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2650 8075 50  0001 C CNN
+F 3 "" H 2650 8075 50  0001 C CNN
+	1    2650 8075
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
