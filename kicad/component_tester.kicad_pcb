@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 11)
     (tracks 0)
     (zones 0)
     (modules 86)
@@ -295,7 +295,7 @@
   )
 
   (module drawings:pads_bottom (layer Top) (tedit 5B23C9F3) (tstamp 5B563433)
-    (at 118.06 99.07)
+    (at 115.321779 62.302596)
     (path /5B1C6B30/5B4B01B7)
     (fp_text reference DRAWING202 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -446,7 +446,7 @@
   )
 
   (module drawings:pads (layer Top) (tedit 5B23C99A) (tstamp 5B565C02)
-    (at 169.6 101.26)
+    (at 106.137625 41.325733)
     (path /5B1C6B30/5B4B01B0)
     (fp_text reference DRAWING201 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -922,7 +922,7 @@
   )
 
   (module smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push2 (layer Top) (tedit 5B23C98C) (tstamp 5B56B38D)
-    (at 160.17 107.49 180)
+    (at 111.613502 37.647772 180)
     (descr "SMD Pushbutton 2")
     (path /5B1C6B30/9A392703E9E31E47)
     (autoplace_cost180 10)
@@ -973,7 +973,7 @@
   )
 
   (module KiCad/Crystals.pretty:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm (layer Bottom) (tedit 58CD2E9C) (tstamp 5B3E578C)
-    (at 168.91 106.934 90)
+    (at 126.405616 36.578294 90)
     (descr "Abracon Miniature Ceramic Smd Crystal ABM3 http://www.abracon.com/Resonators/abm3.pdf, 5.0x3.2mm^2 package")
     (tags "SMD SMT crystal")
     (path /5B1C6B30/1C96B32E8B46FD95)
@@ -1019,7 +1019,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E2012)
-    (at 277.038879 94.161552)
+    (at 176.678294 69.461694)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C713A/8CA68C2673741284)
@@ -1055,7 +1055,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1F42)
-    (at 312.436801 37.640615)
+    (at 148.157094 58.966294)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/AA928021A18D0FC3)
@@ -1091,7 +1091,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1F32)
-    (at 318.566801 45.740615)
+    (at 156.308698 52.491886)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/9599DC97748ED202)
@@ -1127,7 +1127,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1F22)
-    (at 320.676801 40.660615)
+    (at 156.175698 55.011888)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/9666F1463D5FDD5)
@@ -1163,7 +1163,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1F12)
-    (at 305.166801 34.070615)
+    (at 156.175698 57.53189)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/2AA8A3DBF256FF88)
@@ -1199,7 +1199,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1F02)
-    (at 328.656801 50.820615)
+    (at 156.175698 60.051892)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/924A67826DEE1610)
@@ -1235,7 +1235,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1EF2)
-    (at 320.676801 43.200615)
+    (at 156.080098 62.936294)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/AB7225ED09E2E52)
@@ -1271,7 +1271,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1EE2)
-    (at 297.896801 31.530615)
+    (at 139.77689 58.966294)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/6482207A2BD16012)
@@ -1307,7 +1307,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1ED2)
-    (at 318.216801 48.280615)
+    (at 139.77689 57.086292)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/A56A49D9FBBF1A7E)
@@ -1343,7 +1343,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3E1EC2)
-    (at 325.836801 45.740615)
+    (at 139.77689 55.20629)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B23B1A6/1F0C43AD49162B56)
@@ -1379,7 +1379,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE8A)
-    (at 267.438879 90.961552 270)
+    (at 129.560618 38.878294 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/5519AC0030851FE9)
@@ -1415,7 +1415,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE7A)
-    (at 267.438879 87.061552 90)
+    (at 129.560618 36.128292 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/32A747533BC6B6B4)
@@ -1451,7 +1451,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE6A)
-    (at 267.938879 83.361552 90)
+    (at 129.560618 33.37829 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/2BC8C3E3DD386927)
@@ -1487,7 +1487,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE5A)
-    (at 233.238879 69.609904)
+    (at 128.735781 63.273294)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/65C0CEB9454BEC28)
@@ -1523,7 +1523,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE4A)
-    (at 236.638879 58.994218 270)
+    (at 116.343623 39.350732 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/425295B9BC7DD4B5)
@@ -1559,7 +1559,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE3A)
-    (at 234.338879 63.409904 180)
+    (at 127.679684 52.825393 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/A5B53786DB4051D7)
@@ -1595,7 +1595,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE2A)
-    (at 230.138879 63.409904)
+    (at 125.505616 32.023292)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/11A2FC9100BCBFFC)
@@ -1631,7 +1631,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE1A)
-    (at 250.838879 62.494218 90)
+    (at 129.934686 52.330393 90)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/A8CF5A1BE6016F5F)
@@ -1667,7 +1667,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DEE0A)
-    (at 233.238879 58.994218 270)
+    (at 129.934686 49.580391 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/C56576DBF4F8EA96)
@@ -1703,7 +1703,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEAF4)
-    (at 254.138879 52.694218 270)
+    (at 111.453385 33.39481 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/1DF2EA82A5EEF4AE)
@@ -1739,7 +1739,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEAE4)
-    (at 272.438879 34.894218 90)
+    (at 113.333387 33.39481 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/FEC67141DB79B4F3)
@@ -1775,7 +1775,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEAD4)
-    (at 253.138879 64.294218 90)
+    (at 115.213389 33.39481 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/E4B58C2114CE6AAC)
@@ -1811,7 +1811,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEAC4)
-    (at 255.638879 64.294218 90)
+    (at 117.093391 33.39481 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/BBCFCC776C012852)
@@ -1847,7 +1847,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEAB4)
-    (at 255.638879 40.994218)
+    (at 115.448389 31.279808)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/5470D4766A070FAE)
@@ -1883,7 +1883,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEAA4)
-    (at 261.238879 64.294218 90)
+    (at 108.703383 31.634808 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/B36C6E30D74182C5)
@@ -1919,7 +1919,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA94)
-    (at 263.338879 43.294218)
+    (at 111.688385 31.279808)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/14C551D80E8D017C)
@@ -1955,7 +1955,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA84)
-    (at 250.838879 33.294218)
+    (at 130.229686 47.265389)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/974F66270C16D534)
@@ -1991,7 +1991,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA74)
-    (at 247.638879 34.294218 270)
+    (at 129.994686 45.150387 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/458E1AB7AF177D47)
@@ -2027,7 +2027,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA64)
-    (at 258.638879 64.294218 270)
+    (at 129.994686 42.800385 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/CB1356D799561180)
@@ -2063,7 +2063,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA54)
-    (at 250.538879 53.594218)
+    (at 116.638623 37.03573)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/7E98CD9B0A658855)
@@ -2099,7 +2099,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA44)
-    (at 250.538879 51.194218)
+    (at 90.43678 35.313292)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/DF602B93DD8A218A)
@@ -2135,7 +2135,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA34)
-    (at 250.038879 47.494218 90)
+    (at 92.551782 35.078292 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/E5B4C50D045E6390)
@@ -2171,7 +2171,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA24)
-    (at 247.638879 47.494218 90)
+    (at 94.431784 35.078292 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/9B430939FCECCBCB)
@@ -2207,7 +2207,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA14)
-    (at 245.238879 47.494218 90)
+    (at 96.311786 35.078292 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/E2677E181D3EA782)
@@ -2243,7 +2243,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DEA04)
-    (at 242.838879 47.494218 90)
+    (at 98.191788 35.078292 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/512AF7C563543E95)
@@ -2279,7 +2279,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DE9F4)
-    (at 254.738879 43.994218 180)
+    (at 100.30679 35.313292 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/41B133A76954CAE3)
@@ -2315,7 +2315,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DE9E4)
-    (at 239.938879 47.494218 90)
+    (at 100.07179 33.19829 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/20BDF072D5A58622)
@@ -2351,7 +2351,7 @@
   )
 
   (module KiCad/Resistors_SMD.pretty:R_0402 (layer Bottom) (tedit 58E0A804) (tstamp 5B3DE9D4)
-    (at 254.438879 59.494218 270)
+    (at 98.191788 32.72829 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5B1C6B30/D52D387BDEE37B10)
@@ -2387,7 +2387,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0402 (layer Bottom) (tedit 58AA841A) (tstamp 5B3DB5CF)
-    (at 235.338879 62.894218 180)
+    (at 109.138383 33.68981 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5B1C6B30/9F272910FE64C8E2)
@@ -2423,7 +2423,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0603 (layer Bottom) (tedit 59958EE7) (tstamp 5B3D541B)
-    (at 318.216801 50.820615)
+    (at 148.757094 56.530292)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B23B1A6/2B835032309F7134)
@@ -2459,7 +2459,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0603 (layer Bottom) (tedit 59958EE7) (tstamp 5B3D540B)
-    (at 313.406801 40.710615)
+    (at 148.757094 54.48029)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B23B1A6/A3ABC6EF65EADBD0)
@@ -2495,7 +2495,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0603 (layer Bottom) (tedit 59958EE7) (tstamp 5B3D53FB)
-    (at 305.166801 31.530615)
+    (at 148.757094 52.430288)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B23B1A6/FA50F24791680661)
@@ -2531,7 +2531,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0603 (layer Bottom) (tedit 59958EE7) (tstamp 5B3D53EB)
-    (at 306.136801 40.180615)
+    (at 144.374092 54.17929)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B23B1A6/1A4EAE44B3C0B5DB)
@@ -2567,7 +2567,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0603 (layer Bottom) (tedit 59958EE7) (tstamp 5B3D53DB)
-    (at 325.486801 48.280615)
+    (at 144.374092 52.129288)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B23B1A6/E90ABE7A226ECD07)
@@ -2603,7 +2603,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0805 (layer Bottom) (tedit 58AA8463) (tstamp 5B3D53AB)
-    (at 297.896801 34.070615)
+    (at 152.875696 59.731892)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B23B1A6/23009AF2D1512118)
@@ -2639,7 +2639,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0805 (layer Bottom) (tedit 58AA8463) (tstamp 5B3D539B)
-    (at 305.166801 36.610615)
+    (at 152.875696 57.21189)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B23B1A6/A437799099D41F3B)
@@ -2675,7 +2675,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0805 (layer Bottom) (tedit 58AA8463) (tstamp 5B3D536B)
-    (at 297.896801 36.610615)
+    (at 152.875696 54.691888)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B23B1A6/9F2A8D7409CD1EDC)
@@ -2711,7 +2711,7 @@
   )
 
   (module component_tester:SSD1306 (layer Bottom) (tedit 5B22970F) (tstamp 5B23425B)
-    (at 116.13 100.09)
+    (at 146.318188 65.289796)
     (path /5B23B1A6/5B24C203)
     (attr smd)
     (fp_text reference OLED1 (at -3.85 -1.75) (layer B.SilkS)
@@ -2794,7 +2794,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOD-323" (layer Bottom) (tedit 0) (tstamp 5B23135C)
-    (at 312.379901 34.354615)
+    (at 152.942196 52.256386)
     (descr "<b>SOD323</b> (2.5x1.2mm)")
     (path /5B23B1A6/16C231B38A755ED4)
     (fp_text reference D401 (at -1.1 1) (layer B.SilkS)
@@ -2825,7 +2825,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOD-323" (layer Bottom) (tedit 0) (tstamp 5B231349)
-    (at 317.969901 34.354615)
+    (at 144.790592 58.730794)
     (descr "<b>SOD323</b> (2.5x1.2mm)")
     (path /5B23B1A6/E4DA54AD2726CE93)
     (fp_text reference D402 (at -1.1 1) (layer B.SilkS)
@@ -2856,7 +2856,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOD-323" (layer Bottom) (tedit 0) (tstamp 5B231336)
-    (at 327.889901 42.454615)
+    (at 144.790592 56.379792)
     (descr "<b>SOD323</b> (2.5x1.2mm)")
     (path /5B23B1A6/E84940633EF73F2A)
     (fp_text reference D403 (at -1.1 1) (layer B.SilkS)
@@ -2887,7 +2887,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOLDERJUMPER_REFLOW_NOPASTE" (layer Bottom) (tedit 0) (tstamp 5B231323)
-    (at 323.445601 37.219423)
+    (at 148.673494 62.434094)
     (path /5B23B1A6/F3ECEA9CD7571B3)
     (fp_text reference SJ401 (at -1.651 1.143) (layer B.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.08128)) (justify left bottom mirror))
@@ -2915,7 +2915,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOLDERJUMPER_REFLOW_NOPASTE" (layer Bottom) (tedit 0) (tstamp 5B231310)
-    (at 327.775601 37.979423)
+    (at 152.827896 62.434094)
     (path /5B23B1A6/B7B99D7444DD8191)
     (fp_text reference SJ402 (at -1.651 1.143) (layer B.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.08128)) (justify left bottom mirror))
@@ -2943,7 +2943,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOT23-5" (layer Bottom) (tedit 0) (tstamp 5B2312FD)
-    (at 297.497001 43.625318)
+    (at 136.753288 61.626195)
     (descr "<b>Small Outline Transistor</b> - 5 Pin")
     (path /5B23B1A6/23E9B31BC2DEB937)
     (fp_text reference U401 (at 1.778 0.127) (layer B.SilkS)
@@ -2983,7 +2983,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOT23-WIDE" (layer Bottom) (tedit 0) (tstamp 5B2312E2)
-    (at 310.077001 43.890418)
+    (at 140.60049 61.891295)
     (path /5B23B1A6/DE9F461D7D3B3C50)
     (fp_text reference Q402 (at 1.778 0.254) (layer B.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom mirror))
@@ -3012,7 +3012,7 @@
   )
 
   (module "Adafruit 128x64 Mono OLED PCB v2:SOT23-WIDE" (layer Bottom) (tedit 0) (tstamp 5B2312CF)
-    (at 297.647001 39.790418)
+    (at 144.597692 61.891295)
     (path /5B23B1A6/BD3BAF7FDD033775)
     (fp_text reference Q401 (at 1.778 0.254) (layer B.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom mirror))
@@ -3041,7 +3041,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B763040)
-    (at 264.526 24.487818)
+    (at 124.456082 59.552596)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/5B7E70F90DD88CB2)
     (fp_text reference T201 (at -1.905 1.905 180) (layer B.SilkS)
@@ -3066,7 +3066,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0805 (layer Bottom) (tedit 58AA8463) (tstamp 5B3B5160)
-    (at 244.638879 35.194218 270)
+    (at 174.243292 68.276694 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B1C713A/2958F4AE9AFB8C1C)
@@ -3102,7 +3102,7 @@
   )
 
   (module component_tester:SSOP28 (layer Bottom) (tedit 0) (tstamp 5B1C5A36)
-    (at 238.138879 37.094218 90)
+    (at 165.956689 67.151696 90)
     (descr "<b>Shrink Small Outline Package</b> SSOP-28<p>\nhttp://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf")
     (path /5B1C713A/3372E1D846657C43)
     (fp_text reference IC301 (at -5.476 -2.6299) (layer B.SilkS)
@@ -3203,7 +3203,7 @@
   )
 
   (module component_tester:SO08 (layer Bottom) (tedit 0) (tstamp 5B1C5AA7)
-    (at 226.038879 36.494218 270)
+    (at 165.281689 58.748494 270)
     (descr "<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>\nbody 3.9 mm/JEDEC MS-012AA")
     (path /5B1C713A/B33006915ED25CA7)
     (fp_text reference IC302 (at -3.175 -1.905) (layer B.SilkS)
@@ -3247,7 +3247,7 @@
   )
 
   (module component_tester:A0R-JMP (layer Bottom) (tedit 0) (tstamp 5B1C5AC2)
-    (at 228.738879 32.594218 90)
+    (at 173.381689 64.001695 90)
     (descr "<b>0R Jumper Variant A</b><p>\nchip 0805")
     (path /5B1C713A/283100E32CE6A523)
     (fp_text reference J301 (at -0.762 2.716) (layer B.SilkS)
@@ -3270,7 +3270,7 @@
   )
 
   (module component_tester:CHIP-LED0805 (layer Bottom) (tedit 0) (tstamp 5B1C5ACD)
-    (at 281.638879 93.361552 90)
+    (at 171.331689 56.877092 90)
     (descr "<b>Hyper CHIPLED Hyper-Bright LED</b><p>\nLB R99A<br>\nSource: http://www.osram.convergy.de/ ... lb_r99a.pdf")
     (path /5B1C713A/56580ACBD5D4A691)
     (fp_text reference LED301 (at -1.27 -1.27 180) (layer B.SilkS)
@@ -3293,7 +3293,7 @@
   )
 
   (module component_tester:C-TAN_A (layer Bottom) (tedit 0) (tstamp 5B1C5AF7)
-    (at 225.238879 40.694218)
+    (at 173.331689 71.552496)
     (path /5B1C713A/F37311AD96106C6B)
     (fp_text reference C302 (at -1.6 0.975) (layer B.SilkS)
       (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify left bottom mirror))
@@ -3318,7 +3318,7 @@
   )
 
   (module component_tester:C-TAN_A (layer Bottom) (tedit 0) (tstamp 5B1C5B04)
-    (at 231.338879 38.994218 90)
+    (at 171.83249 67.751695 90)
     (path /5B1C713A/4BE512EF4C258AB5)
     (fp_text reference C303 (at -1.6 0.975 270) (layer B.SilkS)
       (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify right top mirror))
@@ -3343,7 +3343,7 @@
   )
 
   (module component_tester:A0R-JMP (layer Bottom) (tedit 0) (tstamp 5B1C5B11)
-    (at 220.638879 35.894218 180)
+    (at 174.731689 58.900095 180)
     (descr "<b>0R Jumper Variant A</b><p>\nchip 0805")
     (path /5B1C713A/9C1E943F2D55355)
     (fp_text reference J302 (at -0.762 2.716 270) (layer B.SilkS)
@@ -3366,7 +3366,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C5B1C)
-    (at 238.338879 70.909904 90)
+    (at 171.481689 59.751494 90)
     (descr <b>SOT-23</b>)
     (path /5B1C713A/6298BD6855CF44A5)
     (fp_text reference T301 (at -1.905 1.905 90) (layer B.SilkS)
@@ -3391,7 +3391,7 @@
   )
 
   (module StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912 (layer Bottom) (tedit 543C2BE7) (tstamp 5B3D243A)
-    (at 116.62 87.56 180)
+    (at 117.094 87.63 180)
     (path /5B1C6B30/D31478EC87295480)
     (attr smd)
     (fp_text reference BAT201 (at -10.9 -3.7 180) (layer B.SilkS)
@@ -3413,7 +3413,7 @@
   )
 
   (module KiCad/Housings_DFN_QFN.pretty:QFN-28-1EP_4x4mm_Pitch0.4mm (layer Bottom) (tedit 54130A77) (tstamp 5B3CC3DC)
-    (at 174.336 107.28)
+    (at 121.155614 37.278294)
     (descr "28-Lead Plastic Quad Flat, No Lead Package (MK) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.4")
     (path /5B1C6B30/5B2341C0)
@@ -3512,7 +3512,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0805 (layer Bottom) (tedit 58AA8463) (tstamp 5B3B5150)
-    (at 248.538879 38.194218 270)
+    (at 128.620781 66.278296 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B1C6B30/B6F96C9048BC56A0)
@@ -3548,7 +3548,7 @@
   )
 
   (module KiCad/Capacitors_SMD.pretty:C_0805 (layer Bottom) (tedit 58AA8463) (tstamp 5B3B5140)
-    (at 255.538879 35.494218 270)
+    (at 120.267482 54.377595 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B1C6B30/7513E83E99E27C05)
@@ -8571,7 +8571,7 @@
   )
 
   (module component_tester:MINI-USB-B5 (layer Bottom) (tedit 0) (tstamp 5B1C5783)
-    (at 285.738879 43.994218 180)
+    (at 128.230613 51.053295 180)
     (descr "Mini-USB B5")
     (path /5B1C6B30/97C2823C753049C4)
     (fp_text reference X201 (at -0.2 10.7) (layer B.SilkS)
@@ -8628,7 +8628,7 @@
   )
 
   (module component_tester:SOT23-6 (layer Bottom) (tedit 0) (tstamp 5B1C585A)
-    (at 252.438879 37.694218 180)
+    (at 116.57038 59.452496 180)
     (path /5B1C6B30/53D52AEB541775CA)
     (fp_text reference IC201 (at -1.905 1.905) (layer B.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify right top mirror))
@@ -8669,7 +8669,7 @@
   )
 
   (module component_tester:L1210 (layer Bottom) (tedit 0) (tstamp 5B1C5875)
-    (at 258.538879 36.094218 270)
+    (at 120.807481 59.102596 270)
     (path /5B1C6B30/F60B72F86BE0507A)
     (fp_text reference L201 (at -1.6 1.55 270) (layer B.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify right top mirror))
@@ -8688,7 +8688,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C58E2)
-    (at 259.138879 45.794218 180)
+    (at 128.153284 59.552596 180)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/ABD6C2FC011D2A96)
     (fp_text reference T204 (at -1.905 1.905) (layer B.SilkS)
@@ -8713,7 +8713,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C58FD)
-    (at 253.838879 68.794218 270)
+    (at 128.454683 55.553995 270)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/D58447641462D966)
     (fp_text reference D202 (at -1.905 1.905 270) (layer B.SilkS)
@@ -8738,7 +8738,7 @@
   )
 
   (module component_tester:WANNE6_PCBKANTE (layer Top) (tedit 0) (tstamp 5B1C5923)
-    (at 207.01 41.148 180)
+    (at 99.41178 44.053294 180)
     (path /5B1C6B30/1F637802F1146828)
     (fp_text reference X202 (at -0.7 -7.1 90) (layer F.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify right top))
@@ -8765,7 +8765,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C5930)
-    (at 257.138879 50.194218)
+    (at 124.456082 55.252596)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/778EB5B89E4548F9)
     (fp_text reference T203 (at -1.905 1.905) (layer B.SilkS)
@@ -8790,7 +8790,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C5A8E)
-    (at 260.138879 41.194218 90)
+    (at 120.330613 32.454692 90)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/405680EADAE672BE)
     (fp_text reference T202 (at -1.905 1.905 270) (layer B.SilkS)
@@ -8815,7 +8815,7 @@
   )
 
   (module component_tester:D_7343-31W (layer Bottom) (tedit 0) (tstamp 5B1C5A9B)
-    (at 228.938879 61.594218 90)
+    (at 105.262581 35.525733 90)
     (descr "<b>Chip Capacitor Type KEMET D / EIA 7343-21</b><p>\nKEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder")
     (path /5B1C6B30/1DC177F378F9F006)
     (fp_text reference C201 (at -3.65 2.3 270) (layer B.SilkS)
@@ -8838,7 +8838,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C5B29)
-    (at 268.238879 34.594218 180)
+    (at 116.57038 55.052396 180)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/4C475A1A20478EC3)
     (fp_text reference D201 (at -1.905 1.905) (layer B.SilkS)
@@ -8863,7 +8863,7 @@
   )
 
   (module component_tester:SOT23 (layer Bottom) (tedit 0) (tstamp 5B1C5B44)
-    (at 253.538879 47.294218 180)
+    (at 129.209381 70.553297 180)
     (descr <b>SOT-23</b>)
     (path /5B1C6B30/E8A02D8F73B70CE6)
     (fp_text reference D203 (at -1.905 1.905) (layer B.SilkS)
@@ -8887,62 +8887,17 @@
       (net 42 "Net-(D203-Pad3)") (solder_mask_margin 0.0762))
   )
 
-  (gr_line (start 218.238879 43.194218) (end 218.238879 30.994218) (layer B.SilkS) (width 0.15) (tstamp 8295C10))
-  (gr_line (start 218.238879 30.994218) (end 228.138879 30.994218) (layer B.SilkS) (width 0.15) (tstamp 8296090))
-  (gr_line (start 245.838879 30.994218) (end 235.638879 30.994218) (layer B.SilkS) (width 0.15) (tstamp 82964F0))
-  (gr_line (start 235.638879 30.994218) (end 235.638879 30.094218) (layer B.SilkS) (width 0.15) (tstamp 93D6880))
-  (gr_line (start 235.638879 30.094218) (end 228.138879 30.094218) (layer B.SilkS) (width 0.15) (tstamp 93D6CE0))
-  (gr_line (start 228.138879 30.094218) (end 228.138879 30.994218) (layer B.SilkS) (width 0.15) (tstamp 93D7140))
-  (gr_line (start 245.838879 30.994218) (end 245.838879 43.194218) (layer B.SilkS) (width 0.15) (tstamp 8C77000))
-  (gr_line (start 245.838879 43.194218) (end 218.238879 43.194218) (layer B.SilkS) (width 0.15) (tstamp 8C77480))
-  (gr_line (start 230.838879 57.194218) (end 231.238879 57.194218) (layer B.SilkS) (width 0.15) (tstamp 8C77920))
-  (gr_line (start 231.638879 57.194218) (end 231.238879 57.194218) (layer B.SilkS) (width 0.15) (tstamp 8D801C0))
-  (gr_line (start 231.238879 57.194218) (end 231.238879 56.794218) (layer B.SilkS) (width 0.15) (tstamp 8D80660))
-  (gr_line (start 231.238879 57.194218) (end 231.238879 57.594218) (layer B.SilkS) (width 0.15) (tstamp 8D80B00))
   (gr_arc (start 128.302879 50.973337) (end 126.952879 58.4036) (angle 80.990186) (layer B.Mask) (width 0.15) (tstamp 93FB160))
   (gr_arc (start 128.356139 51.103601) (end 121.352879 48.5036) (angle 135.114493) (layer B.Mask) (width 0.15) (tstamp 93FB660))
   (gr_arc (start 128.302878 50.921782) (end 135.752879 50.0036) (angle 34.661768) (layer B.Mask) (width 0.15) (tstamp 93FBB90))
   (gr_arc (start 128.236212 51.0036) (end 131.952879 57.6036) (angle 17.061531) (layer B.Mask) (width 0.15) (tstamp 8B1C1E0))
   (gr_circle (center 152.952879 51.0036) (end 158.952879 51.0036) (layer B.Fab) (width 0.4064) (tstamp 8B1C760))
   (gr_circle (center 128.352879 51.0036) (end 135.852879 51.0036) (layer B.SilkS) (width 0.254) (tstamp 8B1CB90))
-  (gr_text Bauteiltester (at 248.838879 71.694218) (layer B.SilkS) (tstamp 8C68780)
-    (effects (font (size 2.07518 2.07518) (thickness 0.240284)) (justify right top mirror))
-  )
   (gr_text www.ov-lennestadt.de (at 121.352879 21.7036 -90) (layer B.Mask) (tstamp 8C68DC0)
     (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify right top mirror))
   )
-  (gr_text "+ = HALTER  PCB = -" (at 283.538879 44.694218 90) (layer B.SilkS) (tstamp 8C69350)
-    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom mirror))
-  )
   (gr_text "FIFI 2013 REV 1.0" (at 113.952879 22.1036 -90) (layer Bottom) (tstamp 827C710)
     (effects (font (size 1.2065 1.2065) (thickness 0.1651)) (justify right top mirror))
-  )
-  (gr_text "FIFI 2013 REV 1.0" (at 216.038879 71.294218 90) (layer Bottom) (tstamp 827CD40)
-    (effects (font (size 1.2065 1.2065) (thickness 0.1651)) (justify right top mirror))
-  )
-  (gr_text "TYP CR2032" (at 282.038879 48.594218 90) (layer B.SilkS) (tstamp 8238E90)
-    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom mirror))
-  )
-  (gr_text "FiFi 2013" (at 256.338879 30.094218) (layer B.SilkS) (tstamp 8239410)
-    (effects (font (size 1.59258 1.59258) (thickness 0.201168)) (justify left bottom mirror))
-  )
-  (gr_text +5V (at 224.638879 43.694218) (layer B.SilkS) (tstamp 8283060)
-    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom mirror))
-  )
-  (gr_text WAKE (at 243.838879 56.694218) (layer B.SilkS) (tstamp 8283580)
-    (effects (font (size 0.9652 0.9652) (thickness 0.08128)) (justify left bottom mirror))
-  )
-  (gr_text HOLD (at 242.538879 55.394218) (layer B.SilkS) (tstamp 8283A90)
-    (effects (font (size 0.9652 0.9652) (thickness 0.08128)) (justify left bottom mirror))
-  )
-  (gr_text VCC (at 270.738879 31.394218) (layer B.SilkS) (tstamp 8232AF0)
-    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom mirror))
-  )
-  (gr_text Optionen (at 228.638879 30.494218) (layer B.SilkS) (tstamp 8232FC0)
-    (effects (font (size 0.9652 0.9652) (thickness 0.08128)) (justify left bottom mirror))
-  )
-  (gr_text BAT+ (at 219.738879 38.494218 90) (layer B.SilkS) (tstamp 8233490)
-    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom mirror))
   )
   (gr_text Name/Call: (at 175.852879 27.5036 -270) (layer B.Mask) (tstamp 943C000)
     (effects (font (size 1.35128 1.35128) (thickness 0.14224)) (justify left bottom mirror))
@@ -8952,12 +8907,6 @@
   )
   (gr_text "DF3DCB, DH8GHH" (at 131.252879 22.3036 -90) (layer B.Mask) (tstamp 5B57B269)
     (effects (font (size 1.35128 1.35128) (thickness 0.113792)) (justify right top mirror))
-  )
-  (gr_text "" (at 224.638879 47.994218) (layer B.SilkS) (tstamp 8B81580)
-    (effects (font (size 0.9652 0.9652) (thickness 0.1016)) (justify left bottom mirror))
-  )
-  (gr_text "DF3DCB, DH8GHH" (at 224.138879 46.594218) (layer B.SilkS) (tstamp 8B81B40)
-    (effects (font (size 0.9652 0.9652) (thickness 0.1016)) (justify left bottom mirror))
   )
 
 )
