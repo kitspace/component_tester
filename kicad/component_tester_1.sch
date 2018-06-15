@@ -36,7 +36,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 12218 8923
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -445,12 +445,10 @@ Wire Wire Line
 Connection ~ 5500 5900
 Connection ~ 5900 6600
 $Comp
-L component_tester-eagle-import:DINA4_L #FRAME1
+L component_tester-eagle-import:DINA4_L #FRAME201
 U 1 0 80664ACC4FD11FD2
 P 900 8100
-AR Path="/80664ACC4FD11FD2" Ref="#FRAME1"  Part="1" 
-AR Path="/5B1C6B30/80664ACC4FD11FD2" Ref="#FRAME1"  Part="1" 
-F 0 "#FRAME1" H 900 8100 50  0001 C CNN
+F 0 "#FRAME201" H 900 8100 50  0001 C CNN
 F 1 "FiFi" H 900 8100 50  0001 C CNN
 F 2 "" H 900 8100 50  0001 C CNN
 F 3 "" H 900 8100 50  0001 C CNN
@@ -458,12 +456,10 @@ F 3 "" H 900 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:SMD-QUARZ Q1
+L component_tester-eagle-import:SMD-QUARZ Q201
 U 1 0 1C96B32E8B46FD95
 P 3475 3225
-AR Path="/1C96B32E8B46FD95" Ref="Q1"  Part="1" 
-AR Path="/5B1C6B30/1C96B32E8B46FD95" Ref="Q1"  Part="1" 
-F 0 "Q1" H 3625 3225 42  0000 L BNN
+F 0 "Q201" H 3625 3225 42  0000 L BNN
 F 1 "8 MHz" H 3625 2975 42  0000 L BNN
 F 2 "component_tester:HC49UP" H 3475 3225 50  0001 C CNN
 F 3 "" H 3475 3225 50  0001 C CNN
@@ -471,12 +467,10 @@ F 3 "" H 3475 3225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:MINI-USB X1
+L component_tester-eagle-import:MINI-USB X201
 U 1 0 97C2823C753049C4
 P 1400 6300
-AR Path="/97C2823C753049C4" Ref="X1"  Part="1" 
-AR Path="/5B1C6B30/97C2823C753049C4" Ref="X1"  Part="1" 
-F 0 "X1" H 1300 6800 70  0000 L BNN
+F 0 "X201" H 1300 6800 70  0000 L BNN
 F 1 "MICRO-USB" H 1300 6700 70  0000 L BNN
 F 2 "component_tester:MINI-USB-B5" H 1400 6300 50  0001 C CNN
 F 3 "" H 1400 6300 50  0001 C CNN
@@ -484,12 +478,10 @@ F 3 "" H 1400 6300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:TASTER-RACON8SMD SW1
+L component_tester-eagle-import:TASTER-RACON8SMD SW201
 U 1 0 9A392703E9E31E47
 P 5200 5900
-AR Path="/9A392703E9E31E47" Ref="SW1"  Part="1" 
-AR Path="/5B1C6B30/9A392703E9E31E47" Ref="SW1"  Part="1" 
-F 0 "SW1" H 4980 6090 59  0001 L BNN
+F 0 "SW201" H 4980 6090 59  0001 L BNN
 F 1 "TASTER-RACON8SMD" H 4950 5680 59  0001 L BNN
 F 2 "component_tester:TASTER-RACON8SMD" H 5200 5900 50  0001 C CNN
 F 3 "" H 5200 5900 50  0001 C CNN
@@ -497,12 +489,10 @@ F 3 "" H 5200 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:C0805 C1
+L component_tester-eagle-import:C0805 C204
 U 1 0 C56576DBF4F8EA96
 P 3175 2925
-AR Path="/C56576DBF4F8EA96" Ref="C1"  Part="1" 
-AR Path="/5B1C6B30/C56576DBF4F8EA96" Ref="C1"  Part="1" 
-F 0 "C1" H 3075 3025 59  0000 L BNN
+F 0 "C204" H 3075 3025 59  0000 L BNN
 F 1 "22p" H 3275 2825 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 3175 2925 50  0001 C CNN
 F 3 "" H 3175 2925 50  0001 C CNN
@@ -510,12 +500,10 @@ F 3 "" H 3175 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:C0805 C2
+L component_tester-eagle-import:C0805 C205
 U 1 0 425295B9BC7DD4B5
 P 3175 3525
-AR Path="/425295B9BC7DD4B5" Ref="C2"  Part="1" 
-AR Path="/5B1C6B30/425295B9BC7DD4B5" Ref="C2"  Part="1" 
-F 0 "C2" H 3075 3625 59  0000 L BNN
+F 0 "C205" H 3075 3625 59  0000 L BNN
 F 1 "22p" H 3275 3425 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 3175 3525 50  0001 C CNN
 F 3 "" H 3175 3525 50  0001 C CNN
@@ -523,12 +511,10 @@ F 3 "" H 3175 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND1
+L component_tester-eagle-import:GND #GND0204
 U 1 0 6F68935FDB8695AC
 P 2875 2925
-AR Path="/6F68935FDB8695AC" Ref="#GND1"  Part="1" 
-AR Path="/5B1C6B30/6F68935FDB8695AC" Ref="#GND01"  Part="1" 
-F 0 "#GND01" H 2875 2925 50  0001 C CNN
+F 0 "#GND0204" H 2875 2925 50  0001 C CNN
 F 1 "GND" H 2775 2825 59  0000 L BNN
 F 2 "" H 2875 2925 50  0001 C CNN
 F 3 "" H 2875 2925 50  0001 C CNN
@@ -536,12 +522,10 @@ F 3 "" H 2875 2925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND2
+L component_tester-eagle-import:GND #GND0205
 U 1 0 350FEA2913A376EC
 P 2875 3525
-AR Path="/350FEA2913A376EC" Ref="#GND2"  Part="1" 
-AR Path="/5B1C6B30/350FEA2913A376EC" Ref="#GND02"  Part="1" 
-F 0 "#GND02" H 2875 3525 50  0001 C CNN
+F 0 "#GND0205" H 2875 3525 50  0001 C CNN
 F 1 "GND" H 2775 3425 59  0000 L BNN
 F 2 "" H 2875 3525 50  0001 C CNN
 F 3 "" H 2875 3525 50  0001 C CNN
@@ -549,12 +533,10 @@ F 3 "" H 2875 3525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R1
+L component_tester-eagle-import:R0805 R214
 U 1 0 512AF7C563543E95
 P 6900 2925
-AR Path="/512AF7C563543E95" Ref="R1"  Part="1" 
-AR Path="/5B1C6B30/512AF7C563543E95" Ref="R1"  Part="1" 
-F 0 "R1" H 6750 2975 59  0001 L BNN
+F 0 "R214" H 6750 2975 59  0001 L BNN
 F 1 "680" H 6750 2775 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6900 2925 50  0001 C CNN
 F 3 "" H 6900 2925 50  0001 C CNN
@@ -562,12 +544,10 @@ F 3 "" H 6900 2925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R2
+L component_tester-eagle-import:R0805 R215
 U 1 0 E2677E181D3EA782
 P 7100 2925
-AR Path="/E2677E181D3EA782" Ref="R2"  Part="1" 
-AR Path="/5B1C6B30/E2677E181D3EA782" Ref="R2"  Part="1" 
-F 0 "R2" H 6950 2975 59  0001 L BNN
+F 0 "R215" H 6950 2975 59  0001 L BNN
 F 1 "470k" H 6950 2775 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7100 2925 50  0001 C CNN
 F 3 "" H 7100 2925 50  0001 C CNN
@@ -575,12 +555,10 @@ F 3 "" H 7100 2925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R3
+L component_tester-eagle-import:R0805 R216
 U 1 0 9B430939FCECCBCB
 P 7300 2925
-AR Path="/9B430939FCECCBCB" Ref="R3"  Part="1" 
-AR Path="/5B1C6B30/9B430939FCECCBCB" Ref="R3"  Part="1" 
-F 0 "R3" H 7150 2975 59  0001 L BNN
+F 0 "R216" H 7150 2975 59  0001 L BNN
 F 1 "680" H 7150 2775 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7300 2925 50  0001 C CNN
 F 3 "" H 7300 2925 50  0001 C CNN
@@ -588,12 +566,10 @@ F 3 "" H 7300 2925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R4
+L component_tester-eagle-import:R0805 R217
 U 1 0 E5B4C50D045E6390
 P 7500 2925
-AR Path="/E5B4C50D045E6390" Ref="R4"  Part="1" 
-AR Path="/5B1C6B30/E5B4C50D045E6390" Ref="R4"  Part="1" 
-F 0 "R4" H 7350 2975 59  0001 L BNN
+F 0 "R217" H 7350 2975 59  0001 L BNN
 F 1 "470k" H 7350 2775 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7500 2925 50  0001 C CNN
 F 3 "" H 7500 2925 50  0001 C CNN
@@ -601,12 +577,10 @@ F 3 "" H 7500 2925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R5
+L component_tester-eagle-import:R0805 R218
 U 1 0 DF602B93DD8A218A
 P 7700 2925
-AR Path="/DF602B93DD8A218A" Ref="R5"  Part="1" 
-AR Path="/5B1C6B30/DF602B93DD8A218A" Ref="R5"  Part="1" 
-F 0 "R5" H 7550 2975 59  0001 L BNN
+F 0 "R218" H 7550 2975 59  0001 L BNN
 F 1 "680" H 7550 2775 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7700 2925 50  0001 C CNN
 F 3 "" H 7700 2925 50  0001 C CNN
@@ -614,12 +588,10 @@ F 3 "" H 7700 2925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R6
+L component_tester-eagle-import:R0805 R219
 U 1 0 7E98CD9B0A658855
 P 7900 2925
-AR Path="/7E98CD9B0A658855" Ref="R6"  Part="1" 
-AR Path="/5B1C6B30/7E98CD9B0A658855" Ref="R6"  Part="1" 
-F 0 "R6" H 7750 2975 59  0001 L BNN
+F 0 "R219" H 7750 2975 59  0001 L BNN
 F 1 "470k" H 7750 2775 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7900 2925 50  0001 C CNN
 F 3 "" H 7900 2925 50  0001 C CNN
@@ -627,12 +599,10 @@ F 3 "" H 7900 2925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND6
+L component_tester-eagle-import:GND #GND0201
 U 1 0 714A278CA07C0193
 P 775 1725
-AR Path="/714A278CA07C0193" Ref="#GND6"  Part="1" 
-AR Path="/5B1C6B30/714A278CA07C0193" Ref="#GND06"  Part="1" 
-F 0 "#GND06" H 775 1725 50  0001 C CNN
+F 0 "#GND0201" H 775 1725 50  0001 C CNN
 F 1 "GND" H 675 1625 59  0000 L BNN
 F 2 "" H 775 1725 50  0001 C CNN
 F 3 "" H 775 1725 50  0001 C CNN
@@ -640,12 +610,10 @@ F 3 "" H 775 1725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R7
+L component_tester-eagle-import:R0805 R202
 U 1 0 BBCFCC776C012852
 P 2950 2375
-AR Path="/BBCFCC776C012852" Ref="R7"  Part="1" 
-AR Path="/5B1C6B30/BBCFCC776C012852" Ref="R7"  Part="1" 
-F 0 "R7" H 2800 2425 59  0000 L BNN
+F 0 "R202" H 2800 2425 59  0000 L BNN
 F 1 "10k" H 2800 2225 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 2950 2375 50  0001 C CNN
 F 3 "" H 2950 2375 50  0001 C CNN
@@ -653,12 +621,10 @@ F 3 "" H 2950 2375 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V1
+L component_tester-eagle-import:+5V #+5V0201
 U 1 0 AFC6B6985F6C2C2A
 P 675 1025
-AR Path="/AFC6B6985F6C2C2A" Ref="#+5V1"  Part="1" 
-AR Path="/5B1C6B30/AFC6B6985F6C2C2A" Ref="#+5V01"  Part="1" 
-F 0 "#+5V01" H 675 1025 50  0001 C CNN
+F 0 "#+5V0201" H 675 1025 50  0001 C CNN
 F 1 "+5V" V 575 825 59  0000 L BNN
 F 2 "" H 675 1025 50  0001 C CNN
 F 3 "" H 675 1025 50  0001 C CNN
@@ -666,12 +632,10 @@ F 3 "" H 675 1025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0805 C3
+L component_tester-eagle-import:C0805 C206
 U 1 0 A8CF5A1BE6016F5F
 P 3800 2625
-AR Path="/A8CF5A1BE6016F5F" Ref="C3"  Part="1" 
-AR Path="/5B1C6B30/A8CF5A1BE6016F5F" Ref="C3"  Part="1" 
-F 0 "C3" H 3700 2725 59  0000 L BNN
+F 0 "C206" H 3700 2725 59  0000 L BNN
 F 1 "1n" H 3900 2525 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 3800 2625 50  0001 C CNN
 F 3 "" H 3800 2625 50  0001 C CNN
@@ -679,12 +643,10 @@ F 3 "" H 3800 2625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V2
+L component_tester-eagle-import:+5V #+5V0202
 U 1 0 91E9C0F41F01AF8C
 P 2150 2375
-AR Path="/91E9C0F41F01AF8C" Ref="#+5V2"  Part="1" 
-AR Path="/5B1C6B30/91E9C0F41F01AF8C" Ref="#+5V02"  Part="1" 
-F 0 "#+5V02" H 2150 2375 50  0001 C CNN
+F 0 "#+5V0202" H 2150 2375 50  0001 C CNN
 F 1 "+5V" V 2050 2175 59  0000 L BNN
 F 2 "" H 2150 2375 50  0001 C CNN
 F 3 "" H 2150 2375 50  0001 C CNN
@@ -692,12 +654,10 @@ F 3 "" H 2150 2375 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:MCP1640 IC2
+L component_tester-eagle-import:MCP1640 IC201
 U 1 0 53D52AEB541775CA
 P 4300 7000
-AR Path="/53D52AEB541775CA" Ref="IC2"  Part="1" 
-AR Path="/5B1C6B30/53D52AEB541775CA" Ref="IC2"  Part="1" 
-F 0 "IC2" H 4400 7425 59  0000 L BNN
+F 0 "IC201" H 4400 7425 59  0000 L BNN
 F 1 "MCP1640" H 4400 7325 59  0000 L BNN
 F 2 "component_tester:SOT23-6" H 4300 7000 50  0001 C CNN
 F 3 "" H 4300 7000 50  0001 C CNN
@@ -705,12 +665,10 @@ F 3 "" H 4300 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:L1210 L1
+L component_tester-eagle-import:L1210 L201
 U 1 0 F60B72F86BE0507A
 P 3900 6500
-AR Path="/F60B72F86BE0507A" Ref="L1"  Part="1" 
-AR Path="/5B1C6B30/F60B72F86BE0507A" Ref="L1"  Part="1" 
-F 0 "L1" H 3875 6600 42  0000 L BNN
+F 0 "L201" H 3875 6600 42  0000 L BNN
 F 1 "4,7 uH" H 3800 6350 42  0000 L BNN
 F 2 "component_tester:L1210" H 3900 6500 50  0001 C CNN
 F 3 "" H 3900 6500 50  0001 C CNN
@@ -718,12 +676,10 @@ F 3 "" H 3900 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:C0805 C4
+L component_tester-eagle-import:C0805 C203
 U 1 0 7513E83E99E27C05
 P 2900 7000
-AR Path="/7513E83E99E27C05" Ref="C4"  Part="1" 
-AR Path="/5B1C6B30/7513E83E99E27C05" Ref="C4"  Part="1" 
-F 0 "C4" V 2850 7150 59  0000 L BNN
+F 0 "C203" V 2850 7150 59  0000 L BNN
 F 1 "47u" V 3075 7125 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 2900 7000 50  0001 C CNN
 F 3 "" H 2900 7000 50  0001 C CNN
@@ -731,12 +687,10 @@ F 3 "" H 2900 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0805 C5
+L component_tester-eagle-import:C0805 C207
 U 1 0 B6F96C9048BC56A0
 P 5300 7200
-AR Path="/B6F96C9048BC56A0" Ref="C5"  Part="1" 
-AR Path="/5B1C6B30/B6F96C9048BC56A0" Ref="C5"  Part="1" 
-F 0 "C5" H 5200 7300 59  0000 L BNN
+F 0 "C207" H 5200 7300 59  0000 L BNN
 F 1 "47u" H 5400 7100 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 5300 7200 50  0001 C CNN
 F 3 "" H 5300 7200 50  0001 C CNN
@@ -744,12 +698,10 @@ F 3 "" H 5300 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND9
+L component_tester-eagle-import:GND #GND0212
 U 1 0 92D8EA4928DF91D
 P 5500 7800
-AR Path="/92D8EA4928DF91D" Ref="#GND9"  Part="1" 
-AR Path="/5B1C6B30/92D8EA4928DF91D" Ref="#GND09"  Part="1" 
-F 0 "#GND09" H 5500 7800 50  0001 C CNN
+F 0 "#GND0212" H 5500 7800 50  0001 C CNN
 F 1 "GND" H 5400 7700 59  0000 L BNN
 F 2 "" H 5500 7800 50  0001 C CNN
 F 3 "" H 5500 7800 50  0001 C CNN
@@ -757,12 +709,10 @@ F 3 "" H 5500 7800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V3
+L component_tester-eagle-import:+5V #+5V0205
 U 1 0 595B4731D7D5450F
 P 5600 6500
-AR Path="/595B4731D7D5450F" Ref="#+5V3"  Part="1" 
-AR Path="/5B1C6B30/595B4731D7D5450F" Ref="#+5V03"  Part="1" 
-F 0 "#+5V03" H 5600 6500 50  0001 C CNN
+F 0 "#+5V0205" H 5600 6500 50  0001 C CNN
 F 1 "+5V" V 5500 6300 59  0001 L BNN
 F 2 "" H 5600 6500 50  0001 C CNN
 F 3 "" H 5600 6500 50  0001 C CNN
@@ -770,12 +720,10 @@ F 3 "" H 5600 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R8
+L component_tester-eagle-import:R0805 R206
 U 1 0 974F66270C16D534
 P 5000 6900
-AR Path="/974F66270C16D534" Ref="R8"  Part="1" 
-AR Path="/5B1C6B30/974F66270C16D534" Ref="R8"  Part="1" 
-F 0 "R8" H 4850 6950 59  0000 L BNN
+F 0 "R206" H 4850 6950 59  0000 L BNN
 F 1 "750k" H 4850 6750 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5000 6900 50  0001 C CNN
 F 3 "" H 5000 6900 50  0001 C CNN
@@ -783,12 +731,10 @@ F 3 "" H 5000 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R9
+L component_tester-eagle-import:R0805 R207
 U 1 0 458E1AB7AF177D47
 P 5000 7500
-AR Path="/458E1AB7AF177D47" Ref="R9"  Part="1" 
-AR Path="/5B1C6B30/458E1AB7AF177D47" Ref="R9"  Part="1" 
-F 0 "R9" H 4850 7550 59  0000 L BNN
+F 0 "R207" H 4850 7550 59  0000 L BNN
 F 1 "240k" H 4850 7350 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5000 7500 50  0001 C CNN
 F 3 "" H 5000 7500 50  0001 C CNN
@@ -796,12 +742,10 @@ F 3 "" H 5000 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R10
+L component_tester-eagle-import:R0805 R204
 U 1 0 B36C6E30D74182C5
 P 4200 5600
-AR Path="/B36C6E30D74182C5" Ref="R10"  Part="1" 
-AR Path="/5B1C6B30/B36C6E30D74182C5" Ref="R10"  Part="1" 
-F 0 "R10" H 4050 5650 59  0000 L BNN
+F 0 "R204" H 4050 5650 59  0000 L BNN
 F 1 "1M" H 4050 5450 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 4200 5600 50  0001 C CNN
 F 3 "" H 4200 5600 50  0001 C CNN
@@ -809,12 +753,10 @@ F 3 "" H 4200 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R11
+L component_tester-eagle-import:R0805 R209
 U 1 0 CB1356D799561180
 P 5800 1625
-AR Path="/CB1356D799561180" Ref="R11"  Part="1" 
-AR Path="/5B1C6B30/CB1356D799561180" Ref="R11"  Part="1" 
-F 0 "R11" H 5650 1675 59  0000 L BNN
+F 0 "R209" H 5650 1675 59  0000 L BNN
 F 1 "330k" H 5650 1475 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5800 1625 50  0001 C CNN
 F 3 "" H 5800 1625 50  0001 C CNN
@@ -822,12 +764,10 @@ F 3 "" H 5800 1625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND12
+L component_tester-eagle-import:GND #GND0213
 U 1 0 E034864A5F18D96
 P 5800 725
-AR Path="/E034864A5F18D96" Ref="#GND12"  Part="1" 
-AR Path="/5B1C6B30/E034864A5F18D96" Ref="#GND012"  Part="1" 
-F 0 "#GND012" H 5800 725 50  0001 C CNN
+F 0 "#GND0213" H 5800 725 50  0001 C CNN
 F 1 "GND" H 5700 625 59  0000 L BNN
 F 2 "" H 5800 725 50  0001 C CNN
 F 3 "" H 5800 725 50  0001 C CNN
@@ -835,12 +775,10 @@ F 3 "" H 5800 725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0805 C6
+L component_tester-eagle-import:C0805 C202
 U 1 0 9F272910FE64C8E2
 P 1575 1425
-AR Path="/9F272910FE64C8E2" Ref="C6"  Part="1" 
-AR Path="/5B1C6B30/9F272910FE64C8E2" Ref="C6"  Part="1" 
-F 0 "C6" H 1475 1525 59  0000 L BNN
+F 0 "C202" H 1475 1525 59  0000 L BNN
 F 1 "100n" H 1675 1325 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 1575 1425 50  0001 C CNN
 F 3 "" H 1575 1425 50  0001 C CNN
@@ -848,12 +786,10 @@ F 3 "" H 1575 1425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R12
+L component_tester-eagle-import:R0805 R205
 U 1 0 14C551D80E8D017C
 P 4200 6200
-AR Path="/14C551D80E8D017C" Ref="R12"  Part="1" 
-AR Path="/5B1C6B30/14C551D80E8D017C" Ref="R12"  Part="1" 
-F 0 "R12" H 4050 6250 59  0000 L BNN
+F 0 "R205" H 4050 6250 59  0000 L BNN
 F 1 "10k" H 4050 6050 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 4200 6200 50  0001 C CNN
 F 3 "" H 4200 6200 50  0001 C CNN
@@ -861,12 +797,10 @@ F 3 "" H 4200 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:BC847 T1
+L component_tester-eagle-import:BC847 T204
 U 1 0 ABD6C2FC011D2A96
 P 7000 6600
-AR Path="/ABD6C2FC011D2A96" Ref="T1"  Part="1" 
-AR Path="/5B1C6B30/ABD6C2FC011D2A96" Ref="T1"  Part="1" 
-F 0 "T1" H 7100 6650 59  0000 L BNN
+F 0 "T204" H 7100 6650 59  0000 L BNN
 F 1 "BC847" H 7100 6550 59  0000 L BNN
 F 2 "component_tester:SOT23" H 7000 6600 50  0001 C CNN
 F 3 "" H 7000 6600 50  0001 C CNN
@@ -874,12 +808,10 @@ F 3 "" H 7000 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND13
+L component_tester-eagle-import:GND #GND0217
 U 1 0 1DDAFC179E3D6951
 P 7100 7300
-AR Path="/1DDAFC179E3D6951" Ref="#GND13"  Part="1" 
-AR Path="/5B1C6B30/1DDAFC179E3D6951" Ref="#GND013"  Part="1" 
-F 0 "#GND013" H 7100 7300 50  0001 C CNN
+F 0 "#GND0217" H 7100 7300 50  0001 C CNN
 F 1 "GND" H 7000 7200 59  0000 L BNN
 F 2 "" H 7100 7300 50  0001 C CNN
 F 3 "" H 7100 7300 50  0001 C CNN
@@ -887,12 +819,10 @@ F 3 "" H 7100 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R13
+L component_tester-eagle-import:R0805 R211
 U 1 0 D52D387BDEE37B10
 P 6200 1625
-AR Path="/D52D387BDEE37B10" Ref="R13"  Part="1" 
-AR Path="/5B1C6B30/D52D387BDEE37B10" Ref="R13"  Part="1" 
-F 0 "R13" H 6050 1675 59  0000 L BNN
+F 0 "R211" H 6050 1675 59  0000 L BNN
 F 1 "10k" H 6050 1475 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6200 1625 50  0001 C CNN
 F 3 "" H 6200 1625 50  0001 C CNN
@@ -900,12 +830,10 @@ F 3 "" H 6200 1625 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:LM4040 D1
+L component_tester-eagle-import:LM4040 D202
 U 1 0 D58447641462D966
 P 5400 1625
-AR Path="/D58447641462D966" Ref="D1"  Part="1" 
-AR Path="/5B1C6B30/D58447641462D966" Ref="D1"  Part="1" 
-F 0 "D1" H 5500 1725 59  0001 L BNN
+F 0 "D202" H 5500 1725 59  0001 L BNN
 F 1 "LM4040A-2V5" H 5500 1525 59  0001 L BNN
 F 2 "component_tester:SOT23" H 5400 1625 50  0001 C CNN
 F 3 "" H 5400 1625 50  0001 C CNN
@@ -913,12 +841,10 @@ F 3 "" H 5400 1625 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R14
+L component_tester-eagle-import:R0805 R208
 U 1 0 E4B58C2114CE6AAC
 P 5400 1025
-AR Path="/E4B58C2114CE6AAC" Ref="R14"  Part="1" 
-AR Path="/5B1C6B30/E4B58C2114CE6AAC" Ref="R14"  Part="1" 
-F 0 "R14" H 5250 1075 59  0000 L BNN
+F 0 "R208" H 5250 1075 59  0000 L BNN
 F 1 "47k" H 5250 875 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5400 1025 50  0001 C CNN
 F 3 "" H 5400 1025 50  0001 C CNN
@@ -926,12 +852,10 @@ F 3 "" H 5400 1025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V5
+L component_tester-eagle-import:+5V #+5V0204
 U 1 0 534DB015CAF7019A
 P 5400 625
-AR Path="/534DB015CAF7019A" Ref="#+5V5"  Part="1" 
-AR Path="/5B1C6B30/534DB015CAF7019A" Ref="#+5V05"  Part="1" 
-F 0 "#+5V05" H 5400 625 50  0001 C CNN
+F 0 "#+5V0204" H 5400 625 50  0001 C CNN
 F 1 "+5V" V 5300 425 59  0000 L BNN
 F 2 "" H 5400 625 50  0001 C CNN
 F 3 "" H 5400 625 50  0001 C CNN
@@ -939,12 +863,10 @@ F 3 "" H 5400 625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND14
+L component_tester-eagle-import:GND #GND0211
 U 1 0 E847186D109F320A
 P 5400 2025
-AR Path="/E847186D109F320A" Ref="#GND14"  Part="1" 
-AR Path="/5B1C6B30/E847186D109F320A" Ref="#GND014"  Part="1" 
-F 0 "#GND014" H 5400 2025 50  0001 C CNN
+F 0 "#GND0211" H 5400 2025 50  0001 C CNN
 F 1 "GND" H 5300 1925 59  0000 L BNN
 F 2 "" H 5400 2025 50  0001 C CNN
 F 3 "" H 5400 2025 50  0001 C CNN
@@ -952,12 +874,10 @@ F 3 "" H 5400 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V8
+L component_tester-eagle-import:+5V #+5V0206
 U 1 0 3767CDBC2852253F
 P 6200 625
-AR Path="/3767CDBC2852253F" Ref="#+5V8"  Part="1" 
-AR Path="/5B1C6B30/3767CDBC2852253F" Ref="#+5V08"  Part="1" 
-F 0 "#+5V08" H 6200 625 50  0001 C CNN
+F 0 "#+5V0206" H 6200 625 50  0001 C CNN
 F 1 "+5V" V 6100 425 59  0000 L BNN
 F 2 "" H 6200 625 50  0001 C CNN
 F 3 "" H 6200 625 50  0001 C CNN
@@ -965,12 +885,10 @@ F 3 "" H 6200 625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:WANNE6_SEITLICH X6
+L component_tester-eagle-import:WANNE6_SEITLICH X202
 U 1 0 1F637802F1146828
 P 8500 4625
-AR Path="/1F637802F1146828" Ref="X6"  Part="1" 
-AR Path="/5B1C6B30/1F637802F1146828" Ref="X6"  Part="1" 
-F 0 "X6" H 8450 4775 42  0001 L BNN
+F 0 "X202" H 8450 4775 42  0001 L BNN
 F 1 "ISP" H 8450 4425 42  0001 L BNN
 F 2 "component_tester:WANNE6_PCBKANTE" H 8500 4625 50  0001 C CNN
 F 3 "" H 8500 4625 50  0001 C CNN
@@ -978,12 +896,10 @@ F 3 "" H 8500 4625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V9
+L component_tester-eagle-import:+5V #+5V0207
 U 1 0 61F94D08E52C7645
 P 8900 4125
-AR Path="/61F94D08E52C7645" Ref="#+5V9"  Part="1" 
-AR Path="/5B1C6B30/61F94D08E52C7645" Ref="#+5V09"  Part="1" 
-F 0 "#+5V09" H 8900 4125 50  0001 C CNN
+F 0 "#+5V0207" H 8900 4125 50  0001 C CNN
 F 1 "+5V" V 8800 3925 59  0000 L BNN
 F 2 "" H 8900 4125 50  0001 C CNN
 F 3 "" H 8900 4125 50  0001 C CNN
@@ -991,12 +907,10 @@ F 3 "" H 8900 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND17
+L component_tester-eagle-import:GND #GND0224
 U 1 0 A9D98BED0A5A0AC8
 P 8900 5600
-AR Path="/A9D98BED0A5A0AC8" Ref="#GND17"  Part="1" 
-AR Path="/5B1C6B30/A9D98BED0A5A0AC8" Ref="#GND017"  Part="1" 
-F 0 "#GND017" H 8900 5600 50  0001 C CNN
+F 0 "#GND0224" H 8900 5600 50  0001 C CNN
 F 1 "GND" H 8800 5500 59  0000 L BNN
 F 2 "" H 8900 5600 50  0001 C CNN
 F 3 "" H 8900 5600 50  0001 C CNN
@@ -1004,12 +918,10 @@ F 3 "" H 8900 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:BSS123 T2
+L component_tester-eagle-import:BSS123 T203
 U 1 0 778EB5B89E4548F9
 P 6200 4925
-AR Path="/778EB5B89E4548F9" Ref="T2"  Part="1" 
-AR Path="/5B1C6B30/778EB5B89E4548F9" Ref="T2"  Part="1" 
-F 0 "T2" H 6300 4925 59  0001 L BNN
+F 0 "T203" H 6300 4925 59  0001 L BNN
 F 1 "BSS123" H 6300 4825 59  0001 L BNN
 F 2 "component_tester:SOT23" H 6200 4925 50  0001 C CNN
 F 3 "" H 6200 4925 50  0001 C CNN
@@ -1017,12 +929,10 @@ F 3 "" H 6200 4925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R16
+L component_tester-eagle-import:R0805 R212
 U 1 0 20BDF072D5A58622
 P 6400 7100
-AR Path="/20BDF072D5A58622" Ref="R16"  Part="1" 
-AR Path="/5B1C6B30/20BDF072D5A58622" Ref="R16"  Part="1" 
-F 0 "R16" H 6250 7150 59  0001 L BNN
+F 0 "R212" H 6250 7150 59  0001 L BNN
 F 1 "10k" H 6250 6950 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6400 7100 50  0001 C CNN
 F 3 "" H 6400 7100 50  0001 C CNN
@@ -1030,12 +940,10 @@ F 3 "" H 6400 7100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND21
+L component_tester-eagle-import:GND #GND0216
 U 1 0 C987055BCF593DC2
 P 6400 7500
-AR Path="/C987055BCF593DC2" Ref="#GND21"  Part="1" 
-AR Path="/5B1C6B30/C987055BCF593DC2" Ref="#GND021"  Part="1" 
-F 0 "#GND021" H 6400 7500 50  0001 C CNN
+F 0 "#GND0216" H 6400 7500 50  0001 C CNN
 F 1 "GND" H 6300 7400 59  0000 L BNN
 F 2 "" H 6400 7500 50  0001 C CNN
 F 3 "" H 6400 7500 50  0001 C CNN
@@ -1043,12 +951,10 @@ F 3 "" H 6400 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:BSS84 T3
+L component_tester-eagle-import:BSS84 T201
 U 1 0 5B7E70F90DD88CB2
 P 2700 6800
-AR Path="/5B7E70F90DD88CB2" Ref="T3"  Part="1" 
-AR Path="/5B1C6B30/5B7E70F90DD88CB2" Ref="T3"  Part="1" 
-F 0 "T3" H 2800 6800 59  0001 L BNN
+F 0 "T201" H 2800 6800 59  0001 L BNN
 F 1 "PMV65XP" H 2800 6700 59  0001 L BNN
 F 2 "component_tester:SOT23" H 2700 6800 50  0001 C CNN
 F 3 "" H 2700 6800 50  0001 C CNN
@@ -1056,12 +962,10 @@ F 3 "" H 2700 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R17
+L component_tester-eagle-import:R0805 R201
 U 1 0 FEC67141DB79B4F3
 P 1900 7200
-AR Path="/FEC67141DB79B4F3" Ref="R17"  Part="1" 
-AR Path="/5B1C6B30/FEC67141DB79B4F3" Ref="R17"  Part="1" 
-F 0 "R17" H 1750 7250 59  0000 L BNN
+F 0 "R201" H 1750 7250 59  0000 L BNN
 F 1 "10k" H 1750 7050 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 1900 7200 50  0001 C CNN
 F 3 "" H 1900 7200 50  0001 C CNN
@@ -1069,12 +973,10 @@ F 3 "" H 1900 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND22
+L component_tester-eagle-import:GND #GND0203
 U 1 0 5219B01CFB1CD9CF
 P 2300 7900
-AR Path="/5219B01CFB1CD9CF" Ref="#GND22"  Part="1" 
-AR Path="/5B1C6B30/5219B01CFB1CD9CF" Ref="#GND022"  Part="1" 
-F 0 "#GND022" H 2300 7900 50  0001 C CNN
+F 0 "#GND0203" H 2300 7900 50  0001 C CNN
 F 1 "GND" H 2200 7800 59  0000 L BNN
 F 2 "" H 2300 7900 50  0001 C CNN
 F 3 "" H 2300 7900 50  0001 C CNN
@@ -1082,12 +984,10 @@ F 3 "" H 2300 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:C0603 C7
+L component_tester-eagle-import:C0603 C208
 U 1 0 A5B53786DB4051D7
 P 7900 1725
-AR Path="/A5B53786DB4051D7" Ref="C7"  Part="1" 
-AR Path="/5B1C6B30/A5B53786DB4051D7" Ref="C7"  Part="1" 
-F 0 "C7" H 7800 1825 59  0000 L BNN
+F 0 "C208" H 7800 1825 59  0000 L BNN
 F 1 "V 3p" H 8000 1625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 7900 1725 50  0001 C CNN
 F 3 "" H 7900 1725 50  0001 C CNN
@@ -1095,12 +995,10 @@ F 3 "" H 7900 1725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0603 C8
+L component_tester-eagle-import:C0603 C209
 U 1 0 11A2FC9100BCBFFC
 P 7900 1925
-AR Path="/11A2FC9100BCBFFC" Ref="C8"  Part="1" 
-AR Path="/5B1C6B30/11A2FC9100BCBFFC" Ref="C8"  Part="1" 
-F 0 "C8" H 7800 2025 59  0000 L BNN
+F 0 "C209" H 7800 2025 59  0000 L BNN
 F 1 "V 3p" H 8000 1825 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 7900 1925 50  0001 C CNN
 F 3 "" H 7900 1925 50  0001 C CNN
@@ -1108,12 +1006,10 @@ F 3 "" H 7900 1925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0603 C9
+L component_tester-eagle-import:C0603 C210
 U 1 0 65C0CEB9454BEC28
 P 7900 2125
-AR Path="/65C0CEB9454BEC28" Ref="C9"  Part="1" 
-AR Path="/5B1C6B30/65C0CEB9454BEC28" Ref="C9"  Part="1" 
-F 0 "C9" H 7800 2225 59  0000 L BNN
+F 0 "C210" H 7800 2225 59  0000 L BNN
 F 1 "V 3p" H 8000 2025 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 7900 2125 50  0001 C CNN
 F 3 "" H 7900 2125 50  0001 C CNN
@@ -1121,12 +1017,10 @@ F 3 "" H 7900 2125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND4
+L component_tester-eagle-import:GND #GND0220
 U 1 0 4B4BE4C0D896219B
 P 7500 2125
-AR Path="/4B4BE4C0D896219B" Ref="#GND4"  Part="1" 
-AR Path="/5B1C6B30/4B4BE4C0D896219B" Ref="#GND04"  Part="1" 
-F 0 "#GND04" H 7500 2125 50  0001 C CNN
+F 0 "#GND0220" H 7500 2125 50  0001 C CNN
 F 1 "GND" H 7400 2025 59  0000 L BNN
 F 2 "" H 7500 2125 50  0001 C CNN
 F 3 "" H 7500 2125 50  0001 C CNN
@@ -1134,12 +1028,10 @@ F 3 "" H 7500 2125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND5
+L component_tester-eagle-import:GND #GND0219
 U 1 0 D2D9FA1DEF27308A
 P 7500 1925
-AR Path="/D2D9FA1DEF27308A" Ref="#GND5"  Part="1" 
-AR Path="/5B1C6B30/D2D9FA1DEF27308A" Ref="#GND05"  Part="1" 
-F 0 "#GND05" H 7500 1925 50  0001 C CNN
+F 0 "#GND0219" H 7500 1925 50  0001 C CNN
 F 1 "GND" H 7400 1825 59  0000 L BNN
 F 2 "" H 7500 1925 50  0001 C CNN
 F 3 "" H 7500 1925 50  0001 C CNN
@@ -1147,12 +1039,10 @@ F 3 "" H 7500 1925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND7
+L component_tester-eagle-import:GND #GND0218
 U 1 0 C51381239CDE76EF
 P 7500 1725
-AR Path="/C51381239CDE76EF" Ref="#GND7"  Part="1" 
-AR Path="/5B1C6B30/C51381239CDE76EF" Ref="#GND07"  Part="1" 
-F 0 "#GND07" H 7500 1725 50  0001 C CNN
+F 0 "#GND0218" H 7500 1725 50  0001 C CNN
 F 1 "GND" H 7400 1625 59  0000 L BNN
 F 2 "" H 7500 1725 50  0001 C CNN
 F 3 "" H 7500 1725 50  0001 C CNN
@@ -1160,12 +1050,10 @@ F 3 "" H 7500 1725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0603 C10
+L component_tester-eagle-import:C0603 C211
 U 1 0 2BC8C3E3DD386927
 P 8100 2725
-AR Path="/2BC8C3E3DD386927" Ref="C10"  Part="1" 
-AR Path="/5B1C6B30/2BC8C3E3DD386927" Ref="C10"  Part="1" 
-F 0 "C10" H 8000 2825 59  0000 L BNN
+F 0 "C211" H 8000 2825 59  0000 L BNN
 F 1 "V 3p" H 8200 2625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 8100 2725 50  0001 C CNN
 F 3 "" H 8100 2725 50  0001 C CNN
@@ -1173,12 +1061,10 @@ F 3 "" H 8100 2725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0603 C11
+L component_tester-eagle-import:C0603 C212
 U 1 0 32A747533BC6B6B4
 P 8400 2725
-AR Path="/32A747533BC6B6B4" Ref="C11"  Part="1" 
-AR Path="/5B1C6B30/32A747533BC6B6B4" Ref="C11"  Part="1" 
-F 0 "C11" H 8300 2825 59  0000 L BNN
+F 0 "C212" H 8300 2825 59  0000 L BNN
 F 1 "V 3p" H 8500 2625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 8400 2725 50  0001 C CNN
 F 3 "" H 8400 2725 50  0001 C CNN
@@ -1186,12 +1072,10 @@ F 3 "" H 8400 2725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:C0603 C12
+L component_tester-eagle-import:C0603 C213
 U 1 0 5519AC0030851FE9
 P 8700 2725
-AR Path="/5519AC0030851FE9" Ref="C12"  Part="1" 
-AR Path="/5B1C6B30/5519AC0030851FE9" Ref="C12"  Part="1" 
-F 0 "C12" H 8600 2825 59  0000 L BNN
+F 0 "C213" H 8600 2825 59  0000 L BNN
 F 1 "V 3p" H 8800 2625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 8700 2725 50  0001 C CNN
 F 3 "" H 8700 2725 50  0001 C CNN
@@ -1199,12 +1083,10 @@ F 3 "" H 8700 2725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND18
+L component_tester-eagle-import:GND #GND0221
 U 1 0 15FCDF69E0081D19
 P 8100 3125
-AR Path="/15FCDF69E0081D19" Ref="#GND18"  Part="1" 
-AR Path="/5B1C6B30/15FCDF69E0081D19" Ref="#GND018"  Part="1" 
-F 0 "#GND018" H 8100 3125 50  0001 C CNN
+F 0 "#GND0221" H 8100 3125 50  0001 C CNN
 F 1 "GND" H 8000 3025 59  0000 L BNN
 F 2 "" H 8100 3125 50  0001 C CNN
 F 3 "" H 8100 3125 50  0001 C CNN
@@ -1212,12 +1094,10 @@ F 3 "" H 8100 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND19
+L component_tester-eagle-import:GND #GND0222
 U 1 0 906FD9F448B3EBD8
 P 8400 3125
-AR Path="/906FD9F448B3EBD8" Ref="#GND19"  Part="1" 
-AR Path="/5B1C6B30/906FD9F448B3EBD8" Ref="#GND019"  Part="1" 
-F 0 "#GND019" H 8400 3125 50  0001 C CNN
+F 0 "#GND0222" H 8400 3125 50  0001 C CNN
 F 1 "GND" H 8300 3025 59  0000 L BNN
 F 2 "" H 8400 3125 50  0001 C CNN
 F 3 "" H 8400 3125 50  0001 C CNN
@@ -1225,12 +1105,10 @@ F 3 "" H 8400 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND20
+L component_tester-eagle-import:GND #GND0223
 U 1 0 1D4613EF2DF12463
 P 8700 3125
-AR Path="/1D4613EF2DF12463" Ref="#GND20"  Part="1" 
-AR Path="/5B1C6B30/1D4613EF2DF12463" Ref="#GND020"  Part="1" 
-F 0 "#GND020" H 8700 3125 50  0001 C CNN
+F 0 "#GND0223" H 8700 3125 50  0001 C CNN
 F 1 "GND" H 8600 3025 59  0000 L BNN
 F 2 "" H 8700 3125 50  0001 C CNN
 F 3 "" H 8700 3125 50  0001 C CNN
@@ -1238,12 +1116,10 @@ F 3 "" H 8700 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R18
+L component_tester-eagle-import:R0805 R203
 U 1 0 5470D4766A070FAE
 P 3800 7500
-AR Path="/5470D4766A070FAE" Ref="R18"  Part="1" 
-AR Path="/5B1C6B30/5470D4766A070FAE" Ref="R18"  Part="1" 
-F 0 "R18" H 3650 7550 59  0001 L BNN
+F 0 "R203" H 3650 7550 59  0001 L BNN
 F 1 "10k" H 3650 7350 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 3800 7500 50  0001 C CNN
 F 3 "" H 3800 7500 50  0001 C CNN
@@ -1251,12 +1127,10 @@ F 3 "" H 3800 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND23
+L component_tester-eagle-import:GND #GND0208
 U 1 0 A861C119C7080FD3
 P 3800 7800
-AR Path="/A861C119C7080FD3" Ref="#GND23"  Part="1" 
-AR Path="/5B1C6B30/A861C119C7080FD3" Ref="#GND023"  Part="1" 
-F 0 "#GND023" H 3800 7800 50  0001 C CNN
+F 0 "#GND0208" H 3800 7800 50  0001 C CNN
 F 1 "GND" H 3700 7700 59  0000 L BNN
 F 2 "" H 3800 7800 50  0001 C CNN
 F 3 "" H 3800 7800 50  0001 C CNN
@@ -1264,12 +1138,10 @@ F 3 "" H 3800 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:VCC #P+1
+L component_tester-eagle-import:VCC #P+0201
 U 1 0 93600057BCDF72C5
 P 1800 5300
-AR Path="/93600057BCDF72C5" Ref="#P+1"  Part="1" 
-AR Path="/5B1C6B30/93600057BCDF72C5" Ref="#P+01"  Part="1" 
-F 0 "#P+01" H 1800 5300 50  0001 C CNN
+F 0 "#P+0201" H 1800 5300 50  0001 C CNN
 F 1 "VCC" V 1700 5200 59  0000 L BNN
 F 2 "" H 1800 5300 50  0001 C CNN
 F 3 "" H 1800 5300 50  0001 C CNN
@@ -1277,12 +1149,10 @@ F 3 "" H 1800 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND27
+L component_tester-eagle-import:GND #GND0215
 U 1 0 2524E78419D9C11
 P 6200 5900
-AR Path="/2524E78419D9C11" Ref="#GND27"  Part="1" 
-AR Path="/5B1C6B30/2524E78419D9C11" Ref="#GND027"  Part="1" 
-F 0 "#GND027" H 6200 5900 50  0001 C CNN
+F 0 "#GND0215" H 6200 5900 50  0001 C CNN
 F 1 "GND" H 6100 5800 59  0000 L BNN
 F 2 "" H 6200 5900 50  0001 C CNN
 F 3 "" H 6200 5900 50  0001 C CNN
@@ -1290,12 +1160,10 @@ F 3 "" H 6200 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R19
+L component_tester-eagle-import:R0805 R213
 U 1 0 41B133A76954CAE3
 P 6700 6600
-AR Path="/41B133A76954CAE3" Ref="R19"  Part="1" 
-AR Path="/5B1C6B30/41B133A76954CAE3" Ref="R19"  Part="1" 
-F 0 "R19" H 6550 6650 59  0001 L BNN
+F 0 "R213" H 6550 6650 59  0001 L BNN
 F 1 "10k" H 6550 6450 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6700 6600 50  0001 C CNN
 F 3 "" H 6700 6600 50  0001 C CNN
@@ -1303,12 +1171,10 @@ F 3 "" H 6700 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L component_tester-eagle-import:BSS84 T5
+L component_tester-eagle-import:BSS84 T202
 U 1 0 405680EADAE672BE
 P 3500 7200
-AR Path="/405680EADAE672BE" Ref="T5"  Part="1" 
-AR Path="/5B1C6B30/405680EADAE672BE" Ref="T5"  Part="1" 
-F 0 "T5" H 3600 7200 59  0000 L BNN
+F 0 "T202" H 3600 7200 59  0000 L BNN
 F 1 "BSS84" H 3600 7100 59  0000 L BNN
 F 2 "component_tester:SOT23" H 3500 7200 50  0001 C CNN
 F 3 "" H 3500 7200 50  0001 C CNN
@@ -1316,12 +1182,10 @@ F 3 "" H 3500 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND28
+L component_tester-eagle-import:GND #GND0209
 U 1 0 1446A4090345B4CC
 P 4300 7800
-AR Path="/1446A4090345B4CC" Ref="#GND28"  Part="1" 
-AR Path="/5B1C6B30/1446A4090345B4CC" Ref="#GND028"  Part="1" 
-F 0 "#GND028" H 4300 7800 50  0001 C CNN
+F 0 "#GND0209" H 4300 7800 50  0001 C CNN
 F 1 "GND" H 4200 7700 59  0000 L BNN
 F 2 "" H 4300 7800 50  0001 C CNN
 F 3 "" H 4300 7800 50  0001 C CNN
@@ -1329,12 +1193,10 @@ F 3 "" H 4300 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND29
+L component_tester-eagle-import:GND #GND0206
 U 1 0 450F114DBFC01DE5
 P 2900 7900
-AR Path="/450F114DBFC01DE5" Ref="#GND29"  Part="1" 
-AR Path="/5B1C6B30/450F114DBFC01DE5" Ref="#GND029"  Part="1" 
-F 0 "#GND029" H 2900 7900 50  0001 C CNN
+F 0 "#GND0206" H 2900 7900 50  0001 C CNN
 F 1 "GND" H 2800 7800 59  0000 L BNN
 F 2 "" H 2900 7900 50  0001 C CNN
 F 3 "" H 2900 7900 50  0001 C CNN
@@ -1342,12 +1204,10 @@ F 3 "" H 2900 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:CPOL-EUD_7343-31W C15
+L component_tester-eagle-import:CPOL-EUD_7343-31W C201
 U 1 0 1DC177F378F9F006
 P 1275 1325
-AR Path="/1DC177F378F9F006" Ref="C15"  Part="1" 
-AR Path="/5B1C6B30/1DC177F378F9F006" Ref="C15"  Part="1" 
-F 0 "C15" H 1320 1344 59  0001 L BNN
+F 0 "C201" H 1320 1344 59  0001 L BNN
 F 1 "100u" H 1000 1125 59  0000 L BNN
 F 2 "component_tester:D_7343-31W" H 1275 1325 50  0001 C CNN
 F 3 "" H 1275 1325 50  0001 C CNN
@@ -1355,12 +1215,10 @@ F 3 "" H 1275 1325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:BAV99 D2
+L component_tester-eagle-import:BAV99 D201
 U 1 0 4C475A1A20478EC3
 P 2500 6300
-AR Path="/4C475A1A20478EC3" Ref="D2"  Part="1" 
-AR Path="/5B1C6B30/4C475A1A20478EC3" Ref="D2"  Part="1" 
-F 0 "D2" H 2400 6500 59  0000 L BNN
+F 0 "D201" H 2400 6500 59  0000 L BNN
 F 1 "BAV99" H 2450 6050 59  0000 L BNN
 F 2 "component_tester:SOT23" H 2500 6300 50  0001 C CNN
 F 3 "" H 2500 6300 50  0001 C CNN
@@ -1368,12 +1226,10 @@ F 3 "" H 2500 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:R0805 R20
+L component_tester-eagle-import:R0805 R210
 U 1 0 1DF2EA82A5EEF4AE
 P 5900 7100
-AR Path="/1DF2EA82A5EEF4AE" Ref="R20"  Part="1" 
-AR Path="/5B1C6B30/1DF2EA82A5EEF4AE" Ref="R20"  Part="1" 
-F 0 "R20" H 5750 7150 59  0001 L BNN
+F 0 "R210" H 5750 7150 59  0001 L BNN
 F 1 "10k" H 5750 6950 59  0001 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5900 7100 50  0001 C CNN
 F 3 "" H 5900 7100 50  0001 C CNN
@@ -1381,12 +1237,10 @@ F 3 "" H 5900 7100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:BAS40 D5
+L component_tester-eagle-import:BAS40 D203
 U 1 0 E8A02D8F73B70CE6
 P 6100 6600
-AR Path="/E8A02D8F73B70CE6" Ref="D5"  Part="1" 
-AR Path="/5B1C6B30/E8A02D8F73B70CE6" Ref="D5"  Part="1" 
-F 0 "D5" H 6200 6700 59  0001 L BNN
+F 0 "D203" H 6200 6700 59  0001 L BNN
 F 1 "BAS40" H 6200 6500 59  0001 L BNN
 F 2 "component_tester:SOT23" H 6100 6600 50  0001 C CNN
 F 3 "" H 6100 6600 50  0001 C CNN
@@ -1394,12 +1248,10 @@ F 3 "" H 6100 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND38
+L component_tester-eagle-import:GND #GND0214
 U 1 0 C6FB8FD59C9B1271
 P 5900 7500
-AR Path="/C6FB8FD59C9B1271" Ref="#GND38"  Part="1" 
-AR Path="/5B1C6B30/C6FB8FD59C9B1271" Ref="#GND038"  Part="1" 
-F 0 "#GND038" H 5900 7500 50  0001 C CNN
+F 0 "#GND0214" H 5900 7500 50  0001 C CNN
 F 1 "GND" H 5800 7400 59  0000 L BNN
 F 2 "" H 5900 7500 50  0001 C CNN
 F 3 "" H 5900 7500 50  0001 C CNN
@@ -1423,10 +1275,10 @@ BAT+ = 3V von Lithiumzelle
 Text Notes 725  725  0    127  ~ 0
 K.-H. Kübbeler, DF3DCB, DH8GHH
 $Comp
-L atmega48a-mmh:ATmega328P-MMH IC1
+L atmega48a-mmh:ATmega328P-MMH IC202
 U 1 1 5B2341C0
 P 4800 3575
-F 0 "IC1" H 4800 1989 50  0000 C CNN
+F 0 "IC202" H 4800 1989 50  0000 C CNN
 F 1 "ATmega328P-MMH" H 3875 2325 50  0000 C CNN
 F 2 "KiCad/Housings_DFN_QFN.pretty:QFN-28-1EP_4x4mm_Pitch0.4mm" H 4800 3575 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 4800 3575 50  0001 C CNN
@@ -1440,10 +1292,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 3225 3975 3225
 $Comp
-L component_tester-eagle-import:GND #GND0101
+L component_tester-eagle-import:GND #GND0207
 U 1 0 5B2E4C4B
 P 3475 2625
-F 0 "#GND0101" H 3475 2625 50  0001 C CNN
+F 0 "#GND0207" H 3475 2625 50  0001 C CNN
 F 1 "GND" H 3375 2525 59  0000 L BNN
 F 2 "" H 3475 2625 50  0001 C CNN
 F 3 "" H 3475 2625 50  0001 C CNN
@@ -1451,10 +1303,10 @@ F 3 "" H 3475 2625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L component_tester-eagle-import:+5V #+5V0101
+L component_tester-eagle-import:+5V #+5V0203
 U 1 0 5B2E5396
 P 4800 1800
-F 0 "#+5V0101" H 4800 1800 50  0001 C CNN
+F 0 "#+5V0203" H 4800 1800 50  0001 C CNN
 F 1 "+5V" V 4700 1600 59  0000 L BNN
 F 2 "" H 4800 1800 50  0001 C CNN
 F 3 "" H 4800 1800 50  0001 C CNN
@@ -1471,10 +1323,10 @@ Connection ~ 4800 2000
 Wire Wire Line
 	4800 2000 4800 2075
 $Comp
-L component_tester-eagle-import:GND #GND0102
+L component_tester-eagle-import:GND #GND0210
 U 1 0 5B2FF045
 P 4800 5350
-F 0 "#GND0102" H 4800 5350 50  0001 C CNN
+F 0 "#GND0210" H 4800 5350 50  0001 C CNN
 F 1 "GND" H 4700 5250 59  0000 L BNN
 F 2 "" H 4800 5350 50  0001 C CNN
 F 3 "" H 4800 5350 50  0001 C CNN
@@ -1523,21 +1375,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 5025 5900 5900
 $Comp
-L Connector_Generic:Conn_01x30 OLED1
-U 1 1 5B4AE6A8
-P 11025 3675
-F 0 "OLED1" H 11105 3667 50  0000 L CNN
-F 1 "Conn_01x30" H 11105 3576 50  0000 L CNN
-F 2 "component_tester:SSD1306" H 11025 3675 50  0001 C CNN
-F 3 "~" H 11025 3675 50  0001 C CNN
-	1    11025 3675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 DRAWING2
+L Connector_Generic:Conn_01x03 DRAWING201
 U 1 1 5B4B01B0
 P 8400 750
-F 0 "DRAWING2" V 8350 950 50  0000 L CNN
+F 0 "DRAWING201" V 8350 950 50  0000 L CNN
 F 1 "DRAWING" V 8425 1000 50  0000 L CNN
 F 2 "drawings:pads" H 8400 750 50  0001 C CNN
 F 3 "~" H 8400 750 50  0001 C CNN
@@ -1545,10 +1386,10 @@ F 3 "~" H 8400 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 DRAWING3
+L Connector_Generic:Conn_01x03 DRAWING202
 U 1 1 5B4B01B7
 P 8400 1175
-F 0 "DRAWING3" V 8375 1450 50  0000 L CNN
+F 0 "DRAWING202" V 8375 1450 50  0000 L CNN
 F 1 "DRAWING" V 8450 1500 50  0000 L CNN
 F 2 "drawings:pads_bottom" H 8400 1175 50  0001 C CNN
 F 3 "~" H 8400 1175 50  0001 C CNN
@@ -1589,12 +1430,10 @@ Connection ~ 4650 5150
 Wire Wire Line
 	4800 5150 4800 5250
 $Comp
-L component_tester-eagle-import:CR2032 BAT1
+L component_tester-eagle-import:CR2032 BAT201
 U 1 0 D31478EC87295480
 P 2700 7400
-AR Path="/D31478EC87295480" Ref="BAT1"  Part="1" 
-AR Path="/5B1C6B30/D31478EC87295480" Ref="BAT1"  Part="1" 
-F 0 "BAT1" H 2700 7400 50  0001 C CNN
+F 0 "BAT201" H 2700 7400 50  0001 C CNN
 F 1 "CR2032" H 2700 7400 50  0001 C CNN
 F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2700 7400 50  0001 C CNN
 F 3 "" H 2700 7400 50  0001 C CNN
@@ -1602,12 +1441,10 @@ F 3 "" H 2700 7400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L component_tester-eagle-import:GND #GND16
+L component_tester-eagle-import:GND #GND0202
 U 1 0 8316678299D4D269
 P 1700 7000
-AR Path="/8316678299D4D269" Ref="#GND16"  Part="1" 
-AR Path="/5B1C6B30/8316678299D4D269" Ref="#GND016"  Part="1" 
-F 0 "#GND016" H 1700 7000 50  0001 C CNN
+F 0 "#GND0202" H 1700 7000 50  0001 C CNN
 F 1 "GND" H 1600 6900 59  0000 L BNN
 F 2 "" H 1700 7000 50  0001 C CNN
 F 3 "" H 1700 7000 50  0001 C CNN
@@ -1615,10 +1452,10 @@ F 3 "" H 1700 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0101
+L power:+BATT #PWR0201
 U 1 1 5B66E8BE
 P 2300 7000
-F 0 "#PWR0101" H 2300 6850 50  0001 C CNN
+F 0 "#PWR0201" H 2300 6850 50  0001 C CNN
 F 1 "+BATT" H 2315 7173 50  0000 C CNN
 F 2 "" H 2300 7000 50  0001 C CNN
 F 3 "" H 2300 7000 50  0001 C CNN

@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name drawings)(type KiCad)(uri "$(KIPRJMOD)/drawings.pretty")(options "")(descr ""))
   (lib (name component_tester)(type KiCad)(uri "$(KIPRJMOD)/component_tester.pretty")(options "")(descr ""))
+  (lib (name "Adafruit 128x64 Mono OLED PCB v2")(type KiCad)(uri "$(KIPRJMOD)/Adafruit 128x64 Mono OLED PCB v2.pretty")(options "")(descr ""))
 )
