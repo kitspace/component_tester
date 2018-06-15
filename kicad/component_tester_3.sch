@@ -158,8 +158,6 @@ Text Label 9100 3300 0    10   ~ 0
 GND
 Wire Wire Line
 	7400 4300 7400 4200
-Text Label 7400 4300 0    10   ~ 0
-GND
 Wire Wire Line
 	7400 3600 7400 3700
 Wire Wire Line
