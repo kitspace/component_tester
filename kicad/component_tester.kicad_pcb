@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 7)
     (tracks 0)
     (zones 0)
     (modules 86)
@@ -294,13 +294,13 @@
     (add_net VIN)
   )
 
-  (module drawings:pads_bottom (layer Top) (tedit 5B23C9F3) (tstamp 5B563433)
-    (at 115.321779 62.302596)
+  (module drawings:pads_bottom (layer Top) (tedit 5B23CEED) (tstamp 5B563433)
+    (at 118.069008 99.316929)
     (path /5B1C6B30/5B4B01B7)
-    (fp_text reference DRAWING202 (at 0 0) (layer F.SilkS)
+    (fp_text reference DRAWING202 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (fp_text value DRAWING (at 0 0) (layer F.SilkS)
+    (fp_text value DRAWING (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (fp_poly (pts (xy 9.967228 7.611193) (xy 10.044006 7.612273) (xy 10.137744 7.613839) (xy 10.246332 7.615855)
@@ -446,7 +446,7 @@
   )
 
   (module drawings:pads (layer Top) (tedit 5B23C99A) (tstamp 5B565C02)
-    (at 106.137625 41.325733)
+    (at 169.629008 101.536929)
     (path /5B1C6B30/5B4B01B0)
     (fp_text reference DRAWING201 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -922,7 +922,7 @@
   )
 
   (module smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push2 (layer Top) (tedit 5B23C98C) (tstamp 5B56B38D)
-    (at 111.613502 37.647772 180)
+    (at 160.61 107.72 180)
     (descr "SMD Pushbutton 2")
     (path /5B1C6B30/9A392703E9E31E47)
     (autoplace_cost180 10)
@@ -2710,8 +2710,8 @@
     )
   )
 
-  (module component_tester:SSD1306 (layer Bottom) (tedit 5B22970F) (tstamp 5B23425B)
-    (at 146.318188 65.289796)
+  (module component_tester:SSD1306 (layer Bottom) (tedit 5B22970F) (tstamp 5B23EBF1)
+    (at 115.824 100.076)
     (path /5B23B1A6/5B24C203)
     (attr smd)
     (fp_text reference OLED1 (at -3.85 -1.75) (layer B.SilkS)
@@ -3391,7 +3391,7 @@
   )
 
   (module StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912 (layer Bottom) (tedit 543C2BE7) (tstamp 5B3D243A)
-    (at 117.094 87.63 180)
+    (at 116.84 87.884 180)
     (path /5B1C6B30/D31478EC87295480)
     (attr smd)
     (fp_text reference BAT201 (at -10.9 -3.7 180) (layer B.SilkS)
@@ -8887,12 +8887,8 @@
       (net 42 "Net-(D203-Pad3)") (solder_mask_margin 0.0762))
   )
 
-  (gr_arc (start 128.302879 50.973337) (end 126.952879 58.4036) (angle 80.990186) (layer B.Mask) (width 0.15) (tstamp 93FB160))
-  (gr_arc (start 128.356139 51.103601) (end 121.352879 48.5036) (angle 135.114493) (layer B.Mask) (width 0.15) (tstamp 93FB660))
-  (gr_arc (start 128.302878 50.921782) (end 135.752879 50.0036) (angle 34.661768) (layer B.Mask) (width 0.15) (tstamp 93FBB90))
-  (gr_arc (start 128.236212 51.0036) (end 131.952879 57.6036) (angle 17.061531) (layer B.Mask) (width 0.15) (tstamp 8B1C1E0))
-  (gr_circle (center 152.952879 51.0036) (end 158.952879 51.0036) (layer B.Fab) (width 0.4064) (tstamp 8B1C760))
-  (gr_circle (center 128.352879 51.0036) (end 135.852879 51.0036) (layer B.SilkS) (width 0.254) (tstamp 8B1CB90))
+  (gr_line (start 131.04 107.98) (end 128.91 107.98) (layer Dwgs.User) (width 0.2) (tstamp 5B249289))
+  (gr_line (start 182.65 110.21) (end 180.52 110.21) (layer Dwgs.User) (width 0.2))
   (gr_text www.ov-lennestadt.de (at 121.352879 21.7036 -90) (layer B.Mask) (tstamp 8C68DC0)
     (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify right top mirror))
   )
