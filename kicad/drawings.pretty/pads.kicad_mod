@@ -1,8 +1,8 @@
-(module drawings:pads (layer F.Cu) (tedit 5B22AAAE)
-  (fp_text reference DRAWING2 (at 0 0) (layer F.SilkS) hide
+(module drawings:pads (layer F.Cu) (tedit 5B23C8EF)
+  (fp_text reference DRAWING201 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
-  (fp_text value DRAWING (at 0 0) (layer F.SilkS) hide
+  (fp_text value DRAWING (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_poly (pts (xy 1.021502 6.071995) (xy 1.021531 6.072019) (xy 1.029001 6.084302) (xy 1.047617 6.11668)
@@ -464,7 +464,7 @@
     (xy 10.262169 3.400632) (xy 10.306917 3.297287) (xy 10.369883 3.203644) (xy 10.449679 3.122342)
     (xy 10.544915 3.056021) (xy 10.654203 3.007321) (xy 10.753725 2.98232) (xy 10.86963 2.975008)
     (xy 10.984406 2.991128)) (layer B.Mask) (width 0.01))
-  (pad 1 smd circle (at 10.840992 3.585289) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd circle (at 10.840992 8.663071) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd circle (at 10.840992 6.12418) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 thru_hole circle (at 10.840992 3.585289) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 10.840992 8.663071) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 10.840992 6.12418) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
 )
