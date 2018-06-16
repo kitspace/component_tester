@@ -286,8 +286,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 6975 4300 6875
 Wire Wire Line
-	4300 6875 4100 6875
-Wire Wire Line
 	5000 7675 5000 7575
 Wire Wire Line
 	5000 7575 5000 7475
@@ -335,8 +333,6 @@ Wire Wire Line
 	3300 6575 3300 5925
 Wire Wire Line
 	3300 5925 3300 5675
-Wire Wire Line
-	3700 6875 3300 6875
 Wire Wire Line
 	3300 6875 3300 6575
 Wire Wire Line
@@ -459,7 +455,7 @@ U 1 0 1C96B32E8B46FD95
 P 3475 3225
 F 0 "Q201" V 3500 3325 42  0000 L BNN
 F 1 "8 MHz" H 3625 2975 42  0000 L BNN
-F 2 "KiCad/Crystals.pretty:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm" H 3475 3225 50  0001 C CNN
+F 2 "mcous/kicad-lib/footprints/crystal.pretty:NDK-NX3225GA_xtal" H 3475 3225 50  0001 C CNN
 F 3 "" H 3475 3225 50  0001 C CNN
 	1    3475 3225
 	0    -1   -1   0   
@@ -649,17 +645,6 @@ F 1 "MCP1640" H 4400 7700 59  0000 L BNN
 F 2 "component_tester:SOT23-6" H 4300 7375 50  0001 C CNN
 F 3 "" H 4300 7375 50  0001 C CNN
 	1    4300 7375
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:L1210 L201
-U 1 0 F60B72F86BE0507A
-P 3900 6875
-F 0 "L201" H 3875 6975 42  0000 L BNN
-F 1 "4,7 uH" H 3800 6725 42  0000 L BNN
-F 2 "component_tester:L1210" H 3900 6875 50  0001 C CNN
-F 3 "" H 3900 6875 50  0001 C CNN
-	1    3900 6875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1464,4 +1449,19 @@ Wire Wire Line
 	5900 5650 6000 5650
 Wire Wire Line
 	5900 5650 5900 5925
+$Comp
+L pspice:INDUCTOR L201
+U 1 1 5B2621E0
+P 3875 6875
+F 0 "L201" H 3875 7090 50  0000 C CNN
+F 1 "4.7uH" H 3875 6999 50  0000 C CNN
+F 2 "KiCad/Resistors_SMD.pretty:R_0603" H 3875 6875 50  0001 C CNN
+F 3 "" H 3875 6875 50  0001 C CNN
+	1    3875 6875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6875 3625 6875
+Wire Wire Line
+	4300 6875 4125 6875
 $EndSCHEMATC
