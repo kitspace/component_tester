@@ -73,8 +73,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 1425 5800 825 
 Wire Wire Line
-	5400 1825 5400 1925
-Wire Wire Line
 	1700 6475 1700 7275
 Wire Wire Line
 	1600 6475 1700 6475
@@ -245,8 +243,6 @@ Connection ~ 1275 1025
 Wire Wire Line
 	2250 2375 2750 2375
 Wire Wire Line
-	5400 725  5400 825 
-Wire Wire Line
 	6200 725  6200 1425
 Wire Wire Line
 	5300 6875 5500 6875
@@ -318,13 +314,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 6575 5700 8375
 Connection ~ 5700 6575
-Wire Wire Line
-	5400 1225 5400 1325
-Wire Wire Line
-	5400 1325 5400 1425
-Wire Wire Line
-	5600 1325 5400 1325
-Connection ~ 5400 1325
 Wire Wire Line
 	3300 5675 4000 5675
 Wire Wire Line
@@ -752,7 +741,7 @@ U 1 0 9F272910FE64C8E2
 P 1575 1425
 F 0 "C202" V 1750 1150 59  0000 L BNN
 F 1 "100n" V 1525 1150 59  0000 L BNN
-F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 1575 1425 50  0001 C CNN
+F 2 "KiCad/Capacitors_SMD.pretty:C_0402" H 1575 1425 50  0001 C CNN
 F 3 "" H 1575 1425 50  0001 C CNN
 	1    1575 1425
 	0    -1   -1   0   
@@ -800,50 +789,6 @@ F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6200 1625 50  0001 C CNN
 F 3 "" H 6200 1625 50  0001 C CNN
 	1    6200 1625
 	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:LM4040 D202
-U 1 0 D58447641462D966
-P 5400 1625
-F 0 "D202" H 5500 1725 59  0000 L BNN
-F 1 "LM4040A-2V5" H 5500 1525 59  0000 L BNN
-F 2 "component_tester:SOT23" H 5400 1625 50  0001 C CNN
-F 3 "" H 5400 1625 50  0001 C CNN
-	1    5400 1625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:R0805 R208
-U 1 0 E4B58C2114CE6AAC
-P 5400 1025
-F 0 "R208" H 5250 1075 59  0000 L BNN
-F 1 "47k" H 5250 875 59  0000 L BNN
-F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5400 1025 50  0001 C CNN
-F 3 "" H 5400 1025 50  0001 C CNN
-	1    5400 1025
-	0    -1   -1   0   
-$EndComp
-$Comp
-L component_tester-eagle-import:+5V #+5V0204
-U 1 0 534DB015CAF7019A
-P 5400 625
-F 0 "#+5V0204" H 5400 625 50  0001 C CNN
-F 1 "+5V" V 5300 425 59  0000 L BNN
-F 2 "" H 5400 625 50  0001 C CNN
-F 3 "" H 5400 625 50  0001 C CNN
-	1    5400 625 
-	1    0    0    -1  
-$EndComp
-$Comp
-L component_tester-eagle-import:GND #GND0211
-U 1 0 E847186D109F320A
-P 5400 2025
-F 0 "#GND0211" H 5400 2025 50  0001 C CNN
-F 1 "GND" H 5300 1925 59  0000 L BNN
-F 2 "" H 5400 2025 50  0001 C CNN
-F 3 "" H 5400 2025 50  0001 C CNN
-	1    5400 2025
-	1    0    0    -1  
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0206
@@ -1301,10 +1246,6 @@ Wire Wire Line
 Connection ~ 5600 2925
 Wire Wire Line
 	5600 2925 5600 5675
-Wire Wire Line
-	5600 2825 5400 2825
-Wire Wire Line
-	5600 1325 5600 2825
 Wire Wire Line
 	5400 2725 6600 2725
 Wire Wire Line
