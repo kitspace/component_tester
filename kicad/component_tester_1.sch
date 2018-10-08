@@ -1,37 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:component_tester-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 12218 8923
@@ -71,7 +38,7 @@ Connection ~ 5300 8175
 Wire Wire Line
 	7100 7175 7100 7575
 Wire Wire Line
-	5800 1425 5800 825 
+	5800 1425 5800 825
 Wire Wire Line
 	1700 6475 1700 7275
 Wire Wire Line
@@ -436,7 +403,7 @@ F 1 "FiFi" H 900 8475 50  0001 C CNN
 F 2 "" H 900 8475 50  0001 C CNN
 F 3 "" H 900 8475 50  0001 C CNN
 	1    900  8475
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:SMD-QUARZ Q201
@@ -447,7 +414,7 @@ F 1 "8 MHz" H 3625 2975 42  0000 L BNN
 F 2 "mcous/kicad-lib/footprints/crystal.pretty:NDK-NX3225GA_xtal" H 3475 3225 50  0001 C CNN
 F 3 "" H 3475 3225 50  0001 C CNN
 	1    3475 3225
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:MINI-USB X201
@@ -458,7 +425,7 @@ F 1 "MICRO-USB" H 1300 7075 70  0000 L BNN
 F 2 "component_tester:TE_1981568-1" H 1400 6675 50  0001 C CNN
 F 3 "" H 1400 6675 50  0001 C CNN
 	1    1400 6675
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C204
@@ -469,7 +436,7 @@ F 1 "22p" H 3275 2825 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 3175 2925 50  0001 C CNN
 F 3 "" H 3175 2925 50  0001 C CNN
 	1    3175 2925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C205
@@ -480,7 +447,7 @@ F 1 "22p" H 3275 3425 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 3175 3525 50  0001 C CNN
 F 3 "" H 3175 3525 50  0001 C CNN
 	1    3175 3525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0204
@@ -491,7 +458,7 @@ F 1 "GND" H 2775 2825 59  0000 L BNN
 F 2 "" H 2875 2925 50  0001 C CNN
 F 3 "" H 2875 2925 50  0001 C CNN
 	1    2875 2925
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0205
@@ -502,7 +469,7 @@ F 1 "GND" H 2775 3425 59  0000 L BNN
 F 2 "" H 2875 3525 50  0001 C CNN
 F 3 "" H 2875 3525 50  0001 C CNN
 	1    2875 3525
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R214
@@ -513,7 +480,7 @@ F 1 "680" H 6550 2975 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6900 2925 50  0001 C CNN
 F 3 "" H 6900 2925 50  0001 C CNN
 	1    6900 2925
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R215
@@ -524,7 +491,7 @@ F 1 "470k" H 6725 2950 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7100 2925 50  0001 C CNN
 F 3 "" H 7100 2925 50  0001 C CNN
 	1    7100 2925
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R216
@@ -535,7 +502,7 @@ F 1 "680" H 6950 2975 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7300 2925 50  0001 C CNN
 F 3 "" H 7300 2925 50  0001 C CNN
 	1    7300 2925
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R217
@@ -546,7 +513,7 @@ F 1 "470k" H 7125 2950 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7500 2925 50  0001 C CNN
 F 3 "" H 7500 2925 50  0001 C CNN
 	1    7500 2925
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R218
@@ -557,7 +524,7 @@ F 1 "680" H 7350 2975 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7700 2925 50  0001 C CNN
 F 3 "" H 7700 2925 50  0001 C CNN
 	1    7700 2925
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R219
@@ -568,7 +535,7 @@ F 1 "470k" H 7525 2950 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7900 2925 50  0001 C CNN
 F 3 "" H 7900 2925 50  0001 C CNN
 	1    7900 2925
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0402
@@ -579,7 +546,7 @@ F 1 "GND" H 675 1625 59  0000 L BNN
 F 2 "" H 775 1725 50  0001 C CNN
 F 3 "" H 775 1725 50  0001 C CNN
 	1    775  1725
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R202
@@ -590,7 +557,7 @@ F 1 "10k" H 2800 2225 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 2950 2375 50  0001 C CNN
 F 3 "" H 2950 2375 50  0001 C CNN
 	1    2950 2375
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0402
@@ -601,7 +568,7 @@ F 1 "+5V" V 575 825 59  0000 L BNN
 F 2 "" H 675 1025 50  0001 C CNN
 F 3 "" H 675 1025 50  0001 C CNN
 	1    675  1025
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C206
@@ -612,7 +579,7 @@ F 1 "1n" H 3900 2525 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 3800 2625 50  0001 C CNN
 F 3 "" H 3800 2625 50  0001 C CNN
 	1    3800 2625
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0202
@@ -623,7 +590,7 @@ F 1 "+5V" V 2050 2175 59  0000 L BNN
 F 2 "" H 2150 2375 50  0001 C CNN
 F 3 "" H 2150 2375 50  0001 C CNN
 	1    2150 2375
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:MCP1640 IC201
@@ -634,7 +601,7 @@ F 1 "MCP1640" H 4400 7700 59  0000 L BNN
 F 2 "component_tester:SOT23-6" H 4300 7375 50  0001 C CNN
 F 3 "" H 4300 7375 50  0001 C CNN
 	1    4300 7375
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C203
@@ -645,7 +612,7 @@ F 1 "47u" V 3075 7500 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 2900 7375 50  0001 C CNN
 F 3 "" H 2900 7375 50  0001 C CNN
 	1    2900 7375
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C207
@@ -656,7 +623,7 @@ F 1 "47u" H 5400 7475 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 5300 7575 50  0001 C CNN
 F 3 "" H 5300 7575 50  0001 C CNN
 	1    5300 7575
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0212
@@ -667,7 +634,7 @@ F 1 "GND" H 5400 8075 59  0000 L BNN
 F 2 "" H 5500 8175 50  0001 C CNN
 F 3 "" H 5500 8175 50  0001 C CNN
 	1    5500 8175
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0205
@@ -678,7 +645,7 @@ F 1 "+5V" V 5500 6675 59  0000 L BNN
 F 2 "" H 5600 6875 50  0001 C CNN
 F 3 "" H 5600 6875 50  0001 C CNN
 	1    5600 6875
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R206
@@ -689,7 +656,7 @@ F 1 "750k" H 4850 7125 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5000 7275 50  0001 C CNN
 F 3 "" H 5000 7275 50  0001 C CNN
 	1    5000 7275
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R207
@@ -700,7 +667,7 @@ F 1 "240k" H 4850 7725 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5000 7875 50  0001 C CNN
 F 3 "" H 5000 7875 50  0001 C CNN
 	1    5000 7875
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R204
@@ -711,7 +678,7 @@ F 1 "1M" H 4050 5525 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 4200 5675 50  0001 C CNN
 F 3 "" H 4200 5675 50  0001 C CNN
 	1    4200 5675
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R209
@@ -722,7 +689,7 @@ F 1 "330k" H 5650 1475 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5800 1625 50  0001 C CNN
 F 3 "" H 5800 1625 50  0001 C CNN
 	1    5800 1625
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0213
@@ -732,8 +699,8 @@ F 0 "#GND0213" H 5800 725 50  0001 C CNN
 F 1 "GND" H 5700 625 59  0000 L BNN
 F 2 "" H 5800 725 50  0001 C CNN
 F 3 "" H 5800 725 50  0001 C CNN
-	1    5800 725 
-	-1   0    0    1   
+	1    5800 725
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C202
@@ -744,7 +711,7 @@ F 1 "100n" V 1525 1150 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0402" H 1575 1425 50  0001 C CNN
 F 3 "" H 1575 1425 50  0001 C CNN
 	1    1575 1425
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R205
@@ -755,7 +722,7 @@ F 1 "10k" H 4050 6425 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 4200 6575 50  0001 C CNN
 F 3 "" H 4200 6575 50  0001 C CNN
 	1    4200 6575
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:BC847 T204
@@ -767,7 +734,7 @@ F 2 "digikey/digikey-kicad-library/src/Source_Footprints:SOT-523" H 7000 6975 50
 F 3 "" H 7000 6975 50  0001 C CNN
 F 4 "BC847AT-7-F" H 7000 6975 50  0001 C CNN "MPN"
 	1    7000 6975
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0217
@@ -778,7 +745,7 @@ F 1 "GND" H 7000 7575 59  0000 L BNN
 F 2 "" H 7100 7675 50  0001 C CNN
 F 3 "" H 7100 7675 50  0001 C CNN
 	1    7100 7675
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R211
@@ -789,7 +756,7 @@ F 1 "10k" H 6050 1475 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6200 1625 50  0001 C CNN
 F 3 "" H 6200 1625 50  0001 C CNN
 	1    6200 1625
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0206
@@ -799,8 +766,8 @@ F 0 "#+5V0206" H 6200 625 50  0001 C CNN
 F 1 "+5V" V 6100 425 59  0000 L BNN
 F 2 "" H 6200 625 50  0001 C CNN
 F 3 "" H 6200 625 50  0001 C CNN
-	1    6200 625 
-	1    0    0    -1  
+	1    6200 625
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:WANNE6_SEITLICH X202
@@ -811,7 +778,7 @@ F 1 "ISP" H 8450 4425 42  0000 L BNN
 F 2 "component_tester:Pin_Header_Straight_2x03_Pitch1.27mm" H 8500 4625 50  0001 C CNN
 F 3 "" H 8500 4625 50  0001 C CNN
 	1    8500 4625
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0207
@@ -822,7 +789,7 @@ F 1 "+5V" V 8800 3925 59  0000 L BNN
 F 2 "" H 8900 4125 50  0001 C CNN
 F 3 "" H 8900 4125 50  0001 C CNN
 	1    8900 4125
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0224
@@ -833,7 +800,7 @@ F 1 "GND" H 8800 5500 59  0000 L BNN
 F 2 "" H 8900 5600 50  0001 C CNN
 F 3 "" H 8900 5600 50  0001 C CNN
 	1    8900 5600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R212
@@ -844,7 +811,7 @@ F 1 "10k" H 6250 7325 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6400 7475 50  0001 C CNN
 F 3 "" H 6400 7475 50  0001 C CNN
 	1    6400 7475
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0216
@@ -855,7 +822,7 @@ F 1 "GND" H 6300 7775 59  0000 L BNN
 F 2 "" H 6400 7875 50  0001 C CNN
 F 3 "" H 6400 7875 50  0001 C CNN
 	1    6400 7875
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:BSS84 T201
@@ -866,7 +833,7 @@ F 1 "PMV65XP" H 2800 7075 59  0000 L BNN
 F 2 "component_tester:SOT23" H 2700 7175 50  0001 C CNN
 F 3 "" H 2700 7175 50  0001 C CNN
 	1    2700 7175
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R201
@@ -877,7 +844,7 @@ F 1 "10k" H 1750 7425 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 1900 7575 50  0001 C CNN
 F 3 "" H 1900 7575 50  0001 C CNN
 	1    1900 7575
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0203
@@ -888,7 +855,7 @@ F 1 "GND" H 2200 8175 59  0000 L BNN
 F 2 "" H 2300 8275 50  0001 C CNN
 F 3 "" H 2300 8275 50  0001 C CNN
 	1    2300 8275
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C208
@@ -899,7 +866,7 @@ F 1 "V 3p" H 8000 1575 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 7900 1725 50  0001 C CNN
 F 3 "" H 7900 1725 50  0001 C CNN
 	1    7900 1725
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C209
@@ -910,7 +877,7 @@ F 1 "V 3p" H 8000 1800 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 7900 1925 50  0001 C CNN
 F 3 "" H 7900 1925 50  0001 C CNN
 	1    7900 1925
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C210
@@ -921,7 +888,7 @@ F 1 "V 3p" H 8000 2025 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 7900 2125 50  0001 C CNN
 F 3 "" H 7900 2125 50  0001 C CNN
 	1    7900 2125
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0220
@@ -932,7 +899,7 @@ F 1 "GND" H 7400 2025 59  0000 L BNN
 F 2 "" H 7500 2125 50  0001 C CNN
 F 3 "" H 7500 2125 50  0001 C CNN
 	1    7500 2125
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0219
@@ -943,7 +910,7 @@ F 1 "GND" H 7400 1825 59  0000 L BNN
 F 2 "" H 7500 1925 50  0001 C CNN
 F 3 "" H 7500 1925 50  0001 C CNN
 	1    7500 1925
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0218
@@ -954,7 +921,7 @@ F 1 "GND" H 7400 1625 59  0000 L BNN
 F 2 "" H 7500 1725 50  0001 C CNN
 F 3 "" H 7500 1725 50  0001 C CNN
 	1    7500 1725
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C211
@@ -965,7 +932,7 @@ F 1 "V 3p" H 8200 2625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 8100 2725 50  0001 C CNN
 F 3 "" H 8100 2725 50  0001 C CNN
 	1    8100 2725
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C212
@@ -976,7 +943,7 @@ F 1 "V 3p" H 8500 2625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 8400 2725 50  0001 C CNN
 F 3 "" H 8400 2725 50  0001 C CNN
 	1    8400 2725
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:C0603 C213
@@ -987,7 +954,7 @@ F 1 "V 3p" H 8800 2625 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0201" H 8700 2725 50  0001 C CNN
 F 3 "" H 8700 2725 50  0001 C CNN
 	1    8700 2725
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0221
@@ -998,7 +965,7 @@ F 1 "GND" H 8000 3025 59  0000 L BNN
 F 2 "" H 8100 3125 50  0001 C CNN
 F 3 "" H 8100 3125 50  0001 C CNN
 	1    8100 3125
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0222
@@ -1009,7 +976,7 @@ F 1 "GND" H 8300 3025 59  0000 L BNN
 F 2 "" H 8400 3125 50  0001 C CNN
 F 3 "" H 8400 3125 50  0001 C CNN
 	1    8400 3125
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0223
@@ -1020,7 +987,7 @@ F 1 "GND" H 8600 3025 59  0000 L BNN
 F 2 "" H 8700 3125 50  0001 C CNN
 F 3 "" H 8700 3125 50  0001 C CNN
 	1    8700 3125
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R203
@@ -1031,7 +998,7 @@ F 1 "10k" H 3650 7725 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 3800 7875 50  0001 C CNN
 F 3 "" H 3800 7875 50  0001 C CNN
 	1    3800 7875
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0208
@@ -1042,7 +1009,7 @@ F 1 "GND" H 3700 8075 59  0000 L BNN
 F 2 "" H 3800 8175 50  0001 C CNN
 F 3 "" H 3800 8175 50  0001 C CNN
 	1    3800 8175
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:VCC #P+0402
@@ -1053,7 +1020,7 @@ F 1 "VCC" V 1700 5825 59  0000 L BNN
 F 2 "" H 1800 5925 50  0001 C CNN
 F 3 "" H 1800 5925 50  0001 C CNN
 	1    1800 5925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0215
@@ -1064,7 +1031,7 @@ F 1 "GND" H 6100 6425 59  0000 L BNN
 F 2 "" H 6200 6525 50  0001 C CNN
 F 3 "" H 6200 6525 50  0001 C CNN
 	1    6200 6525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R213
@@ -1075,7 +1042,7 @@ F 1 "10k" H 6550 6825 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6700 6975 50  0001 C CNN
 F 3 "" H 6700 6975 50  0001 C CNN
 	1    6700 6975
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:BSS84 T202
@@ -1086,7 +1053,7 @@ F 1 "BSS84" H 3600 7475 59  0000 L BNN
 F 2 "component_tester:SOT23" H 3500 7575 50  0001 C CNN
 F 3 "" H 3500 7575 50  0001 C CNN
 	1    3500 7575
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0209
@@ -1097,7 +1064,7 @@ F 1 "GND" H 4200 8075 59  0000 L BNN
 F 2 "" H 4300 8175 50  0001 C CNN
 F 3 "" H 4300 8175 50  0001 C CNN
 	1    4300 8175
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0206
@@ -1108,7 +1075,7 @@ F 1 "GND" H 2800 8175 59  0000 L BNN
 F 2 "" H 2900 8275 50  0001 C CNN
 F 3 "" H 2900 8275 50  0001 C CNN
 	1    2900 8275
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C201
@@ -1119,7 +1086,7 @@ F 1 "10uF" V 1425 1050 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 1275 1325 50  0001 C CNN
 F 3 "" H 1275 1325 50  0001 C CNN
 	1    1275 1325
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:BAV99 D201
@@ -1132,7 +1099,7 @@ F 3 "" H 2500 6675 50  0001 C CNN
 F 4 "BAV99T-7-F" H 2500 6675 50  0001 C CNN "MPN1"
 F 5 "BAV99T" H 2500 6675 50  0001 C CNN "MPN2"
 	1    2500 6675
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R210
@@ -1143,7 +1110,7 @@ F 1 "10k" H 5750 7325 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 5900 7475 50  0001 C CNN
 F 3 "" H 5900 7475 50  0001 C CNN
 	1    5900 7475
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:BAS40 D203
@@ -1155,7 +1122,7 @@ F 2 "KiCad/LEDs.pretty:LED_0402" H 6100 6975 50  0001 C CNN
 F 3 "" H 6100 6975 50  0001 C CNN
 F 4 "BAS40LP-7" H 6100 6975 50  0001 C CNN "MPN"
 	1    6100 6975
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0214
@@ -1166,7 +1133,7 @@ F 1 "GND" H 5800 7775 59  0000 L BNN
 F 2 "" H 5900 7875 50  0001 C CNN
 F 3 "" H 5900 7875 50  0001 C CNN
 	1    5900 7875
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Notes 2075 7850 0    59   ~ 0
 Knopfzelle
@@ -1193,7 +1160,7 @@ F 1 "ATmega328P-MMH" H 3875 2325 50  0000 C CNN
 F 2 "KiCad/Housings_DFN_QFN.pretty:QFN-28-1EP_4x4mm_Pitch0.4mm" H 4800 3575 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 4800 3575 50  0001 C CNN
 	1    4800 3575
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4200 2375 3350 2375
@@ -1210,7 +1177,7 @@ F 1 "GND" H 3375 2525 59  0000 L BNN
 F 2 "" H 3475 2625 50  0001 C CNN
 F 3 "" H 3475 2625 50  0001 C CNN
 	1    3475 2625
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0203
@@ -1221,7 +1188,7 @@ F 1 "+5V" V 4700 1600 59  0000 L BNN
 F 2 "" H 4800 1800 50  0001 C CNN
 F 3 "" H 4800 1800 50  0001 C CNN
 	1    4800 1800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4800 1900 4800 2000
@@ -1241,7 +1208,7 @@ F 1 "GND" H 4700 5375 59  0000 L BNN
 F 2 "" H 4800 5475 50  0001 C CNN
 F 3 "" H 4800 5475 50  0001 C CNN
 	1    4800 5475
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3575 2625 3700 2625
@@ -1283,8 +1250,8 @@ F 0 "DRAWING201" V 8350 950 50  0000 L CNN
 F 1 "DRAWING" V 8425 1000 50  0000 L CNN
 F 2 "drawings:pads" H 8400 750 50  0001 C CNN
 F 3 "~" H 8400 750 50  0001 C CNN
-	1    8400 750 
-	0    -1   -1   0   
+	1    8400 750
+	0    -1   -1   0
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 DRAWING202
@@ -1295,7 +1262,7 @@ F 1 "DRAWING" V 8450 1500 50  0000 L CNN
 F 2 "drawings:pads_bottom" H 8400 1175 50  0001 C CNN
 F 3 "~" H 8400 1175 50  0001 C CNN
 	1    8400 1175
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	8300 1525 8100 1525
@@ -1339,7 +1306,7 @@ F 1 "CR2032" H 2700 7775 50  0001 C CNN
 F 2 "StefanHamminga/SH_Batteries.pretty:Battery_Retainer_2032_BK-912" H 2700 7775 50  0001 C CNN
 F 3 "" H 2700 7775 50  0001 C CNN
 	1    2700 7775
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0202
@@ -1350,7 +1317,7 @@ F 1 "GND" H 1600 7275 59  0000 L BNN
 F 2 "" H 1700 7375 50  0001 C CNN
 F 3 "" H 1700 7375 50  0001 C CNN
 	1    1700 7375
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+BATT #PWR0201
@@ -1361,7 +1328,7 @@ F 1 "+BATT" H 2315 7548 50  0000 C CNN
 F 2 "" H 2300 7375 50  0001 C CNN
 F 3 "" H 2300 7375 50  0001 C CNN
 	1    2300 7375
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2300 7475 2300 7375
@@ -1374,7 +1341,7 @@ F 1 "EVQ" H 5275 5300 50  0000 C CNN
 F 2 "component_tester:PANASONIC_EVQ" H 4525 5775 10  0001 C CNN
 F 3 "https://datasheet.octopart.com/EVQ-PLMA15-Panasonic-datasheet-13284722.pdf" H 4525 5775 0   0001 C CNN
 	1    4525 5775
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:BSS123 T203
@@ -1386,7 +1353,7 @@ F 2 "KiCad/TO_SOT_Packages_SMD.pretty:SOT-323_SC-70" H 6200 5550 50  0001 C CNN
 F 3 "" H 6200 5550 50  0001 C CNN
 F 4 "BSS123W-7-F" H 6200 5550 50  0001 C CNN "MPN"
 	1    6200 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 5900 5925
 Wire Wire Line
@@ -1404,7 +1371,7 @@ F 1 "4.7uH" H 3875 6999 50  0000 C CNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0603" H 3875 6875 50  0001 C CNN
 F 3 "" H 3875 6875 50  0001 C CNN
 	1    3875 6875
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3300 6875 3625 6875

@@ -1,36 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:component_tester-cache
 EELAYER 26 0
 EELAYER END
@@ -159,7 +127,7 @@ F 1 "FT232RL" H 4100 1900 59  0000 L BNN
 F 2 "component_tester:SSOP28" H 4500 3100 50  0001 C CNN
 F 3 "" H 4500 3100 50  0001 C CNN
 	1    4500 3100
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:DINA4_L #FRAME301
@@ -170,7 +138,7 @@ F 1 "DINA4_L" H 900 6700 50  0001 C CNN
 F 2 "" H 900 6700 50  0001 C CNN
 F 3 "" H 900 6700 50  0001 C CNN
 	1    900  6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0301
@@ -181,7 +149,7 @@ F 1 "GND" H 3200 2100 59  0000 L BNN
 F 2 "" H 3300 2200 50  0001 C CNN
 F 3 "" H 3300 2200 50  0001 C CNN
 	1    3300 2200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0303
@@ -192,7 +160,7 @@ F 1 "GND" H 5400 2300 59  0000 L BNN
 F 2 "" H 5500 2400 50  0001 C CNN
 F 3 "" H 5500 2400 50  0001 C CNN
 	1    5500 2400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:C0805 C301
@@ -203,7 +171,7 @@ F 1 "100n" H 5500 4200 59  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 5400 4300 50  0001 C CNN
 F 3 "" H 5400 4300 50  0001 C CNN
 	1    5400 4300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0302
@@ -214,7 +182,7 @@ F 1 "GND" H 5300 4600 59  0000 L BNN
 F 2 "" H 5400 4700 50  0001 C CNN
 F 3 "" H 5400 4700 50  0001 C CNN
 	1    5400 4700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:MAX1811 IC302
@@ -225,7 +193,7 @@ F 1 "MAX1811" H 8800 3425 59  0000 L BNN
 F 2 "component_tester:SO08" H 8700 3000 50  0001 C CNN
 F 3 "" H 8700 3000 50  0001 C CNN
 	1    8700 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0308
@@ -236,7 +204,7 @@ F 1 "GND" H 8700 3700 59  0000 L BNN
 F 2 "" H 8800 3800 50  0001 C CNN
 F 3 "" H 8800 3800 50  0001 C CNN
 	1    8800 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0307
@@ -247,7 +215,7 @@ F 1 "GND" H 8500 3700 59  0000 L BNN
 F 2 "" H 8600 3800 50  0001 C CNN
 F 3 "" H 8600 3800 50  0001 C CNN
 	1    8600 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0309
@@ -258,7 +226,7 @@ F 1 "GND" H 9500 3700 59  0000 L BNN
 F 2 "" H 9600 3800 50  0001 C CNN
 F 3 "" H 9600 3800 50  0001 C CNN
 	1    9600 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0310
@@ -269,7 +237,7 @@ F 1 "GND" H 9800 3700 59  0000 L BNN
 F 2 "" H 9900 3800 50  0001 C CNN
 F 3 "" H 9900 3800 50  0001 C CNN
 	1    9900 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0306
@@ -280,7 +248,7 @@ F 1 "GND" H 7800 3700 59  0000 L BNN
 F 2 "" H 7900 3800 50  0001 C CNN
 F 3 "" H 7900 3800 50  0001 C CNN
 	1    7900 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:VCC #P+0303
@@ -291,7 +259,7 @@ F 1 "VCC" V 9800 1800 59  0000 L BNN
 F 2 "" H 9900 1900 50  0001 C CNN
 F 3 "" H 9900 1900 50  0001 C CNN
 	1    9900 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:0R-JUMPA J301
@@ -302,7 +270,7 @@ F 1 "0R-JUMPA" H 7600 2800 50  0001 C CNN
 F 2 "component_tester:A0R-JMP" H 7600 2800 50  0001 C CNN
 F 3 "" H 7600 2800 50  0001 C CNN
 	2    7600 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:0R-JUMPA J301
@@ -313,7 +281,7 @@ F 1 "0R-JUMPA" H 7500 2700 50  0001 C CNN
 F 2 "component_tester:A0R-JMP" H 7500 2700 50  0001 C CNN
 F 3 "" H 7500 2700 50  0001 C CNN
 	1    7500 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:VCC #P+0302
@@ -324,7 +292,7 @@ F 1 "VCC" V 7500 1900 59  0000 L BNN
 F 2 "" H 7600 2000 50  0001 C CNN
 F 3 "" H 7600 2000 50  0001 C CNN
 	1    7600 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0304
@@ -335,7 +303,7 @@ F 1 "GND" H 7500 3700 59  0000 L BNN
 F 2 "" H 7600 3800 50  0001 C CNN
 F 3 "" H 7600 3800 50  0001 C CNN
 	1    7600 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:LEDCHIP-LED0805 LED301
@@ -346,7 +314,7 @@ F 1 "LEDCHIP-LED0805" V 10425 2520 59  0000 L BNN
 F 2 "component_tester:CHIP-LED0805" H 10200 2700 50  0001 C CNN
 F 3 "" H 10200 2700 50  0001 C CNN
 	1    10200 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:R0805 R301
@@ -357,7 +325,7 @@ F 1 "100" H 10050 2150 59  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0402" H 10200 2300 50  0001 C CNN
 F 3 "" H 10200 2300 50  0001 C CNN
 	1    10200 2300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:VCC #P+0304
@@ -368,7 +336,7 @@ F 1 "VCC" V 10100 1800 59  0000 L BNN
 F 2 "" H 10200 1900 50  0001 C CNN
 F 3 "" H 10200 1900 50  0001 C CNN
 	1    10200 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:C_TAN_A C302
@@ -379,7 +347,7 @@ F 1 "4,7u" H 9400 3200 59  0000 L BNN
 F 2 "component_tester:C-TAN_A" H 9600 3400 50  0001 C CNN
 F 3 "" H 9600 3400 50  0001 C CNN
 	1    9600 3400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:C_TAN_A C303
@@ -390,7 +358,7 @@ F 1 "4,7u" H 9700 3200 59  0000 L BNN
 F 2 "component_tester:C-TAN_A" H 9900 3400 50  0001 C CNN
 F 3 "" H 9900 3400 50  0001 C CNN
 	1    9900 3400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:0R-JUMPA J302
@@ -401,7 +369,7 @@ F 1 "0R-JUMPA" H 8200 2300 50  0001 C CNN
 F 2 "component_tester:A0R-JMP" H 8200 2300 50  0001 C CNN
 F 3 "" H 8200 2300 50  0001 C CNN
 	1    8200 2300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:0R-JUMPA J302
@@ -412,7 +380,7 @@ F 1 "0R-JUMPA" H 8300 2200 50  0001 C CNN
 F 2 "component_tester:A0R-JMP" H 8300 2200 50  0001 C CNN
 F 3 "" H 8300 2200 50  0001 C CNN
 	2    8300 2200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L component_tester-eagle-import:GND #GND0305
@@ -423,7 +391,7 @@ F 1 "GND" H 7800 1900 59  0000 L BNN
 F 2 "" H 7900 2000 50  0001 C CNN
 F 3 "" H 7900 2000 50  0001 C CNN
 	1    7900 2000
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L component_tester-eagle-import:BSS123 T301
@@ -434,7 +402,7 @@ F 1 "BSS123" H 3300 3800 59  0000 L BNN
 F 2 "component_tester:SOT23" H 3200 3900 50  0001 C CNN
 F 3 "" H 3200 3900 50  0001 C CNN
 	1    3200 3900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L component_tester-eagle-import:VCC #P+0301
@@ -445,7 +413,7 @@ F 1 "VCC" V 3200 4500 59  0000 L BNN
 F 2 "" H 3300 4600 50  0001 C CNN
 F 3 "" H 3300 4600 50  0001 C CNN
 	1    3300 4600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Notes 1600 1700 0    170  ~ 0
 Option USB-Ausgabe
@@ -465,6 +433,6 @@ F 1 "+BATT" H 9615 2173 50  0000 C CNN
 F 2 "" H 9600 2000 50  0001 C CNN
 F 3 "" H 9600 2000 50  0001 C CNN
 	1    9600 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC

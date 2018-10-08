@@ -1,36 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:component_tester-cache
 EELAYER 26 0
 EELAYER END
@@ -292,7 +260,7 @@ F 1 "GND" H 7640 3800 42  0000 L BNN
 F 2 "" H 7700 3900 50  0001 C CNN
 F 3 "" H 7700 3900 50  0001 C CNN
 	1    7700 3900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R408
@@ -303,7 +271,7 @@ F 1 "10K" H 7300 3875 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7400 4000 50  0001 C CNN
 F 3 "" H 7400 4000 50  0001 C CNN
 	1    7400 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$0413
@@ -314,7 +282,7 @@ F 1 "GND" H 7340 4300 42  0000 L BNN
 F 2 "" H 7400 4400 50  0001 C CNN
 F 3 "" H 7400 4400 50  0001 C CNN
 	1    7400 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:DIODESOD-323 D401
@@ -325,7 +293,7 @@ F 1 "1N4148" H 5700 1450 42  0000 L BNN
 F 2 "Adafruit 128x64 Mono OLED PCB v2:SOD-323" H 5800 1600 50  0001 C CNN
 F 3 "" H 5800 1600 50  0001 C CNN
 	1    5800 1600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:DIODESOD-323 D402
@@ -336,7 +304,7 @@ F 1 "1N4148" H 5700 1750 42  0000 L BNN
 F 2 "Adafruit 128x64 Mono OLED PCB v2:SOD-323" H 5800 1900 50  0001 C CNN
 F 3 "" H 5800 1900 50  0001 C CNN
 	1    5800 1900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:DIODESOD-323 D403
@@ -347,7 +315,7 @@ F 1 "1N4148" H 5700 2050 42  0000 L BNN
 F 2 "Adafruit 128x64 Mono OLED PCB v2:SOD-323" H 5800 2200 50  0001 C CNN
 F 3 "" H 5800 2200 50  0001 C CNN
 	1    5800 2200
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R405
@@ -358,7 +326,7 @@ F 1 "10K" H 6600 1175 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 6700 1300 50  0001 C CNN
 F 3 "" H 6700 1300 50  0001 C CNN
 	1    6700 1300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R406
@@ -369,7 +337,7 @@ F 1 "10K" H 6900 1175 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7000 1300 50  0001 C CNN
 F 3 "" H 7000 1300 50  0001 C CNN
 	1    7000 1300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R407
@@ -380,7 +348,7 @@ F 1 "10K" H 7200 1175 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 7300 1300 50  0001 C CNN
 F 3 "" H 7300 1300 50  0001 C CNN
 	1    7300 1300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R401
@@ -391,7 +359,7 @@ F 1 "10K" H 2500 2975 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 2600 3100 50  0001 C CNN
 F 3 "" H 2600 3100 50  0001 C CNN
 	1    2600 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R402
@@ -402,7 +370,7 @@ F 1 "10K" H 2800 2975 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 2900 3100 50  0001 C CNN
 F 3 "" H 2900 3100 50  0001 C CNN
 	1    2900 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R403
@@ -413,7 +381,7 @@ F 1 "10K" H 3700 2975 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 3800 3100 50  0001 C CNN
 F 3 "" H 3800 3100 50  0001 C CNN
 	1    3800 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R404
@@ -424,7 +392,7 @@ F 1 "10K" H 4000 2975 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 4100 3100 50  0001 C CNN
 F 3 "" H 4100 3100 50  0001 C CNN
 	1    4100 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:MOSFET-NWIDE Q401
@@ -435,7 +403,7 @@ F 1 "BSS138" H 3500 3250 42  0000 L BNN
 F 2 "Adafruit 128x64 Mono OLED PCB v2:SOT23-WIDE" H 3300 3300 50  0001 C CNN
 F 3 "" H 3300 3300 50  0001 C CNN
 	1    3300 3300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:MOSFET-NWIDE Q402
@@ -446,7 +414,7 @@ F 1 "BSS138" H 3900 3650 42  0000 L BNN
 F 2 "Adafruit 128x64 Mono OLED PCB v2:SOT23-WIDE" H 3700 3700 50  0001 C CNN
 F 3 "" H 3700 3700 50  0001 C CNN
 	1    3700 3700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:RESISTOR0805 R409
@@ -457,7 +425,7 @@ F 1 "390K" H 8600 4975 50  0000 L BNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0201" H 8700 5100 50  0001 C CNN
 F 3 "" H 8700 5100 50  0001 C CNN
 	1    8700 5100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:CAP_CERAMIC0805 C406
@@ -468,7 +436,7 @@ F 1 "1uF" H 8600 2700 50  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0603" H 8500 2700 50  0001 C CNN
 F 3 "" H 8500 2700 50  0001 C CNN
 	1    8500 2700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:CAP_CERAMIC0805 C404
@@ -479,7 +447,7 @@ F 1 "1uF" H 8400 2900 50  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0603" H 8300 2900 50  0001 C CNN
 F 3 "" H 8300 2900 50  0001 C CNN
 	1    8300 2900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$0418
@@ -490,7 +458,7 @@ F 1 "GND" H 8840 2400 42  0000 L BNN
 F 2 "" H 8900 2500 50  0001 C CNN
 F 3 "" H 8900 2500 50  0001 C CNN
 	1    8900 2500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$0419
@@ -501,7 +469,7 @@ F 1 "GND" H 8940 5600 42  0000 L BNN
 F 2 "" H 9000 5700 50  0001 C CNN
 F 3 "" H 9000 5700 50  0001 C CNN
 	1    9000 5700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:CAP_CERAMIC0805 C403
@@ -512,7 +480,7 @@ F 1 "10uF" H 8100 5300 50  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0805" H 8000 5300 50  0001 C CNN
 F 3 "" H 8000 5300 50  0001 C CNN
 	1    8000 5300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$0416
@@ -523,7 +491,7 @@ F 1 "GND" H 7840 3300 42  0000 L BNN
 F 2 "" H 7900 3400 50  0001 C CNN
 F 3 "" H 7900 3400 50  0001 C CNN
 	1    7900 3400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:CAP_CERAMIC0805 C408
@@ -534,7 +502,7 @@ F 1 "1uF" H 8600 3400 50  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0603" H 8500 3400 50  0001 C CNN
 F 3 "" H 8500 3400 50  0001 C CNN
 	1    8500 3400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:CAP_CERAMIC0805 C405
@@ -545,7 +513,7 @@ F 1 "2.2uF/16V" H 8400 5200 50  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0603" H 8300 5200 50  0001 C CNN
 F 3 "" H 8300 5200 50  0001 C CNN
 	1    8300 5200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:GND #U$0414
@@ -556,7 +524,7 @@ F 1 "GND" H 7540 5600 42  0000 L BNN
 F 2 "" H 7600 5700 50  0001 C CNN
 F 3 "" H 7600 5700 50  0001 C CNN
 	1    7600 5700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Adafruit_128x64_Mono_OLED_PCB_v2-eagle-import:CAP_CERAMIC0805 C407
@@ -567,7 +535,7 @@ F 1 "1uF" H 8600 3100 50  0000 L BNN
 F 2 "KiCad/Capacitors_SMD.pretty:C_0603" H 8500 3100 50  0001 C CNN
 F 3 "" H 8500 3100 50  0001 C CNN
 	1    8500 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Notes 1500 1900 0    59   ~ 0
 = 011110+SA0+RW
@@ -590,7 +558,7 @@ F 1 "+BATT" H 7315 1173 50  0000 C CNN
 F 2 "" H 7300 1000 50  0001 C CNN
 F 3 "" H 7300 1000 50  0001 C CNN
 	1    7300 1000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+BATT #PWR0102
@@ -601,7 +569,7 @@ F 1 "+BATT" H 6715 1173 50  0000 C CNN
 F 2 "" H 6700 1000 50  0001 C CNN
 F 3 "" H 6700 1000 50  0001 C CNN
 	1    6700 1000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+BATT #PWR0103
@@ -612,7 +580,7 @@ F 1 "+BATT" H 7015 1173 50  0000 C CNN
 F 2 "" H 7000 1000 50  0001 C CNN
 F 3 "" H 7000 1000 50  0001 C CNN
 	1    7000 1000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+BATT #PWR0104
@@ -623,7 +591,7 @@ F 1 "+BATT" H 8715 2673 50  0000 C CNN
 F 2 "" H 8700 2500 50  0001 C CNN
 F 3 "" H 8700 2500 50  0001 C CNN
 	1    8700 2500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+BATT #PWR0105
@@ -634,7 +602,7 @@ F 1 "+BATT" H 2615 2873 50  0000 C CNN
 F 2 "" H 2600 2700 50  0001 C CNN
 F 3 "" H 2600 2700 50  0001 C CNN
 	1    2600 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L component_tester-eagle-import:+5V #+5V0101
@@ -645,7 +613,7 @@ F 1 "+5V" V 4000 2400 59  0000 L BNN
 F 2 "" H 4100 2600 50  0001 C CNN
 F 3 "" H 4100 2600 50  0001 C CNN
 	1    4100 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x30 OLED1
@@ -656,6 +624,6 @@ F 1 "Conn_01x30" H 9380 3901 50  0000 L CNN
 F 2 "component_tester:SSD1306" H 9300 4000 50  0001 C CNN
 F 3 "~" H 9300 4000 50  0001 C CNN
 	1    9300 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC
