@@ -1,5 +1,5 @@
 (module CHIP-LED0805 (layer F.Cu) (tedit 0)
-  (descr "<b>Hyper CHIPLED Hyper-Bright LED</b><p>\nLB R99A<br>\nSource: http://www.osram.convergy.de/ ... lb_r99a.pdf")
+  (descr "Hyper CHIPLED Hyper-Bright LED\nLB R99A\nSource: http://www.osram.convergy.de/ ... lb_r99a.pdf")
   (fp_text reference LED1 (at -1.27 1.27 -90) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify left bottom))
   )

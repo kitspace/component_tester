@@ -1,5 +1,5 @@
 (module SSOP28 (layer F.Cu) (tedit 0)
-  (descr "<b>Shrink Small Outline Package</b> SSOP-28<p>\nhttp://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf")
+  (descr "Shrink Small Outline Package SSOP-28\nhttp://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf")
   (fp_text reference IC4 (at -5.476 2.6299 -270) (layer F.SilkS)
     (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify left bottom))
   )

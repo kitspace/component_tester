@@ -1,5 +1,5 @@
 (module SOD-323 (layer F.Cu) (tedit 0)
-  (descr "<b>SOD323</b> (2.5x1.2mm)")
+  (descr "SOD323 (2.5x1.2mm)")
   (fp_text reference D3 (at -1.1 -1) (layer F.SilkS)
     (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom))
   )

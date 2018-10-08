@@ -1,5 +1,5 @@
 (module SOT23-5 (layer F.Cu) (tedit 0)
-  (descr "<b>Small Outline Transistor</b> - 5 Pin")
+  (descr "Small Outline Transistor - 5 Pin")
   (fp_text reference U2 (at 1.778 -0.127) (layer F.SilkS)
     (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom))
   )

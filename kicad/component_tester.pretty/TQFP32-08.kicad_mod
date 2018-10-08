@@ -1,5 +1,5 @@
 (module TQFP32-08 (layer F.Cu) (tedit 0)
-  (descr "<B>Thin Plasic Quad Flat Package</B> Grid 0.8 mm")
+  (descr "Thin Plasic Quad Flat Package Grid 0.8 mm")
   (fp_text reference IC1 (at -2.7686 -5.08) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify left bottom))
   )

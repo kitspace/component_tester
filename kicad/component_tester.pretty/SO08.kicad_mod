@@ -1,5 +1,5 @@
 (module SO08 (layer F.Cu) (tedit 0)
-  (descr "<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>\nbody 3.9 mm/JEDEC MS-012AA")
+  (descr "SMALL OUTLINE INTEGRATED CIRCUIT\nbody 3.9 mm/JEDEC MS-012AA")
   (fp_text reference IC3 (at -3.175 1.905 -90) (layer F.SilkS)
     (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify right top))
   )

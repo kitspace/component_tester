@@ -1,5 +1,5 @@
 (module A0R-JMP (layer F.Cu) (tedit 0)
-  (descr "<b>0R Jumper Variant A</b><p>\nchip 0805")
+  (descr "0R Jumper Variant A\nchip 0805")
   (fp_text reference J2 (at -0.762 -2.716 -90) (layer F.SilkS)
     (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify right top))
   )

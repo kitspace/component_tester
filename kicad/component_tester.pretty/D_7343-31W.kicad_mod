@@ -1,5 +1,5 @@
 (module D_7343-31W (layer F.Cu) (tedit 0)
-  (descr "<b>Chip Capacitor Type KEMET D / EIA 7343-21</b><p>\nKEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder")
+  (descr "Chip Capacitor Type KEMET D / EIA 7343-21\nKEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder")
   (fp_text reference C15 (at -3.65 -2.3 -180) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify right top))
   )

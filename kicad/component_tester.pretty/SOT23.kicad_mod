@@ -1,5 +1,5 @@
 (module SOT23 (layer F.Cu) (tedit 0)
-  (descr <b>SOT-23</b>)
+  (descr SOT-23)
   (fp_text reference D5 (at -1.905 -1.905 -180) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.09652)) (justify right top))
   )
