@@ -1,0 +1,3854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/dacus/Desktop/SBMS120/HW/SBMS120-v01b/main-pcb-120 (4 layer v03c)/BMS-dacus.sch</source>
+    <date>Fri 02 Jun 2017 06:57:25 PM CST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>8 Cell Programmable BMS / solar charger SBMS120</title>
+        <company>Electrodacus (Schematic and PCB layout released under CC-BY-SA 3.0 licence)</company>
+        <rev>03</rev>
+        <date>29 mar 2017</date>
+        <source>BMS-dacus.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A54FD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A54F8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A54F4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A54F0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A54ED</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A501D</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A5016</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>538A500F</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53879581</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>10k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53879576</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD39</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD38</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD37</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD36</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD35</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD34</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD33</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AD32</tstamp>
+    </comp>
+    <comp ref="R127">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386ABA6</tstamp>
+    </comp>
+    <comp ref="R126">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386ABA1</tstamp>
+    </comp>
+    <comp ref="R125">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AB9B</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AB96</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AB91</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AB8A</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AB7A</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>12</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5386AB14</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>FUSE</value>
+      <footprint>dacusnewlib:SM1808-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53867E0D</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>4.7nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51535E7F</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51535E7C</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51535E78</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>33nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5150F310</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>33nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5150F2E7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5150F231</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5150F220</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>10uF</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F4418</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F4103</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F40EC</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F3FD2</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>33uH</value>
+      <footprint>dacusnewlib:5x5-L1</footprint>
+      <libsource lib="BMS-dacus-cache" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F3E8E</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F3E10</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F1DDE</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F1BCB</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03ED</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03E7</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03CE</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03C9</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03C4</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03BF</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03BA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03B7</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F03B1</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EF12D</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CellMon</value>
+      <footprint>dacusnewlib:5x2_SMD-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_5X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510ED507</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510ED2BB</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EC33B</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>4.7nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EC2EF</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>4.7nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EC2A0</tstamp>
+    </comp>
+    <comp ref="Qb38">
+      <value>P</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EC01F</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EC01E</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBFF7</tstamp>
+    </comp>
+    <comp ref="Qb37">
+      <value>P</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBFF6</tstamp>
+    </comp>
+    <comp ref="Qb36">
+      <value>P</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBFCD</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBFCC</tstamp>
+    </comp>
+    <comp ref="Qb35">
+      <value>N</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBFA2</tstamp>
+    </comp>
+    <comp ref="Qb34">
+      <value>N</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBF5D</tstamp>
+    </comp>
+    <comp ref="Qb33">
+      <value>N</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBEAE</tstamp>
+    </comp>
+    <comp ref="Qb32">
+      <value>N</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EBDEE</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EB28D</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510EAA88</tstamp>
+    </comp>
+    <comp ref="Qb31">
+      <value>N</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510DCBC1</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>ISL94203</value>
+      <footprint>dacusnewlib:QFP48-dac-3</footprint>
+      <libsource lib="Dacus-BMS" part="ISL94203"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510DC771</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>10uF</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55733D1F</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55733D2E</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55733D3D</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55734864</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>1k</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735958</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735CF1</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735D00</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735D0F</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735DD7</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735DE6</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735DF5</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55735E04</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557361E7</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55736983</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55736992</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557369A1</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557369B0</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573704F</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557385E5</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55737D4A</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55737D65</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55737D74</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55737D83</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55737D92</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573B7DF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573DF78</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>FAN5622</value>
+      <footprint>dacusnewlib:LM5050-SOT23_6-dac</footprint>
+      <libsource lib="Dacus-BMS" part="FAN5622"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573F7B9</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574056A</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55740ECF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>S25FL127</value>
+      <footprint>dacusnewlib:Flash-SO8E-dac2</footprint>
+      <libsource lib="Dacus-BMS" part="S25FL127"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55741993</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55741C5B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LMP8481</value>
+      <footprint>dacusnewlib:LMP8481-SSOP8-dac</footprint>
+      <libsource lib="Dacus-BMS" part="LMP8481"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557421F4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F373-48</value>
+      <footprint>dacusnewlib:LQFP48-3-dac</footprint>
+      <libsource lib="Dacus-BMS" part="STM32F373-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55749ED4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574A5DA</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574AC84</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574B0E8</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510F2BCC</tstamp>
+    </comp>
+    <comp ref="Load+1">
+      <value>CONN_1</value>
+      <footprint>dacusnewlib:1PIN_Power-dac7-long5</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55751ADF</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55753284</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55753AF9</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55753B12</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575934A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557596DF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55759DB6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575663C</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55761F59</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55761F68</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55761F77</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55761F86</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55761F95</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55761FA4</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55763DD0</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5576472C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5578A8D2</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5578A8E1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5578A8F0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5578A8FF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5578C58C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TouchButtons</value>
+      <footprint>dacusnewlib:SIL-5-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557901B6</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>32768</value>
+      <footprint>dacusnewlib:32khz</footprint>
+      <libsource lib="Dacus-BMS" part="QUARTZ-dac"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557A782C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557B309D</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>USB-MICRO-B</value>
+      <footprint>dacusnewlib:USB_MICRO_B-2</footprint>
+      <libsource lib="BMS-dacus-cache" part="USB-MINI-B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557B5088</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557B6EC6</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557B92A1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557E5D0A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557E5D24</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E3477A</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>FUSE</value>
+      <footprint>dacusnewlib:SM1808-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E34780</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E35A29</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E35A2F</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E35A35</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E36AD9</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E36EFE</tstamp>
+    </comp>
+    <comp ref="R96">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E36F04</tstamp>
+    </comp>
+    <comp ref="R98">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E36F0A</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E36F10</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56244CBB</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56245336</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56246953</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBC8BB</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBC8C1</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LMP8481</value>
+      <footprint>dacusnewlib:LMP8481-SSOP8-dac</footprint>
+      <libsource lib="Dacus-BMS" part="LMP8481"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCF68</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCF76</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCF7C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LMP8481</value>
+      <footprint>dacusnewlib:LMP8481-SSOP8-dac</footprint>
+      <libsource lib="Dacus-BMS" part="LMP8481"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCFB1</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCFBF</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCFC5</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LMP8481</value>
+      <footprint>dacusnewlib:LMP8481-SSOP8-dac</footprint>
+      <libsource lib="Dacus-BMS" part="LMP8481"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCFEB</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCFF9</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>22uF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBCFFF</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>ESP32</value>
+      <footprint>dacusnewlib:ESP32-2</footprint>
+      <libsource lib="Dacus-BMS" part="ESP32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB67CA</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LMR16006</value>
+      <footprint>dacusnewlib:LM5050-SOT23_6-dac</footprint>
+      <libsource lib="Dacus-BMS" part="LMR16006"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CBB25D</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LTC4355</value>
+      <footprint>dacusnewlib:LTC4355-16pin-dac2</footprint>
+      <libsource lib="Dacus-BMS" part="LTC4355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB75DC</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB75EF</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB75F5</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB75FB</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB760B</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB7611</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB7626</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB762C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB7632</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB7671</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB768B</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED-RGB</value>
+      <footprint>dacusnewlib:LED-6pin-dac2</footprint>
+      <libsource lib="Dacus-BMS" part="LED-RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB7BFB</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB7C0E</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED-RGB</value>
+      <footprint>dacusnewlib:LED-6pin-dac2</footprint>
+      <libsource lib="Dacus-BMS" part="LED-RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB8B23</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB8B2F</tstamp>
+    </comp>
+    <comp ref="Qb14">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC50ED</tstamp>
+    </comp>
+    <comp ref="Qb22">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC5103</tstamp>
+    </comp>
+    <comp ref="TVS1">
+      <value>30V 5000W</value>
+      <footprint>dacusnewlib:DO-214AB-dac-simple2</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC5115</tstamp>
+    </comp>
+    <comp ref="TVS3">
+      <value>30V 5000W</value>
+      <footprint>dacusnewlib:DO-214AB-dac-simple2</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC5122</tstamp>
+    </comp>
+    <comp ref="R99">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6459</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC645F</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>100</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6465</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>THERMISTOR</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="THERMISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6473</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC66A0</tstamp>
+    </comp>
+    <comp ref="Qb21">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6ADE</tstamp>
+    </comp>
+    <comp ref="Qb20">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6AE4</tstamp>
+    </comp>
+    <comp ref="Qb19">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6AEA</tstamp>
+    </comp>
+    <comp ref="Qb18">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6AF0</tstamp>
+    </comp>
+    <comp ref="Qb17">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6AF6</tstamp>
+    </comp>
+    <comp ref="Qb16">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6AFC</tstamp>
+    </comp>
+    <comp ref="Qb15">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B02</tstamp>
+    </comp>
+    <comp ref="Qb28">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B2C</tstamp>
+    </comp>
+    <comp ref="Qb27">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B32</tstamp>
+    </comp>
+    <comp ref="Qb26">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B38</tstamp>
+    </comp>
+    <comp ref="Qb25">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B3E</tstamp>
+    </comp>
+    <comp ref="Qb24">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B44</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6D70</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6D76</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6D9A</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DA0</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DA6</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DAC</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DB2</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DB8</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206-long5</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DBE</tstamp>
+    </comp>
+    <comp ref="Battery+1">
+      <value>CONN_1</value>
+      <footprint>dacusnewlib:1PIN_Power-dac8-batt</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DC4</tstamp>
+    </comp>
+    <comp ref="TVS2">
+      <value>30V 5000W</value>
+      <footprint>dacusnewlib:DO-214AB-dac-simple2</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC9B39</tstamp>
+    </comp>
+    <comp ref="TVS4">
+      <value>30V 5000W</value>
+      <footprint>dacusnewlib:DO-214AB-dac-simple2</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC9B3F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SCH</value>
+      <footprint>dacusnewlib:SBRT20M80-dac-simple2</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCDF29</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SCH</value>
+      <footprint>dacusnewlib:SBRT20M80-dac-simple2-long</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCDF2F</tstamp>
+    </comp>
+    <comp ref="Qb13">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4CE</tstamp>
+    </comp>
+    <comp ref="Qb12">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4D4</tstamp>
+    </comp>
+    <comp ref="Qb11">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4DA</tstamp>
+    </comp>
+    <comp ref="Qb10">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4E0</tstamp>
+    </comp>
+    <comp ref="Qb9">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple-longT</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4E6</tstamp>
+    </comp>
+    <comp ref="Qb3">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4EC</tstamp>
+    </comp>
+    <comp ref="Qb2">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple-longTPV</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4F2</tstamp>
+    </comp>
+    <comp ref="Qb1">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF4F8</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD05AF</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD05B5</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD05BB</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206-pv</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD05C1</tstamp>
+    </comp>
+    <comp ref="PV1">
+      <value>CONN_1</value>
+      <footprint>dacusnewlib:1PIN_Power-dac8</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD05C7</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C2E</tstamp>
+    </comp>
+    <comp ref="Qb7">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C34</tstamp>
+    </comp>
+    <comp ref="Qb6">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C3A</tstamp>
+    </comp>
+    <comp ref="Qb5">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C40</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C46</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C4C</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206-pv</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C52</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C58</tstamp>
+    </comp>
+    <comp ref="PV2">
+      <value>CONN_1</value>
+      <footprint>dacusnewlib:1PIN_Power-dac8</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD3C5E</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD8A0E</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD8A20</tstamp>
+    </comp>
+    <comp ref="Qb29">
+      <value>N</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD8A26</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>ZENER</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD9AB7</tstamp>
+    </comp>
+    <comp ref="R97">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDA065</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDA333</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>ZENER</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDA339</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDA345</tstamp>
+    </comp>
+    <comp ref="Qb30">
+      <value>P</value>
+      <footprint>dacusnewlib:SOT23-dac-4</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDB3FE</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDBF50</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>ZENER</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDC22E</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>ZENER</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDC234</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>100K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDC23A</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>100</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDA33F</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE4965</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>ExtConnector</value>
+      <footprint>dacusnewlib:SMD-8-dac1</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE7E8B</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FUSE</value>
+      <footprint>dacusnewlib:SM1808-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE7EAA</tstamp>
+    </comp>
+    <comp ref="OPTO2">
+      <value>SSR</value>
+      <footprint>dacusnewlib:Opto-dac3</footprint>
+      <libsource lib="Dacus-BMS" part="SSR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCE97F</tstamp>
+    </comp>
+    <comp ref="OPTO1">
+      <value>SSR</value>
+      <footprint>dacusnewlib:Opto-dac3</footprint>
+      <libsource lib="Dacus-BMS" part="SSR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCE98C</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF50C</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CCF512</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>SCH</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD0381</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>ZENER</value>
+      <footprint>dacusnewlib:Diode-dac3</footprint>
+      <libsource lib="BMS-dacus-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CDA914</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE1436</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE174A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Molex 0878321622</value>
+      <footprint>dacusnewlib:con_8x2x2mm-dac</footprint>
+      <libsource lib="BMS-dacus-cache" part="CONN_8X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE304E</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SCH</value>
+      <footprint>dacusnewlib:SBRT20M80-dac-simple2</footprint>
+      <libsource lib="BMS-dacus-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CEE1A3</tstamp>
+    </comp>
+    <comp ref="LCD1">
+      <value>LCD-40pin</value>
+      <footprint>dacusnewlib:LCD-240x320-40pin3</footprint>
+      <libsource lib="Dacus-BMS" part="LCD-40pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D1AFFC</tstamp>
+    </comp>
+    <comp ref="R128">
+      <value>1K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D1E699</tstamp>
+    </comp>
+    <comp ref="Qb23">
+      <value>N</value>
+      <footprint>dacusnewlib:PG-TDSON-dac-simple</footprint>
+      <libsource lib="BMS-dacus-cache" part="MOS_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6B4A</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>100nF</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59328F0E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59336E8F</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1mR</value>
+      <footprint>dacusnewlib:SM1206</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593380FD</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>dacusnewlib:SM0805-dac</footprint>
+      <libsource lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5933DBD5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-rescue" part="C-RESCUE-BMS-dacus">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-BMS-dacus</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="CONN_5">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="CONN_5X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_5X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="CONN_8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="CONN_8X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="ESP32">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">ESP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="VP" type="input"/>
+        <pin num="5" name="VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="input"/>
+        <pin num="9" name="IO33" type="input"/>
+        <pin num="10" name="IO25" type="input"/>
+        <pin num="11" name="IO26" type="input"/>
+        <pin num="12" name="IO27" type="input"/>
+        <pin num="13" name="IO14" type="input"/>
+        <pin num="14" name="IO12" type="input"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="input"/>
+        <pin num="17" name="SD2" type="input"/>
+        <pin num="18" name="SD3" type="input"/>
+        <pin num="19" name="CMD" type="input"/>
+        <pin num="20" name="CLK" type="input"/>
+        <pin num="21" name="SDO" type="input"/>
+        <pin num="22" name="SDI" type="input"/>
+        <pin num="23" name="IO15" type="input"/>
+        <pin num="24" name="IO2" type="input"/>
+        <pin num="25" name="IO0" type="input"/>
+        <pin num="26" name="IO4" type="input"/>
+        <pin num="27" name="IO16" type="input"/>
+        <pin num="28" name="IO17" type="input"/>
+        <pin num="29" name="IO5" type="input"/>
+        <pin num="30" name="IO18" type="input"/>
+        <pin num="31" name="IO19" type="input"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="input"/>
+        <pin num="34" name="RX" type="input"/>
+        <pin num="35" name="TX" type="output"/>
+        <pin num="36" name="IO22" type="input"/>
+        <pin num="37" name="IO23" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="FAN5622">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FAN5622</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTRL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="LED1" type="output"/>
+        <pin num="5" name="ISET" type="output"/>
+        <pin num="6" name="LED2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="ISL94203">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL94203</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="power_in"/>
+        <pin num="1" name="VC8" type="input"/>
+        <pin num="2" name="CB8" type="output"/>
+        <pin num="3" name="VC7" type="input"/>
+        <pin num="4" name="CB7" type="output"/>
+        <pin num="5" name="VC6" type="input"/>
+        <pin num="6" name="CB6" type="output"/>
+        <pin num="7" name="VC5" type="input"/>
+        <pin num="8" name="CB5" type="output"/>
+        <pin num="9" name="VC4" type="input"/>
+        <pin num="10" name="CB4" type="output"/>
+        <pin num="11" name="VC3" type="input"/>
+        <pin num="12" name="CB3" type="output"/>
+        <pin num="13" name="VC2" type="input"/>
+        <pin num="14" name="CB2" type="output"/>
+        <pin num="15" name="VC1" type="input"/>
+        <pin num="16" name="CB1" type="output"/>
+        <pin num="17" name="VC0" type="input"/>
+        <pin num="18" name="Vss" type="power_in"/>
+        <pin num="19" name="Vref" type="power_out"/>
+        <pin num="20" name="XT1" type="input"/>
+        <pin num="21" name="XT2" type="input"/>
+        <pin num="22" name="TEMPO" type="output"/>
+        <pin num="23" name="DNC" type="NotConnected"/>
+        <pin num="24" name="ADDR" type="input"/>
+        <pin num="25" name="SCL" type="input"/>
+        <pin num="26" name="SDAI" type="input"/>
+        <pin num="27" name="SDAO" type="output"/>
+        <pin num="28" name="Vss" type="power_in"/>
+        <pin num="29" name="Vss" type="power_in"/>
+        <pin num="30" name="DNC" type="NotConnected"/>
+        <pin num="31" name="INT" type="output"/>
+        <pin num="32" name="PSD" type="output"/>
+        <pin num="33" name="FETSOFF" type="input"/>
+        <pin num="34" name="SD" type="output"/>
+        <pin num="35" name="EOC" type="output"/>
+        <pin num="36" name="RGO" type="power_out"/>
+        <pin num="37" name="CHMON" type="input"/>
+        <pin num="38" name="LDMON" type="input"/>
+        <pin num="39" name="C3" type="power_out"/>
+        <pin num="40" name="C2" type="power_out"/>
+        <pin num="41" name="C1" type="power_out"/>
+        <pin num="42" name="DFET" type="power_out"/>
+        <pin num="43" name="Vdd" type="power_in"/>
+        <pin num="44" name="PCFET" type="power_out"/>
+        <pin num="45" name="CFET" type="power_out"/>
+        <pin num="46" name="CSI2" type="input"/>
+        <pin num="47" name="CSI1" type="input"/>
+        <pin num="48" name="VBATT" type="input"/>
+        <pin num="PAD" name="PAD" type="power_in"/>
+        <pin num="~" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="LCD-40pin">
+      <fields>
+        <field name="Reference">LCD</field>
+        <field name="Value">LCD-40pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="xl" type="input"/>
+        <pin num="2" name="yu" type="input"/>
+        <pin num="3" name="xr" type="input"/>
+        <pin num="4" name="yd" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="IOVCC" type="input"/>
+        <pin num="7" name="VCI" type="input"/>
+        <pin num="8" name="FMARK" type="input"/>
+        <pin num="9" name="CS" type="input"/>
+        <pin num="10" name="SCK" type="input"/>
+        <pin num="11" name="D/C" type="input"/>
+        <pin num="12" name="RD" type="input"/>
+        <pin num="13" name="SDI" type="input"/>
+        <pin num="14" name="SDO" type="output"/>
+        <pin num="15" name="RESET" type="output"/>
+        <pin num="16" name="GND" type="output"/>
+        <pin num="17" name="DB0" type="output"/>
+        <pin num="18" name="DB1" type="output"/>
+        <pin num="19" name="DB2" type="output"/>
+        <pin num="20" name="DB3" type="output"/>
+        <pin num="21" name="DB4" type="output"/>
+        <pin num="22" name="DB5" type="output"/>
+        <pin num="23" name="DB6" type="output"/>
+        <pin num="24" name="DB7" type="output"/>
+        <pin num="25" name="DB8" type="output"/>
+        <pin num="26" name="DB9" type="output"/>
+        <pin num="27" name="DB10" type="output"/>
+        <pin num="28" name="DB11" type="output"/>
+        <pin num="29" name="DB12" type="output"/>
+        <pin num="30" name="DB13" type="output"/>
+        <pin num="31" name="DB14" type="output"/>
+        <pin num="32" name="DB15" type="output"/>
+        <pin num="33" name="A" type="power_in"/>
+        <pin num="34" name="K" type="input"/>
+        <pin num="35" name="K" type="input"/>
+        <pin num="36" name="K" type="input"/>
+        <pin num="37" name="GND" type="output"/>
+        <pin num="38" name="IM0" type="input"/>
+        <pin num="39" name="IM1" type="input"/>
+        <pin num="40" name="IM2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="LED-RGB">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RGB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="K" type="passive"/>
+        <pin num="5" name="A" type="passive"/>
+        <pin num="6" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="LMP8481">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMP8481</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RSP" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VOUT" type="output"/>
+        <pin num="6" name="REFB" type="input"/>
+        <pin num="7" name="REFA" type="input"/>
+        <pin num="8" name="RSN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="LMR16006">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR16006</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="Vin" type="power_in"/>
+        <pin num="6" name="LX" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="LTC4355">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4355</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="G1" type="power_out"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="OUT" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="G2" type="output"/>
+        <pin num="7" name="IN2" type="input"/>
+        <pin num="8" name="DSF" type="output"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="SET" type="output"/>
+        <pin num="11" name="MON2" type="input"/>
+        <pin num="12" name="PFLT2" type="output"/>
+        <pin num="13" name="FUS2" type="output"/>
+        <pin num="14" name="FUS1" type="output"/>
+        <pin num="15" name="PFLT1" type="output"/>
+        <pin num="16" name="MON1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="MOS_P">
+      <aliases>
+        <alias>MOSFET_P</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_P</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="QUARTZ-dac">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">QUARTZ-dac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-rescue" part="R-RESCUE-BMS-dacus">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-BMS-dacus</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="S25FL127">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">S25FL127</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CS#" type="input"/>
+        <pin num="2" name="SO" type="output"/>
+        <pin num="3" name="WP#" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SI" type="input"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="RESET" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="SSR">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">OPTO</field>
+        <field name="Value">SSR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dacus-BMS" part="STM32F373-48">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F373-48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="input"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="OSC32in" type="input"/>
+        <pin num="4" name="OSC32out" type="input"/>
+        <pin num="5" name="PF0" type="BiDi"/>
+        <pin num="6" name="PF1" type="BiDi"/>
+        <pin num="7" name="NRST" type="BiDi"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="VDD_2" type="power_in"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PE8" type="BiDi"/>
+        <pin num="22" name="PE9" type="input"/>
+        <pin num="23" name="VSSSD" type="power_in"/>
+        <pin num="24" name="VDDSD" type="power_in"/>
+        <pin num="25" name="REFSD" type="power_out"/>
+        <pin num="26" name="PB14" type="BiDi"/>
+        <pin num="27" name="PB15" type="BiDi"/>
+        <pin num="28" name="PD8" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="PF6" type="BiDi"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PA14" type="input"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="BiDi"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="input"/>
+        <pin num="48" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="THERMISTOR">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">THERMISTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="USB-MINI-B">
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-MINI-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SHELL1" type="BiDi"/>
+        <pin num="7" name="SHELL2" type="BiDi"/>
+        <pin num="8" name="SHELL3" type="BiDi"/>
+        <pin num="9" name="SHELL4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMS-dacus-cache" part="ZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="BMS-dacus-rescue">
+      <uri>/home/dacus/Desktop/SBMS120/HW/SBMS120-v01b/main-pcb-120 (4 layer v03c)/BMS-dacus-rescue.lib</uri>
+    </library>
+    <library logical="Dacus-BMS">
+      <uri>/home/dacus/Desktop/SBMS120/HW/SBMS120-v01b/main-pcb-120 (4 layer v03c)/Dacus-BMS.lib</uri>
+    </library>
+    <library logical="BMS-dacus-cache">
+      <uri>/home/dacus/Desktop/SBMS120/HW/SBMS120-v01b/main-pcb-120 (4 layer v03c)/BMS-dacus-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/XT2">
+      <node ref="R70" pin="1"/>
+      <node ref="U9" pin="21"/>
+      <node ref="R68" pin="2"/>
+      <node ref="TH1" pin="2"/>
+    </net>
+    <net code="2" name="/CFET">
+      <node ref="U9" pin="45"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="3" name="/CSI2a">
+      <node ref="R56" pin="2"/>
+      <node ref="R63" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R58" pin="2"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="U9" pin="46"/>
+      <node ref="U9" pin="43"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="TVS4" pin="2"/>
+      <node ref="TVS2" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="Qb13" pin="S"/>
+      <node ref="Qb12" pin="S"/>
+      <node ref="Qb11" pin="S"/>
+      <node ref="R47" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="Qb9" pin="S"/>
+      <node ref="Qb10" pin="S"/>
+      <node ref="D21" pin="2"/>
+      <node ref="Qb24" pin="D"/>
+      <node ref="R59" pin="2"/>
+      <node ref="Qb14" pin="S"/>
+      <node ref="Qb22" pin="D"/>
+      <node ref="D18" pin="1"/>
+      <node ref="TVS1" pin="1"/>
+      <node ref="TVS3" pin="2"/>
+      <node ref="D20" pin="1"/>
+      <node ref="R91" pin="1"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="Qb21" pin="D"/>
+      <node ref="D17" pin="1"/>
+      <node ref="Qb20" pin="D"/>
+      <node ref="Qb19" pin="D"/>
+      <node ref="Qb18" pin="D"/>
+      <node ref="Qb23" pin="D"/>
+      <node ref="Qb25" pin="D"/>
+      <node ref="Qb17" pin="D"/>
+      <node ref="Qb26" pin="D"/>
+      <node ref="C55" pin="2"/>
+      <node ref="Qb27" pin="D"/>
+      <node ref="Qb16" pin="D"/>
+      <node ref="Qb28" pin="D"/>
+      <node ref="R22" pin="2"/>
+      <node ref="Qb15" pin="D"/>
+    </net>
+    <net code="4" name="Net-(D7-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="TVS4" pin="1"/>
+      <node ref="TVS3" pin="1"/>
+    </net>
+    <net code="5" name="/DFET1">
+      <node ref="Qb16" pin="G"/>
+      <node ref="Qb20" pin="G"/>
+      <node ref="R71" pin="2"/>
+      <node ref="Qb19" pin="G"/>
+      <node ref="Qb25" pin="G"/>
+      <node ref="Qb26" pin="G"/>
+      <node ref="Qb17" pin="G"/>
+      <node ref="Qb18" pin="G"/>
+      <node ref="Qb23" pin="G"/>
+      <node ref="Qb28" pin="G"/>
+      <node ref="Qb22" pin="G"/>
+      <node ref="Qb24" pin="G"/>
+      <node ref="Qb27" pin="G"/>
+      <node ref="D16" pin="2"/>
+      <node ref="Qb21" pin="G"/>
+      <node ref="R93" pin="2"/>
+      <node ref="D19" pin="1"/>
+      <node ref="Qb15" pin="G"/>
+    </net>
+    <net code="6" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="7" name="/M1">
+      <node ref="R36" pin="1"/>
+      <node ref="U6" pin="16"/>
+      <node ref="D5" pin="5"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="8" name="Net-(D5-Pad6)">
+      <node ref="D5" pin="6"/>
+      <node ref="R49" pin="2"/>
+    </net>
+    <net code="9" name="/DF1">
+      <node ref="U6" pin="15"/>
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="13" name="Net-(U6-Pad14)">
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="14" name="/PV1">
+      <node ref="D2" pin="2"/>
+      <node ref="PV1" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="Qb3" pin="S"/>
+      <node ref="Qb2" pin="S"/>
+      <node ref="U6" pin="1"/>
+      <node ref="Qb1" pin="S"/>
+    </net>
+    <net code="15" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="16" name="/M2">
+      <node ref="U6" pin="11"/>
+      <node ref="R37" pin="1"/>
+      <node ref="D6" pin="3"/>
+      <node ref="D6" pin="5"/>
+    </net>
+    <net code="17" name="Net-(D6-Pad6)">
+      <node ref="R51" pin="2"/>
+      <node ref="D6" pin="6"/>
+    </net>
+    <net code="18" name="/DF2">
+      <node ref="U6" pin="12"/>
+      <node ref="D6" pin="4"/>
+    </net>
+    <net code="19" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="CON1" pin="8"/>
+      <node ref="CON1" pin="5"/>
+      <node ref="CON1" pin="4"/>
+      <node ref="U9" pin="0"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="4"/>
+      <node ref="P2" pin="16"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="CON1" pin="7"/>
+      <node ref="C13" pin="2"/>
+      <node ref="CON1" pin="9"/>
+      <node ref="C15" pin="2"/>
+      <node ref="CON1" pin="6"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="R95" pin="1"/>
+      <node ref="R62" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="LCD1" pin="38"/>
+      <node ref="LCD1" pin="37"/>
+      <node ref="U9" pin="24"/>
+      <node ref="U3" pin="23"/>
+      <node ref="D15" pin="1"/>
+      <node ref="Qb29" pin="S"/>
+      <node ref="R73" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="F1" pin="1"/>
+      <node ref="OPTO1" pin="2"/>
+      <node ref="OPTO2" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U9" pin="28"/>
+      <node ref="U9" pin="18"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U8" pin="7"/>
+      <node ref="LCD1" pin="5"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="P2" pin="15"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U9" pin="29"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="47"/>
+      <node ref="C22" pin="1"/>
+      <node ref="P2" pin="9"/>
+      <node ref="P2" pin="10"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R69" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D24" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C42" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="M1" pin="15"/>
+      <node ref="R4" pin="2"/>
+      <node ref="M1" pin="38"/>
+      <node ref="M1" pin="39"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="TH1" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R70" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C45" pin="2"/>
+    </net>
+    <net code="21" name="/CFET1">
+      <node ref="R91" pin="2"/>
+      <node ref="D23" pin="1"/>
+      <node ref="Qb10" pin="G"/>
+      <node ref="Qb9" pin="G"/>
+      <node ref="D18" pin="2"/>
+      <node ref="Qb14" pin="G"/>
+      <node ref="R99" pin="1"/>
+      <node ref="Qb11" pin="G"/>
+      <node ref="Qb12" pin="G"/>
+      <node ref="Qb13" pin="G"/>
+    </net>
+    <net code="22" name="/CSI1a">
+      <node ref="R55" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="D20" pin="2"/>
+      <node ref="R58" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R57" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="U9" pin="47"/>
+      <node ref="C36" pin="1"/>
+      <node ref="Battery+1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(M1-Pad37)">
+      <node ref="M1" pin="37"/>
+    </net>
+    <net code="24" name="Net-(M1-Pad24)">
+      <node ref="R8" pin="2"/>
+      <node ref="M1" pin="24"/>
+    </net>
+    <net code="25" name="Net-(M1-Pad29)">
+      <node ref="M1" pin="29"/>
+    </net>
+    <net code="26" name="Net-(M1-Pad19)">
+      <node ref="M1" pin="19"/>
+    </net>
+    <net code="27" name="Net-(M1-Pad28)">
+      <node ref="M1" pin="28"/>
+    </net>
+    <net code="28" name="Net-(M1-Pad18)">
+      <node ref="M1" pin="18"/>
+    </net>
+    <net code="29" name="Net-(M1-Pad27)">
+      <node ref="M1" pin="27"/>
+    </net>
+    <net code="30" name="Net-(M1-Pad17)">
+      <node ref="M1" pin="17"/>
+    </net>
+    <net code="31" name="Net-(M1-Pad36)">
+      <node ref="M1" pin="36"/>
+    </net>
+    <net code="32" name="Net-(M1-Pad26)">
+      <node ref="M1" pin="26"/>
+    </net>
+    <net code="33" name="Net-(M1-Pad16)">
+      <node ref="M1" pin="16"/>
+    </net>
+    <net code="34" name="Net-(M1-Pad14)">
+      <node ref="M1" pin="14"/>
+    </net>
+    <net code="35" name="Net-(M1-Pad33)">
+      <node ref="M1" pin="33"/>
+    </net>
+    <net code="36" name="Net-(M1-Pad23)">
+      <node ref="M1" pin="23"/>
+    </net>
+    <net code="37" name="Net-(M1-Pad13)">
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="38" name="Net-(R13-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R108-Pad2)">
+      <node ref="R108" pin="2"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="40" name="Net-(R95-Pad2)">
+      <node ref="R98" pin="1"/>
+      <node ref="R95" pin="2"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="41" name="Net-(C53-Pad2)">
+      <node ref="C53" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="44" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(M1-Pad32)">
+      <node ref="M1" pin="32"/>
+    </net>
+    <net code="46" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="47" name="/ADC1N">
+      <node ref="P3" pin="2"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="48" name="/VREFSD">
+      <node ref="U3" pin="25"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="49" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="50" name="/ADC1P">
+      <node ref="P3" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="51" name="/SDADC38">
+      <node ref="C23" pin="2"/>
+      <node ref="U3" pin="26"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="52" name="Net-(R46-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="53" name="Net-(M1-Pad22)">
+      <node ref="M1" pin="22"/>
+    </net>
+    <net code="54" name="Net-(M1-Pad12)">
+      <node ref="M1" pin="12"/>
+    </net>
+    <net code="55" name="Net-(M1-Pad31)">
+      <node ref="M1" pin="31"/>
+    </net>
+    <net code="56" name="Net-(M1-Pad21)">
+      <node ref="M1" pin="21"/>
+    </net>
+    <net code="57" name="Net-(M1-Pad11)">
+      <node ref="M1" pin="11"/>
+    </net>
+    <net code="58" name="Net-(M1-Pad30)">
+      <node ref="M1" pin="30"/>
+    </net>
+    <net code="59" name="Net-(M1-Pad20)">
+      <node ref="M1" pin="20"/>
+    </net>
+    <net code="60" name="Net-(M1-Pad10)">
+      <node ref="M1" pin="10"/>
+    </net>
+    <net code="61" name="Net-(M1-Pad9)">
+      <node ref="M1" pin="9"/>
+    </net>
+    <net code="62" name="Net-(M1-Pad8)">
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="63" name="Net-(M1-Pad7)">
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="64" name="Net-(M1-Pad6)">
+      <node ref="M1" pin="6"/>
+    </net>
+    <net code="65" name="Net-(M1-Pad5)">
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="66" name="Net-(M1-Pad4)">
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="67" name="/EXTADC1">
+      <node ref="C19" pin="2"/>
+      <node ref="U3" pin="18"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D1-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R38-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="70" name="/DG2">
+      <node ref="U6" pin="6"/>
+      <node ref="Qb5" pin="G"/>
+      <node ref="Qb7" pin="G"/>
+      <node ref="Qb6" pin="G"/>
+    </net>
+    <net code="71" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="72" name="/PV+">
+      <node ref="U7" pin="8"/>
+      <node ref="U8" pin="8"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="Qb10" pin="D"/>
+      <node ref="TVS2" pin="2"/>
+      <node ref="Qb9" pin="D"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="Qb13" pin="D"/>
+      <node ref="Qb12" pin="D"/>
+      <node ref="Qb11" pin="D"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="Qb14" pin="D"/>
+      <node ref="R30" pin="2"/>
+      <node ref="TVS1" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="74" name="/DG1">
+      <node ref="U6" pin="2"/>
+      <node ref="Qb3" pin="G"/>
+      <node ref="Qb2" pin="G"/>
+      <node ref="Qb1" pin="G"/>
+    </net>
+    <net code="75" name="/GND1">
+      <node ref="R20" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U6" pin="9"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="76" name="/PV2">
+      <node ref="R37" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C21" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Qb7" pin="S"/>
+      <node ref="Qb6" pin="S"/>
+      <node ref="Qb5" pin="S"/>
+      <node ref="PV2" pin="1"/>
+    </net>
+    <net code="77" name="Net-(R96-Pad1)">
+      <node ref="R96" pin="1"/>
+      <node ref="R98" pin="2"/>
+    </net>
+    <net code="78" name="Net-(R94-Pad1)">
+      <node ref="R96" pin="2"/>
+      <node ref="R94" pin="1"/>
+    </net>
+    <net code="79" name="Net-(C53-Pad1)">
+      <node ref="D24" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C53" pin="1"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="80" name="Net-(D10-Pad2)">
+      <node ref="D13" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="81" name="Net-(LCD1-Pad17)">
+      <node ref="LCD1" pin="17"/>
+    </net>
+    <net code="82" name="/LCDSCLK">
+      <node ref="LCD1" pin="10"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="83" name="Net-(LCD1-Pad29)">
+      <node ref="LCD1" pin="29"/>
+    </net>
+    <net code="84" name="Net-(LCD1-Pad19)">
+      <node ref="LCD1" pin="19"/>
+    </net>
+    <net code="85" name="Net-(LCD1-Pad28)">
+      <node ref="LCD1" pin="28"/>
+    </net>
+    <net code="86" name="Net-(LCD1-Pad18)">
+      <node ref="LCD1" pin="18"/>
+    </net>
+    <net code="87" name="Net-(LCD1-Pad27)">
+      <node ref="LCD1" pin="27"/>
+    </net>
+    <net code="88" name="Net-(LCD1-Pad26)">
+      <node ref="LCD1" pin="26"/>
+    </net>
+    <net code="89" name="Net-(LCD1-Pad16)">
+      <node ref="LCD1" pin="16"/>
+    </net>
+    <net code="90" name="Net-(LCD1-Pad25)">
+      <node ref="LCD1" pin="25"/>
+    </net>
+    <net code="91" name="Net-(LCD1-Pad24)">
+      <node ref="LCD1" pin="24"/>
+    </net>
+    <net code="92" name="Net-(LCD1-Pad14)">
+      <node ref="LCD1" pin="14"/>
+    </net>
+    <net code="93" name="Net-(LCD1-Pad23)">
+      <node ref="LCD1" pin="23"/>
+    </net>
+    <net code="94" name="/LCDSDI">
+      <node ref="U3" pin="31"/>
+      <node ref="LCD1" pin="13"/>
+    </net>
+    <net code="95" name="Net-(LCD1-Pad32)">
+      <node ref="LCD1" pin="32"/>
+    </net>
+    <net code="96" name="Net-(LCD1-Pad22)">
+      <node ref="LCD1" pin="22"/>
+    </net>
+    <net code="97" name="Net-(LCD1-Pad15)">
+      <node ref="LCD1" pin="15"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="98" name="/LCDDC">
+      <node ref="LCD1" pin="11"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="99" name="/LCDCS">
+      <node ref="U3" pin="36"/>
+      <node ref="LCD1" pin="9"/>
+    </net>
+    <net code="100" name="Net-(LCD1-Pad12)">
+      <node ref="LCD1" pin="12"/>
+    </net>
+    <net code="101" name="Net-(LCD1-Pad39)">
+      <node ref="LCD1" pin="40"/>
+      <node ref="LCD1" pin="39"/>
+      <node ref="R128" pin="1"/>
+    </net>
+    <net code="102" name="/VDD33">
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="LCD1" pin="33"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R94" pin="2"/>
+      <node ref="C50" pin="1"/>
+      <node ref="M1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="R17" pin="1"/>
+      <node ref="LCD1" pin="6"/>
+      <node ref="U1" pin="8"/>
+      <node ref="LCD1" pin="7"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="48"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="R128" pin="2"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="103" name="Net-(LCD1-Pad34)">
+      <node ref="LCD1" pin="36"/>
+      <node ref="U2" pin="6"/>
+      <node ref="LCD1" pin="34"/>
+      <node ref="LCD1" pin="35"/>
+    </net>
+    <net code="104" name="Net-(LCD1-Pad2)">
+      <node ref="LCD1" pin="2"/>
+    </net>
+    <net code="105" name="Net-(LCD1-Pad31)">
+      <node ref="LCD1" pin="31"/>
+    </net>
+    <net code="106" name="Net-(LCD1-Pad21)">
+      <node ref="LCD1" pin="21"/>
+    </net>
+    <net code="107" name="Net-(LCD1-Pad30)">
+      <node ref="LCD1" pin="30"/>
+    </net>
+    <net code="108" name="Net-(LCD1-Pad20)">
+      <node ref="LCD1" pin="20"/>
+    </net>
+    <net code="109" name="Net-(LCD1-Pad8)">
+      <node ref="LCD1" pin="8"/>
+    </net>
+    <net code="110" name="Net-(LCD1-Pad4)">
+      <node ref="LCD1" pin="4"/>
+    </net>
+    <net code="111" name="Net-(LCD1-Pad3)">
+      <node ref="LCD1" pin="3"/>
+    </net>
+    <net code="112" name="Net-(LCD1-Pad1)">
+      <node ref="LCD1" pin="1"/>
+    </net>
+    <net code="113" name="Net-(C46-Pad1)">
+      <node ref="F3" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="114" name="Net-(OPTO1-Pad4)">
+      <node ref="OPTO1" pin="4"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="115" name="Net-(OPTO1-Pad3)">
+      <node ref="OPTO1" pin="3"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="116" name="Net-(OPTO2-Pad3)">
+      <node ref="OPTO2" pin="3"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="117" name="Net-(OPTO2-Pad4)">
+      <node ref="P3" pin="8"/>
+      <node ref="OPTO2" pin="4"/>
+    </net>
+    <net code="118" name="Net-(C54-Pad2)">
+      <node ref="R97" pin="2"/>
+      <node ref="R110" pin="2"/>
+      <node ref="D25" pin="1"/>
+      <node ref="Qb30" pin="G"/>
+      <node ref="C54" pin="2"/>
+    </net>
+    <net code="119" name="Net-(Qb30-PadD)">
+      <node ref="R93" pin="1"/>
+      <node ref="Qb30" pin="D"/>
+    </net>
+    <net code="120" name="Net-(C54-Pad1)">
+      <node ref="C54" pin="1"/>
+      <node ref="D25" pin="2"/>
+      <node ref="R111" pin="2"/>
+      <node ref="Qb30" pin="S"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="121" name="/DFET">
+      <node ref="R110" pin="1"/>
+      <node ref="U9" pin="42"/>
+      <node ref="R111" pin="1"/>
+    </net>
+    <net code="122" name="Net-(Qb29-PadD)">
+      <node ref="Qb29" pin="D"/>
+      <node ref="R97" pin="1"/>
+    </net>
+    <net code="123" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="R92" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="125" name="/CPV2P">
+      <node ref="R33" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Qb7" pin="D"/>
+      <node ref="R34" pin="1"/>
+      <node ref="Qb6" pin="D"/>
+      <node ref="Qb5" pin="D"/>
+      <node ref="R31" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="126" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="R99" pin="2"/>
+      <node ref="R109" pin="1"/>
+    </net>
+    <net code="127" name="Net-(P2-Pad11)">
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="128" name="Net-(P2-Pad13)">
+      <node ref="R2" pin="1"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="129" name="Net-(P2-Pad14)">
+      <node ref="R12" pin="2"/>
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="130" name="Net-(P2-Pad12)">
+      <node ref="R11" pin="1"/>
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="131" name="/EXTIO5">
+      <node ref="P2" pin="6"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="132" name="Net-(D15-Pad2)">
+      <node ref="R92" pin="1"/>
+      <node ref="R73" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="Qb29" pin="G"/>
+    </net>
+    <net code="133" name="/XT1">
+      <node ref="R69" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="R67" pin="2"/>
+      <node ref="U9" pin="20"/>
+    </net>
+    <net code="134" name="Net-(F1-Pad2)">
+      <node ref="P3" pin="3"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="135" name="/BAT+">
+      <node ref="P4" pin="10"/>
+      <node ref="F2" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R107" pin="1"/>
+      <node ref="Qb38" pin="S"/>
+    </net>
+    <net code="136" name="/LDMON">
+      <node ref="R66" pin="1"/>
+      <node ref="Load+1" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="Qb23" pin="S"/>
+      <node ref="D12" pin="2"/>
+      <node ref="R71" pin="1"/>
+      <node ref="Qb15" pin="S"/>
+      <node ref="Qb20" pin="S"/>
+      <node ref="Qb21" pin="S"/>
+      <node ref="Qb22" pin="S"/>
+      <node ref="Qb24" pin="S"/>
+      <node ref="Qb25" pin="S"/>
+      <node ref="Qb26" pin="S"/>
+      <node ref="Qb27" pin="S"/>
+      <node ref="Qb28" pin="S"/>
+      <node ref="Qb16" pin="S"/>
+      <node ref="Qb17" pin="S"/>
+      <node ref="Qb18" pin="S"/>
+      <node ref="Qb19" pin="S"/>
+    </net>
+    <net code="137" name="Net-(OPTO2-Pad1)">
+      <node ref="R40" pin="2"/>
+      <node ref="OPTO2" pin="1"/>
+    </net>
+    <net code="138" name="Net-(OPTO1-Pad1)">
+      <node ref="R39" pin="2"/>
+      <node ref="OPTO1" pin="1"/>
+    </net>
+    <net code="139" name="/EXTIO4">
+      <node ref="CON1" pin="3"/>
+      <node ref="R40" pin="1"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="140" name="/EXTIO3">
+      <node ref="CON1" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="141" name="/VC1">
+      <node ref="U9" pin="15"/>
+      <node ref="R76" pin="1"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="142" name="Net-(R63-Pad1)">
+      <node ref="U9" pin="37"/>
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="143" name="/VC0">
+      <node ref="C28" pin="1"/>
+      <node ref="U9" pin="17"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="144" name="Net-(U9-Pad35)">
+      <node ref="U9" pin="35"/>
+    </net>
+    <net code="145" name="Net-(U9-Pad44)">
+      <node ref="U9" pin="44"/>
+    </net>
+    <net code="146" name="Net-(U9-Pad34)">
+      <node ref="U9" pin="34"/>
+    </net>
+    <net code="147" name="Net-(R62-Pad2)">
+      <node ref="U9" pin="33"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="148" name="Net-(U9-Pad23)">
+      <node ref="U9" pin="23"/>
+    </net>
+    <net code="149" name="Net-(U9-Pad32)">
+      <node ref="U9" pin="32"/>
+    </net>
+    <net code="150" name="/TEMPO">
+      <node ref="R65" pin="1"/>
+      <node ref="R64" pin="1"/>
+      <node ref="U9" pin="22"/>
+    </net>
+    <net code="151" name="Net-(U9-Pad31)">
+      <node ref="U9" pin="31"/>
+    </net>
+    <net code="152" name="Net-(C1-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="153" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="10"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="154" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="155" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="156" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="157" name="Net-(C30-Pad1)">
+      <node ref="C30" pin="1"/>
+      <node ref="U9" pin="39"/>
+    </net>
+    <net code="158" name="/GCB2">
+      <node ref="R77" pin="2"/>
+      <node ref="Qb32" pin="G"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="159" name="/GCB6">
+      <node ref="R105" pin="2"/>
+      <node ref="Qb36" pin="G"/>
+      <node ref="R85" pin="1"/>
+    </net>
+    <net code="160" name="/GCB7">
+      <node ref="R87" pin="1"/>
+      <node ref="R106" pin="2"/>
+      <node ref="Qb37" pin="G"/>
+    </net>
+    <net code="161" name="/GCB8">
+      <node ref="R89" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="Qb38" pin="G"/>
+    </net>
+    <net code="162" name="/GCB3">
+      <node ref="R102" pin="2"/>
+      <node ref="Qb33" pin="G"/>
+      <node ref="R79" pin="2"/>
+    </net>
+    <net code="163" name="/GCB4">
+      <node ref="R103" pin="2"/>
+      <node ref="R81" pin="2"/>
+      <node ref="Qb34" pin="G"/>
+    </net>
+    <net code="164" name="Net-(U9-Pad30)">
+      <node ref="U9" pin="30"/>
+    </net>
+    <net code="165" name="/GCB1">
+      <node ref="Qb31" pin="G"/>
+      <node ref="R75" pin="2"/>
+      <node ref="R100" pin="2"/>
+    </net>
+    <net code="166" name="/VC8">
+      <node ref="C49" pin="1"/>
+      <node ref="R90" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="167" name="/BAT6">
+      <node ref="R105" pin="1"/>
+      <node ref="R86" pin="2"/>
+      <node ref="R126" pin="1"/>
+      <node ref="Qb36" pin="S"/>
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="168" name="/BAT5">
+      <node ref="P4" pin="7"/>
+      <node ref="R125" pin="1"/>
+      <node ref="R124" pin="1"/>
+      <node ref="R84" pin="2"/>
+    </net>
+    <net code="169" name="/BAT4">
+      <node ref="R104" pin="1"/>
+      <node ref="R82" pin="2"/>
+      <node ref="Qb35" pin="S"/>
+      <node ref="R123" pin="1"/>
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="170" name="/VC4">
+      <node ref="R82" pin="1"/>
+      <node ref="U9" pin="9"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="171" name="/BAT3">
+      <node ref="P4" pin="5"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R122" pin="1"/>
+      <node ref="Qb34" pin="S"/>
+      <node ref="R80" pin="2"/>
+    </net>
+    <net code="172" name="/VC3">
+      <node ref="C34" pin="1"/>
+      <node ref="R80" pin="1"/>
+      <node ref="U9" pin="11"/>
+    </net>
+    <net code="173" name="/BAT2">
+      <node ref="R121" pin="1"/>
+      <node ref="R78" pin="2"/>
+      <node ref="Qb33" pin="S"/>
+      <node ref="R102" pin="1"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="174" name="/BAT1">
+      <node ref="Qb32" pin="S"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R76" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="R120" pin="1"/>
+    </net>
+    <net code="175" name="/BAT0">
+      <node ref="Qb31" pin="S"/>
+      <node ref="D9" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="R100" pin="1"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="176" name="/VC7">
+      <node ref="U9" pin="3"/>
+      <node ref="C45" pin="1"/>
+      <node ref="R88" pin="1"/>
+    </net>
+    <net code="177" name="Net-(R6-Pad1)">
+      <node ref="U3" pin="12"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="178" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="179" name="/VC2">
+      <node ref="U9" pin="13"/>
+      <node ref="C32" pin="1"/>
+      <node ref="R78" pin="1"/>
+    </net>
+    <net code="180" name="Net-(C25-Pad1)">
+      <node ref="R60" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U9" pin="36"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="181" name="/VBATT">
+      <node ref="U9" pin="48"/>
+      <node ref="C41" pin="1"/>
+      <node ref="R72" pin="2"/>
+    </net>
+    <net code="182" name="Net-(R81-Pad1)">
+      <node ref="U9" pin="10"/>
+      <node ref="R81" pin="1"/>
+    </net>
+    <net code="183" name="Net-(R79-Pad1)">
+      <node ref="R79" pin="1"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="184" name="Net-(R77-Pad1)">
+      <node ref="R77" pin="1"/>
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="185" name="Net-(R75-Pad1)">
+      <node ref="U9" pin="16"/>
+      <node ref="R75" pin="1"/>
+    </net>
+    <net code="186" name="/GCB5">
+      <node ref="R104" pin="2"/>
+      <node ref="Qb35" pin="G"/>
+      <node ref="R83" pin="2"/>
+    </net>
+    <net code="187" name="Net-(R83-Pad1)">
+      <node ref="U9" pin="8"/>
+      <node ref="R83" pin="1"/>
+    </net>
+    <net code="188" name="/BAT7">
+      <node ref="R88" pin="2"/>
+      <node ref="R106" pin="1"/>
+      <node ref="P4" pin="9"/>
+      <node ref="Qb37" pin="S"/>
+      <node ref="R127" pin="1"/>
+    </net>
+    <net code="189" name="Net-(C2-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="190" name="Net-(C8-Pad1)">
+      <node ref="U3" pin="16"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="191" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="192" name="Net-(R87-Pad2)">
+      <node ref="R87" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="193" name="Net-(Qb34-PadD)">
+      <node ref="R115" pin="1"/>
+      <node ref="Qb34" pin="D"/>
+    </net>
+    <net code="194" name="Net-(Qb33-PadD)">
+      <node ref="Qb33" pin="D"/>
+      <node ref="R114" pin="1"/>
+    </net>
+    <net code="195" name="Net-(Qb32-PadD)">
+      <node ref="R113" pin="1"/>
+      <node ref="Qb32" pin="D"/>
+    </net>
+    <net code="196" name="Net-(Qb31-PadD)">
+      <node ref="Qb31" pin="D"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="197" name="Net-(R85-Pad2)">
+      <node ref="R85" pin="2"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="198" name="Net-(R89-Pad2)">
+      <node ref="U9" pin="2"/>
+      <node ref="R89" pin="2"/>
+    </net>
+    <net code="199" name="Net-(R112-Pad2)">
+      <node ref="R120" pin="2"/>
+      <node ref="R112" pin="2"/>
+    </net>
+    <net code="200" name="Net-(R113-Pad2)">
+      <node ref="R113" pin="2"/>
+      <node ref="R121" pin="2"/>
+    </net>
+    <net code="201" name="Net-(R114-Pad2)">
+      <node ref="R122" pin="2"/>
+      <node ref="R114" pin="2"/>
+    </net>
+    <net code="202" name="Net-(R115-Pad2)">
+      <node ref="R115" pin="2"/>
+      <node ref="R123" pin="2"/>
+    </net>
+    <net code="203" name="Net-(R119-Pad2)">
+      <node ref="R119" pin="2"/>
+      <node ref="R127" pin="2"/>
+    </net>
+    <net code="204" name="Net-(R118-Pad2)">
+      <node ref="R118" pin="2"/>
+      <node ref="R126" pin="2"/>
+    </net>
+    <net code="205" name="Net-(R117-Pad2)">
+      <node ref="R125" pin="2"/>
+      <node ref="R117" pin="2"/>
+    </net>
+    <net code="206" name="Net-(R116-Pad2)">
+      <node ref="R124" pin="2"/>
+      <node ref="R116" pin="2"/>
+    </net>
+    <net code="207" name="Net-(C27-Pad2)">
+      <node ref="C27" pin="2"/>
+      <node ref="U9" pin="19"/>
+    </net>
+    <net code="208" name="Net-(Qb35-PadD)">
+      <node ref="Qb35" pin="D"/>
+      <node ref="R116" pin="1"/>
+    </net>
+    <net code="209" name="Net-(Qb36-PadD)">
+      <node ref="Qb36" pin="D"/>
+      <node ref="R117" pin="1"/>
+    </net>
+    <net code="210" name="Net-(Qb37-PadD)">
+      <node ref="R118" pin="1"/>
+      <node ref="Qb37" pin="D"/>
+    </net>
+    <net code="211" name="Net-(Qb38-PadD)">
+      <node ref="R119" pin="1"/>
+      <node ref="Qb38" pin="D"/>
+    </net>
+    <net code="212" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2"/>
+      <node ref="U9" pin="41"/>
+    </net>
+    <net code="213" name="Net-(C31-Pad1)">
+      <node ref="U9" pin="40"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="214" name="/VC5">
+      <node ref="R84" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="215" name="/VC6">
+      <node ref="C43" pin="1"/>
+      <node ref="R86" pin="1"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="216" name="Net-(D14-Pad1)">
+      <node ref="R90" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="D17" pin="2"/>
+      <node ref="F2" pin="2"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="217" name="/PA5">
+      <node ref="R5" pin="2"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="218" name="/PA4">
+      <node ref="P1" pin="4"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="219" name="/PA3">
+      <node ref="P1" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="220" name="/PA2">
+      <node ref="R9" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="221" name="/PA1">
+      <node ref="P1" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="222" name="/ESPFLASH">
+      <node ref="R14" pin="2"/>
+      <node ref="M1" pin="25"/>
+      <node ref="P2" pin="7"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="223" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="224" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="225" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="226" name="/FBAT+">
+      <node ref="D4" pin="2"/>
+      <node ref="F3" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C52" pin="1"/>
+      <node ref="R108" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C51" pin="1"/>
+    </net>
+    <net code="227" name="/CPV1P">
+      <node ref="R29" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="Qb3" pin="D"/>
+      <node ref="Qb2" pin="D"/>
+      <node ref="Qb1" pin="D"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="228" name="/SDADC14">
+      <node ref="U3" pin="20"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="229" name="Net-(R44-Pad2)">
+      <node ref="R44" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="230" name="Net-(R66-Pad2)">
+      <node ref="R66" pin="2"/>
+      <node ref="U9" pin="38"/>
+    </net>
+    <net code="231" name="/SDADC2P">
+      <node ref="U3" pin="21"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="232" name="/SPI1MISO">
+      <node ref="U3" pin="40"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="233" name="/EXTIO2">
+      <node ref="P2" pin="4"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="234" name="/EXTIO1">
+      <node ref="P2" pin="3"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="235" name="/SPI1MOSI">
+      <node ref="U1" pin="5"/>
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="236" name="Net-(R23-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="237" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="238" name="/ESPRST">
+      <node ref="M1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="239" name="/SPI1CS">
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="240" name="/EXTADC3">
+      <node ref="U3" pin="27"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="241" name="/USARTRX">
+      <node ref="U3" pin="46"/>
+      <node ref="M1" pin="35"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="242" name="/USARTTX">
+      <node ref="M1" pin="34"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="243" name="/SWD">
+      <node ref="P2" pin="8"/>
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="244" name="/SDA">
+      <node ref="U9" pin="27"/>
+      <node ref="U9" pin="26"/>
+      <node ref="R61" pin="2"/>
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="245" name="/SCK">
+      <node ref="R60" pin="2"/>
+      <node ref="U3" pin="42"/>
+      <node ref="U9" pin="25"/>
+    </net>
+    <net code="246" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="247" name="/SPI1CLK">
+      <node ref="U1" pin="6"/>
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="248" name="/LCDLED">
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="249" name="Net-(R65-Pad2)">
+      <node ref="R65" pin="2"/>
+      <node ref="R68" pin="1"/>
+    </net>
+    <net code="250" name="Net-(R64-Pad2)">
+      <node ref="R64" pin="2"/>
+      <node ref="R67" pin="1"/>
+    </net>
+    <net code="251" name="/EXTADC2">
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="252" name="/BOOT0">
+      <node ref="U3" pin="44"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="P2" pin="5"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,10 @@
+ - Display in die Mitte rücken
+ - Überprüfen, ob Breite für die Glasnase ausreicht. Ansonsten extra-Aussparung vorsehen.
+ - Evtl. Aussparung für USB vergrößern.
+ - Terminal und Taster von Rev.0.1 auf 0.2 1mm nach unten
+ - AKG 551680
+ - 47 µF parallel zur Batterie
+
+
+
+

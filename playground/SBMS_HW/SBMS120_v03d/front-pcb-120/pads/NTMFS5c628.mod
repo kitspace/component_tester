@@ -1,0 +1,111 @@
+PCBNEW-LibModule-V1  Thu 14 Jul 2016 09:56:39 PM CST
+# encoding utf-8
+Units mm
+$INDEX
+PG-TDSON-dac3
+$EndINDEX
+$MODULE PG-TDSON-dac3
+Po 0 0 0 15 57885EC6 00000000 ~~
+Li PG-TDSON-dac3
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+Sc 0
+AR /55834318
+Op 0 0 0
+At SMD
+T0 0 -1.27 1.143 1.016 0 0.127 N V 21 N "Q8"
+T1 0.00254 -6.13156 1.016 1.016 0 0.127 N V 21 N "NTMFS5C628"
+DS 2.6 -4.75 2.6 1.7 0.15 21
+DS -2.6 -4.75 -2.6 1.7 0.15 21
+$PAD
+Sh "D" R 0.75 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/PV+"
+Po -1.905 -4.5
+$EndPAD
+$PAD
+Sh "D" R 0.75 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/PV+"
+Po 1.905 -4.5
+$EndPAD
+$PAD
+Sh "G" R 0.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/GPV2"
+Po 1.905 1.3
+$EndPAD
+$PAD
+Sh "S" R 0.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/CPV2N"
+Po 0.635 1.3
+$EndPAD
+$PAD
+Sh "S" R 0.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/CPV2N"
+Po -0.635 1.3
+$EndPAD
+$PAD
+Sh "S" R 0.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/CPV2N"
+Po -1.905 1.3
+$EndPAD
+$PAD
+Sh "D" R 4.56 4.3 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 3 "/PV+"
+Po 0 -2.35
+$EndPAD
+$PAD
+Sh "D" R 1.8 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00088000
+Ne 3 "/PV+"
+Po 1.15 -1.175
+$EndPAD
+$PAD
+Sh "D" R 1.8 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00088000
+Ne 3 "/PV+"
+Po -1.15 -1.175
+$EndPAD
+$PAD
+Sh "D" R 1.8 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00088000
+Ne 3 "/PV+"
+Po 1.15 -3
+$EndPAD
+$PAD
+Sh "D" R 1.8 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00088000
+Ne 3 "/PV+"
+Po -1.15 -3
+$EndPAD
+$PAD
+Sh "D" R 5.55 0.905 0 0 0
+Dr 0 0 0
+At SMD N 00808000
+Ne 0 ""
+Po 0 -1.0775
+$EndPAD
+$SHAPE3D
+Na "smd/cms_so8.wrl"
+Sc 0.5 0.38 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PG-TDSON-dac3
+$EndLIBRARY

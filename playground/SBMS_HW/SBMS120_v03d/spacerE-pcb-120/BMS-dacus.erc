@@ -1,0 +1,30 @@
+ERC report (Mon 08 Jun 2015 01:05:59 AM CST)
+
+***** Sheet /
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (232.41 mm,220.98 mm): Pin 2 (power_in) of component U10 is not driven (Net 28).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (180.34 mm,179.07 mm): Pin 8 (power_in) of component U4 is not driven (Net 29).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (121.92 mm,223.52 mm): Pin 29 (BiDi) of component U8 is not driven (Net 30).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @ (101.60 mm,246.38 mm): Pin 22 (BiDi) of component U8 is connected to 
+    @ (121.92 mm,233.68 mm): pin 25 (power_out) of component U8 (net 36).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (104.14 mm,246.38 mm): Pin 23 (power_in) of component U8 is not driven (Net 51).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (99.06 mm,55.88 mm): Pin 9 (power_in) of component LCD1 is not driven (Net 69).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (313.69 mm,186.69 mm): Pin 2 (power_in) of component U6 is not driven (Net 106).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (313.69 mm,213.36 mm): Pin 1 (power_in) of component U7 is not driven (Net 107).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (313.69 mm,182.88 mm): Pin 1 (power_in) of component U6 is not driven (Net 108).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (313.69 mm,217.17 mm): Pin 2 (power_in) of component U7 is not driven (Net 109).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (283.21 mm,86.36 mm): Pin 43 (power_in) of component U1 is not driven (Net 117).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (85.09 mm,120.65 mm): Pin 1 (power_in) of component U3 is not driven (Net 163).
+
+ >> Errors ERC: 0

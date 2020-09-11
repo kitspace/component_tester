@@ -1,0 +1,113 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Tue 16 Sep 2014 10:50:43 AM CST
+
+#Cmp ( order = Value )
+| 47pF         C8        
+| 47pF         C25       
+| 47pF         C26       
+| 4.7nF        C2        
+| 4.7nF        C11       
+| 4.7nF        C13       
+| 4.7nF        C15       
+| 4.7nF        C16       
+| 4.7nF        C17       
+| 4.7nF        C18       
+| 4.7nF        C19       
+| 4.7nF        C20       
+| 4.7nF        C22       
+| 4.7nF        C23       
+| 4.7nF        C24       
+| 22nF         C29       
+| 22nF         C30       
+| 22nF         C31       
+| 22nF         C32       
+| 22nF         C33       
+| 22nF         C34       
+| 22nF         C35       
+| 22nF         C36       
+| 33nF         C27       
+| 33nF         C28       
+| 220nF        C1        
+| 220nF        C3        
+| 220nF        C5        
+| 220nF        C6        
+| 220nF        C7        
+| 220nF        C21       
+| 1uF          C9        
+| 1uF          C10       
+| 1uF          C12       
+| 1uF          C14       
+| 1uF          C37       
+| 1uF          C38       
+| 1uF          C39       
+| 22uF         C4        
+| DIODESCH     D1        
+| FUSE         F1        
+| 10uH         L1        
+| LCD          LCD1      
+| CONN_5X2     P1        
+| CONN_3X2     P2        
+| CONN_30X2    P3        
+| CONN_30X2    P4        
+| SWD          P5        
+| N            Qb1       
+| N            Qb2       
+| N            Qb3       
+| N            Qb4       
+| N            Qb5       
+| P            Qb6       
+| P            Qb7       
+| P            Qb8       
+| 22           R2        
+| 22           R5        
+| 22           R6        
+| 22           R7        
+| 22           R8        
+| 22           R9        
+| 22           R10       
+| 22           R11       
+| 22           R22       
+| 22           R23       
+| 22           R24       
+| 22           R25       
+| 22           R26       
+| 22           R27       
+| 22           R28       
+| 22           R29       
+| 27           R13       
+| 1k           R1        
+| 1K           R12       
+| 10k          R14       
+| 10k          R15       
+| 10k          R16       
+| 10k          R17       
+| 10k          R18       
+| 10k          R30       
+| 10k          R31       
+| 10k          R32       
+| 10k          R33       
+| 10k          R34       
+| 10k          R35       
+| 330K         R19       
+| 330K         R20       
+| 330K         R21       
+| 680K         R4        
+| 1M           R3        
+| 1K           RP1       
+| 1K           RP3       
+| 1K           RP6       
+| 1K           RP7       
+| 1K           RP8       
+| MICROSD      SD1       
+| STM32F072-48 U1        
+| AS7620       U2        
+| PHDARL       U3        
+| PHDARL       U4        
+| ISL94203     U5        
+| 32786Hz      X1        
+#End Cmp
+
+#Global, Hierarchical Labels and PinSheets ( order = Alphab. ) count = 0
+
+#End labels
+
+#End List

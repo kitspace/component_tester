@@ -1,0 +1,701 @@
+[Cutoff]
+Auto Optimisation=1
+Climb cut=0
+CodeSnip=-1
+Comment=
+cutBias=0.5
+Depth=0
+Edge overlap=5
+Enabled=0
+Feed Rate=1
+Finish allowance=0
+Function=15
+Grid size=50
+Ignore rules=0
+LayerName=
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Maximum X size=2000
+Maximum Y size=2000
+Minimum X size=500
+Minimum Y size=500
+NameString=
+offsetOpen=0
+Plunge Rate=100
+Rectangular=0
+Reverse open paths=0
+Start depth=0
+Start point=0
+tabWidth=1
+Tool=1
+[Misc]
+Count=1
+FileVersion=3
+optBias=0.46
+Optimisation=0
+Template=0
+[OpOrder]
+[Part 0]
+Angle=0
+copyOf=-1
+DrawingFile=C:\Dokumente und Einstellungen\Steuerer\Desktop\Fifi_Bauteiltester_Front\Seitenplatte_Vor.dxf
+enabled=1
+HRef=0
+Locked=0
+name=Seitenplatte_Vor
+VRef=0
+XPos=27.499999999999996
+YPos=7.999999999999995
+[Part 0Process0]
+AngleThreshold=0.5
+Auto Optimisation=1
+Climb cut=1
+CodeSnip=-1
+Comment=Zweischneider
+Coolant=1
+cutBias=0.5
+Depth=5
+Enabled=1
+Feed Rate=50
+Finish allowance=-0.1
+Function=0
+Ignore rules=2
+Increment=5
+LayerName=0
+Lead in=1
+Lead in type=1
+Lead out=1
+Lead out type=1
+Leadins on open paths=0
+NameString=Inside Offset, 0, T53: Mill/router, 1.6 mm diameter, 5 mm Deep
+offsetOpen=1
+Overcut=0
+Plunge Rate=10
+Ramp angle=0
+Reverse open paths=1
+Spindle speed=10000
+Start depth=0
+Start point=2
+TabCleanup=1
+TabDepth=2
+tabWidth=20
+Tool=53
+[Table]
+MaxHeight=1000
+Origin=4
+RapidSpeed=2000
+tableOrigin=4
+TableX1=-230
+TableX2=230
+TableY1=-90
+TableY2=90
+ToolTime=0
+X1=-140
+X2=140
+Y1=-70
+Y2=70
+[Tool0]
+Angle=2.05949
+Comment=
+Diameter=10
+Feed rate=100
+Flute length=20
+NameString=Mill/router, 10 mm diameter
+Number=10
+Offset=0
+Plunge Rate=20
+Ramp angle=0.174533
+Spindle direction=0
+Spindle speed=1000
+Type=0
+Z Increment=10
+[Tool1]
+Angle=0.5
+Comment=
+Diameter=12
+Feed rate=200
+Flute length=20
+NameString=Mill/router, 12 mm diameter
+Number=12
+Offset=0
+Plunge Rate=10
+Ramp angle=0.174533
+Spindle direction=0
+Spindle speed=12000
+Type=0
+Z Increment=6
+[Tool10]
+Angle=0.5
+Comment=
+Diameter=0.9
+Flute length=10
+NameString=Drill, 0.9 mm diameter
+Number=103
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool11]
+Angle=0.5
+Comment=
+Diameter=1.1
+Flute length=10
+NameString=Drill, 1.1 mm diameter
+Number=104
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool12]
+Angle=0.5
+Comment=
+Diameter=1.5
+Flute length=10
+NameString=Drill, 1.5 mm diameter
+Number=105
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool13]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=1.7
+Flute length=10
+NameString=Drill, 1.7 mm diameter
+Number=106
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool14]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=2
+Flute length=10
+NameString=Drill, 2 mm diameter
+Number=107
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool15]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=2.8
+Flute length=10
+NameString=Drill, 2.8 mm diameter
+Number=108
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool16]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=1
+Flute length=10
+NameString=Drill, 1 mm diameter
+Number=121
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=2
+[Tool17]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=1.5
+Flute length=17
+NameString=Drill, 1.5 mm diameter
+Number=122
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=3
+[Tool18]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=2
+Flute length=23
+NameString=Drill, 2 mm diameter
+Number=123
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=4
+[Tool19]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=2.5
+Flute length=29
+NameString=Drill, 2.5 mm diameter
+Number=124
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool2]
+Angle=2.05949
+Comment=
+Diameter=4
+Feed rate=200
+Flute length=10
+NameString=Mill/router, 4 mm diameter
+Number=50
+Offset=0
+Plunge Rate=50
+Ramp angle=0
+Spindle direction=0
+Spindle speed=5000
+Type=0
+Z Increment=2
+[Tool20]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=3
+Flute length=34
+NameString=Drill, 3 mm diameter
+Number=125
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=6
+[Tool21]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=3.2
+Flute length=34
+NameString=Drill, 3.2 mm diameter
+Number=126
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=6
+[Tool22]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=3.5
+Flute length=38
+NameString=Drill, 3.5 mm diameter
+Number=127
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=7
+[Tool23]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=4
+Flute length=40
+NameString=Drill, 4 mm diameter
+Number=128
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=8
+[Tool24]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=4.5
+Flute length=45
+NameString=Drill, 4.5 mm diameter
+Number=129
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=2000
+Type=1
+Z Increment=9
+[Tool25]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=4.8
+Flute length=52
+NameString=Drill, 4.8 mm diameter
+Number=130
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=2000
+Type=1
+Z Increment=9.6
+[Tool26]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=5
+Flute length=54
+NameString=Drill, 5 mm diameter
+Number=131
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=2000
+Type=1
+Z Increment=10
+[Tool27]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=5.5
+Flute length=55
+NameString=Drill, 5.5 mm diameter
+Number=132
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=2000
+Type=1
+Z Increment=11
+[Tool28]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=6
+Flute length=55
+NameString=Drill, 6 mm diameter
+Number=133
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1500
+Type=1
+Z Increment=10
+[Tool29]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=6.5
+Flute length=63
+NameString=Drill, 6.5 mm diameter
+Number=134
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1500
+Type=1
+Z Increment=10
+[Tool3]
+Angle=2.05949
+Comment=
+Diameter=5
+Feed rate=200
+Flute length=9
+NameString=Mill/router, 5 mm diameter
+Number=51
+Offset=0
+Plunge Rate=50
+Ramp angle=0
+Spindle direction=0
+Spindle speed=5000
+Type=0
+Z Increment=2.5
+[Tool30]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=7
+Flute length=65
+NameString=Drill, 7 mm diameter
+Number=135
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1500
+Type=1
+Z Increment=10
+[Tool31]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=7.5
+Flute length=65
+NameString=Drill, 7.5 mm diameter
+Number=136
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1500
+Type=1
+Z Increment=10
+[Tool32]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=8
+Flute length=68
+NameString=Drill, 8 mm diameter
+Number=137
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1000
+Type=1
+Z Increment=10
+[Tool33]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=8.5
+Flute length=69
+NameString=Drill, 8.5 mm diameter
+Number=138
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1000
+Type=1
+Z Increment=10
+[Tool34]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=9
+Flute length=73
+NameString=Drill, 9 mm diameter
+Number=139
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1000
+Type=1
+Z Increment=10
+[Tool35]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=9.5
+Flute length=71
+NameString=Drill, 9.5 mm diameter
+Number=140
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1000
+Type=1
+Z Increment=10
+[Tool36]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=10
+Flute length=81
+NameString=Drill, 10 mm diameter
+Number=141
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=1000
+Type=1
+Z Increment=10
+[Tool37]
+Angle=0.349066
+Comment=
+Diameter=0.1
+Feed rate=300
+Flute length=10
+NameString=V cutter, 0.1 mm diameter
+Number=201
+Offset=0
+Plunge Rate=100
+Ramp angle=0.01
+Spindle direction=0
+Spindle speed=20000
+Type=2
+Z Increment=0.1
+[Tool38]
+Angle=0.2
+Comment=
+Diameter=2
+Feed rate=200
+Flute length=4
+NameString=V cutter, 2 mm diameter
+Number=202
+Offset=0
+Plunge Rate=50
+Ramp angle=0
+Spindle direction=0
+Spindle speed=5000
+Type=2
+Z Increment=2
+[Tool4]
+Angle=0.5
+Comment=
+Diameter=6
+Feed rate=200
+Flute length=9
+NameString=Mill/router, 6 mm diameter
+Number=52
+Offset=0
+Plunge Rate=50
+Ramp angle=0.349066
+Spindle direction=0
+Spindle speed=2000
+Type=0
+Z Increment=3
+[Tool5]
+Angle=0.5
+Comment=
+Diameter=1.6
+Feed rate=200
+Flute length=10
+NameString=Mill/router, 1.6 mm diameter
+Number=53
+Offset=0
+Plunge Rate=10
+Ramp angle=0
+Spindle direction=0
+Spindle speed=10000
+Type=0
+Z Increment=0.8
+[Tool6]
+Angle=0.5
+Comment=
+Diameter=3
+Feed rate=200
+Flute length=55
+NameString=Mill/router, 3 mm diameter
+Number=54
+Offset=0
+Plunge Rate=100
+Ramp angle=0
+Spindle direction=0
+Spindle speed=10000
+Type=0
+Z Increment=0.8
+[Tool7]
+Angle=0.5
+Comment=
+Diameter=8
+Feed rate=200
+Flute length=21
+NameString=Mill/router, 8 mm diameter
+Number=56
+Offset=0
+Plunge Rate=100
+Ramp angle=0
+Spindle direction=0
+Spindle speed=10000
+Type=0
+Z Increment=1
+[Tool8]
+Angle=0.5
+Comment=VHM-Bohrer, Bungard
+Diameter=0.6
+Flute length=10
+NameString=Drill, 0.6 mm diameter
+Number=101
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[Tool9]
+Angle=0.5
+Comment=
+Diameter=0.8
+Flute length=10
+NameString=Drill, 0.8 mm diameter
+Number=102
+Offset=0
+Plunge Rate=10
+Spindle direction=0
+Spindle speed=12000
+Type=1
+Z Increment=5
+[ToolChange]
+BeforeCode=
+Code=
+noSafeZ=0
+UseX=0
+UseY=0
+UseZ=0
+X=0
+Y=0
+Z=0
+[Work]
+Bottom=10
+Clearance=11
+isPolygon=0
+Notes=
+Origin=6
+ParkX=0
+ParkY=0
+ParkZ=30
+PlungeSafety=0.5
+polyLayer=
+polyPart=-1
+Thickness=1.6
+UseX=0
+UseY=0
+UseZ=1
+X1=0
+X2=275
+Y1=0
+Y2=100
+[BinaryDataStart]%   ÿÿÿÿÿ;@úÿÿÿÿÿ@   Symbole         ÿÿÿÿÿ8@úÿÿÿÿÿÀ   ÿÿÿÿÿ8ÀúÿÿÿÿÿÀ   ÿÿÿÿÿ;ÀúÿÿÿÿÿÀ  -DTû!ù¿	  .     
+  P                 ÿÿÿÿÿ8ÀúÿÿÿÿÿÀ   ší›ÙŸ:Àf¶of;|À   ÿÿÿÿÿ8ÀúÿÿÿÿÿÀ  -DTû!é?	  -DTû!	@
+        @            ší›ÙŸ:Àf¶of;|À   ÿÿÿÿÿ;ÀúÿÿÿÿÿÀ   ÿÿÿÿÿ8ÀúÿÿÿÿÿÀ  -DTû!é?	  Ò!3|ÙÀ
+        @            ÿÿÿÿÿ;ÀúÿÿÿÿÿÀ   ÿÿÿÿÿ;Àøÿÿÿÿÿ@   ÿÿÿÿÿ8Àúÿÿÿÿÿ@          	  -DTû!ù¿
+        @            ÿÿÿÿÿ;Àøÿÿÿÿÿ@   ší›ÙŸ:Àf¶of;|@   ÿÿÿÿÿ8Àúÿÿÿÿÿ@  -DTû!é?	  -DTû!ù¿
+        @            ší›ÙŸ:Àf¶of;|@   ÿÿÿÿÿ8Àúÿÿÿÿÿ@   ÿÿÿÿÿ8Àúÿÿÿÿÿ@  -DTû!é?	  -DTû!é¿
+        @            ÿÿÿÿÿ8Àúÿÿÿÿÿ@   ÿÿÿÿÿ8@úÿÿÿÿÿ@   ÿÿÿÿÿ8@úÿÿÿÿÿ@  -DTû!ù?	        °¼
+        @            ÿÿÿÿÿ8@úÿÿÿÿÿ@   ›í›ÙŸ:@f¶of;|@   ÿÿÿÿÿ8@úÿÿÿÿÿ@  -DTû!é?	        °¼
+        @            ›í›ÙŸ:@f¶of;|@   ÿÿÿÿÿ;@úÿÿÿÿÿ@   ÿÿÿÿÿ8@úÿÿÿÿÿ@  -DTû!é?	  -DTû!é?
+        @            ÿÿÿÿÿ;@úÿÿÿÿÿ@   ÿÿÿÿÿ;@üÿÿÿÿÿÀ   ÿÿÿÿÿ8@ùÿÿÿÿÿÀ  -DTû!	@	  -DTû!ù?
+       @            ÿÿÿÿÿ;@üÿÿÿÿÿÀ   ÿÿÿÿÿ8@úÿÿÿÿÿÀ   ÿÿÿÿÿ8@ùÿÿÿÿÿÀ  -DTû!ù?	  -DTû!ù?
+       @          Symbole         ÿÿÿÿÿÿ5À      ø<   ÿÿÿÿÿ7Àèÿÿÿÿÿ÷¿   ÿÿÿÿÿ7À      ø<  -DTû!ù?	  -DTû!ù?
+        ø?            ÿÿÿÿÿ7Àèÿÿÿÿÿ÷¿   ÿÿÿÿÿÿ8À      ø<   ÿÿÿÿÿ7À      ø<  -DTû!ù?	  -DTû!	@
+        ø?            ÿÿÿÿÿÿ8À      ø<   ÿÿÿÿÿ7À     ø?   ÿÿÿÿÿ7À      ô<  -DTû!ù?	  -DTû!ù¿
+        ø?            ÿÿÿÿÿ7À     ø?   ÿÿÿÿÿÿ5À      ø<   ÿÿÿÿÿ7À      ø<  -DTû!ù?	          
+        ø?          Symbole              9@      ø<       €7@èÿÿÿÿÿ÷¿       €7@      ø<  -DTû!ù?	  -DTû!ù?
+        ø?                €7@èÿÿÿÿÿ÷¿        6@      ø<       €7@      ø<  -DTû!ù?	  -DTû!	@
+        ø?                 6@      ø<       €7@     ø?       €7@      ø<  -DTû!ù?	  -DTû!ù¿
+        ø?                €7@     ø?        9@      ø<       €7@      ø<  -DTû!ù?	          
+        ø?          Symbole         ÿÿÿÿÿ4À      ø<   ÿÿÿÿÿ7À     @   ÿÿÿÿÿ7À      ø<  -DTû!ù¿	  -DTû!ù?
+        @            ÿÿÿÿÿ7À     @   ÿÿÿÿÿ:À      ô<   ÿÿÿÿÿ7À      ô<  -DTû!ù¿	        À¼
+       @            ÿÿÿÿÿ:À      ô<   ÿÿÿÿÿ7ÀôÿÿÿÿÿÀ   ÿÿÿÿÿ7À      ø<  -DTû!ù¿	  -DTû!ù¿
+        @            ÿÿÿÿÿ7ÀôÿÿÿÿÿÀ   ÿÿÿÿÿ4À      ø<   ÿÿÿÿÿ7À      ø<  -DTû!ù¿	  -DTû!	@
+        @          Symbole             €:@      ø<       €7@     @       €7@      ø<  -DTû!ù¿	  -DTû!ù?
+        @                €7@     @       €4@      ô<       €7@      ø<  -DTû!ù¿	          
+        @                €4@      ô<       €7@ôÿÿÿÿÿÀ       €7@      ø<  -DTû!ù¿	  -DTû!ù¿
+        @                €7@ôÿÿÿÿÿÀ       €:@      ø<       €7@      ø<  -DTû!ù¿	  -DTû!	@
+        @          0         şÿÿÿÿÿ/@p
+×£p=â?   üÿÿÿÿÿ@p
+×£p=â?       €7@      ø<  -DTû!ù¿	          
+        @            üÿÿÿÿÿ@p
+×£p=â?   üÿÿÿÿÿ@œÂõ(\@       €7@      ø<          	          
+        @            üÿÿÿÿÿ@œÂõ(\@   şÿÿÿÿÿ/@œÂõ(\@       €7@      ø<  -DTû!ù?	          
+        @            şÿÿÿÿÿ/@œÂõ(\@   şÿÿÿÿÿ/@p
+×£p=â?       €7@      ø<  -DTû!	@	          
+        @          0         kffff&0@°ÿÿÿÿÿß¿   kffff&0@bfffffÀ       €7@      ø<  -DTû!	@	          
+        @            kffff&0@bfffffÀ   lfffff@bfffffÀ       €7@      ø<  -DTû!ù¿	          
+        @            lfffff@bfffffÀ   lfffff@°ÿÿÿÿÿß¿       €7@      ø<          	          
+        @            lfffff@°ÿÿÿÿÿß¿   kffff&0@°ÿÿÿÿÿß¿       €7@      ø<  -DTû!ù?	          
+        @                 @         @               ÿÿÿÿ    
+ şÿÿÿÿÿ/@ 
+ p
+×£p=â?       #    $                          @         @               ÿÿÿÿ    
+ kffff&0@ 
+ °ÿÿÿÿÿß¿      #    $                     

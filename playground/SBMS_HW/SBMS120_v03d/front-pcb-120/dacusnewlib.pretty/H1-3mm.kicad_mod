@@ -1,0 +1,9 @@
+(module H1-3mm locked (layer F.Cu) (tedit 557CC8B9)
+  (fp_text reference "" (at -0.27432 -2.94894) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value "" (at 5.02412 -2.99974) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 3.4 3.4) (drill 3) (layers *.Cu *.Mask F.SilkS))
+)

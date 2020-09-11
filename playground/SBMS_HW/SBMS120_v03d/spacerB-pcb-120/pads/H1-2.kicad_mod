@@ -1,0 +1,13 @@
+(module H1-2 (layer F.Cu)
+  (at 0 0)
+  (path Hole-large)
+  (fp_text reference "" (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value "" (at 0 -2.54) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (pad H1 thru_hole circle (at 0 0) (size 5.45084 5.45084) (drill 5.25018)
+    (layers *.Cu *.Mask F.SilkS)
+  )
+)
